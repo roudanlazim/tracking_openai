@@ -1,0 +1,22 @@
+[
+    "In Transit",
+    "Released by Customs",
+    "Tax Payment Received",
+    "Processed for Clearance",
+    "Shipment Located and Now En Route to Destination",
+    "Export Scan",
+    "Import Scan",
+    "Delivery Rescheduled",
+    "Transferred to Third Party for Delivery",
+    "Delivery Attempted",
+    "Scheduled for Delivery",
+    "Shipment Loaded on Vehicle",
+    "Address Corrected - Delivery Will Be Rescheduled",
+    "Returned to Sender",
+    "Final Delivery Attempt Made - Shipment Will Now Be Returned",
+    "New Instructions Received - Delivery Will Be Rescheduled",
+    "New Instructions Received - We Updated the Delivery Information for Your Package",
+    "Customs Clearance Completed",
+    "Payment Received During Delivery",
+    "Successfully Handed to Partner Carrier"
+]

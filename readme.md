@@ -1,6 +1,6 @@
 1. Install dependencies in requirements
-2. Set enviroment 
-4. activate environment - env\Scripts\activate
+2. Set and activate enviroment -(CMD) python -m venv tracking_openai_env > tracking_openai_env\Scripts\activate
+4. Install dependencies  -pip install -r requirements.txt
 5. Run the script - 
 
 Ensure all of the json, csv and other files are present for it to work. 
