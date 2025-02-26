@@ -1,0 +1,53 @@
+{
+    "Key-Value Pair": {
+        "Shipment manifested": "No Action",
+        "Delivered": "Notify",
+        "Out for delivery": "Notify",
+        "In Transit": "No Action",
+        "Package on hold for delivery": "Action (Receiver)"
+    },
+    "Array of Objects": [
+        {
+            "scan_group": "Shipment manifested",
+            "action": "No Action"
+        },
+        {
+            "scan_group": "Delivered",
+            "action": "Notify"
+        },
+        {
+            "scan_group": "Out for delivery",
+            "action": "Notify"
+        },
+        {
+            "scan_group": "In Transit",
+            "action": "No Action"
+        },
+        {
+            "scan_group": "Package on hold for delivery",
+            "action": "Action (Receiver)"
+        }
+    ],
+    "Compact Pair Format": [
+        [
+            "Shipment manifested",
+            "No Action"
+        ],
+        [
+            "Delivered",
+            "Notify"
+        ],
+        [
+            "Out for delivery",
+            "Notify"
+        ],
+        [
+            "In Transit",
+            "No Action"
+        ],
+        [
+            "Package on hold for delivery",
+            "Action (Receiver)"
+        ]
+    ]
+}

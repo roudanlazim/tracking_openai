@@ -1,3 +1,14 @@
+OK so now we have a slightly different route for the project, gpt is not going to work in terms of cost, it makes no commecial sense to rely on both an outside system and to pay for each shipment, these set of tools/ infra will be used to allow us to chain, test and experiment with a variety of AI tools, some opensource and some not. As the instruction right now is to use gpt this is what I will do however i do not beleive this is the right way forward or that it is going to return cost effective usablwe results in the long run. So I ambuilding somethi9ng that takes this into account and permits flexibility in our direction for the project. 
+
+Configuration & Settings	Loads global settings and JSON files dynamically.
+User Input Handling	Gathers user choices (model type, API key, prediction column, etc.).
+File & Data Handling	Loads and saves JSON, CSV, and AI-generated predictions.
+Prompt Generation	Generates structured AI prompts based on shipment journey rules.
+AI Model Execution	Sends structured prompts to OpenAI API and retrieves predictions.
+Processing & Prediction	Iterates over CSV rows, sends prompts, and saves results.
+Execution Script	Orchestrates user interaction and runs the pipeline.
+
+
 1. Install dependencies in requirements
 2. Set and activate enviroment -(CMD) python -m venv tracking_openai_env > tracking_openai_env\Scripts\activate
 4. Install dependencies  -pip install -r requirements.txt
@@ -422,3 +433,6 @@ Log AI prediction confidence and **flag uncertain predictions**.
 - **Ensure logical handling** of conflicting shipment statuses.
 
 Problem - Hollucinations - These are going to be very hard to prvent using a general large language model as the base. 
+
+
+

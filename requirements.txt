@@ -2,3 +2,5 @@ pip==25.0.1
 openai
 pandas
 python-dotenv
+tqdm  # Optional, useful for progress tracking in loops
+requests  # Optional, useful if calling external APIs later
