@@ -53,13 +53,14 @@ def generate_prompt(prompt_file, scan_history, status_elements):
         logger.error(f"❌ Failed to load prompt file: {prompt_file}")
         return ""
 
-    instruction = prompt_template.get("instruction", "Analyze the shipping data and return the correct status.")
+    instruction = "Analyze the shipment tracking events below and return ONLY the most appropriate status."
     rules = "\n".join(prompt_template.get("rules", []))
-    status_list = ", ".join(status_elements)
+    
+    # ✅ Use JSON formatting instead of plain text
+    formatted_status_list = json.dumps(status_elements, indent=2)
 
-    # ✅ Format Scan History for AI (Show Most Recent Events First)
-    scan_events = scan_history.split(",")  # ✅ Split shipment scans
-    formatted_scan_history = "\n".join([f"- {event.strip()}" for event in scan_events[-10:]])  # ✅ Show Last 10 Events
+    # ✅ Keep full scan history instead of truncating it
+    formatted_scan_history = "\n".join([f"- {event.strip()}" for event in scan_history.split(",")])
 
     structured_prompt = f"""
     **{instruction}**
@@ -67,11 +68,14 @@ def generate_prompt(prompt_file, scan_history, status_elements):
     **Rules:**
     {rules}
 
-    **Possible Statuses:**
-    {status_list}
+    **Possible Statuses (Choose One):**
+    {formatted_status_list}
 
-    **Shipment Tracking History (Most Recent First):**
+    **Shipment Tracking History:**
     {formatted_scan_history}
+
+    **Your response must contain ONLY one status from the list above. Example Output:**
+    "Delivered"
     """
 
     logger.debug(f"✅ Generated AI Prompt:\n{structured_prompt}")

@@ -8,30 +8,27 @@ from modules.prompt_generator import load_prompt  # ✅ Ensure AI uses JSON-base
 
 def get_openai_response(prompt, retries=3):
     """Send request to OpenAI API and return response, retrying on failure."""
-    
-    # ✅ Fetch API Key dynamically at runtime
+
+    # ✅ Ensure correct API Key is set
     api_key = SystemSettings.api_key  
     if not api_key:
         logger.error("❌ No API key found in SystemSettings. Please enter it in `user_input.py`.")
         return "Error: No API Key", 0, 0
 
-    # ✅ Ensure a model is set
-    model = SystemSettings.model_name or "gpt-3.5-turbo"  # ✅ Set a default model if missing
+    # ✅ Ensure correct model is used (force `gpt-3.5-turbo`)
+    model = "gpt-3.5-turbo"
 
-    # ✅ Initialize OpenAI Client (Only if API key exists)
-    client = openai.OpenAI(api_key=api_key)  
+    client = openai.OpenAI(api_key=api_key)
 
     for attempt in range(retries):
         try:
-            logger.info(f"🚀 Attempt {attempt + 1}: Sending request to OpenAI with model `{model}`")
-            logger.debug(f"📨 Full Prompt Sent to OpenAI:\n{prompt}")  # ✅ Debugging log
+            logger.info(f"🚀 Attempt {attempt + 1}: Sending request to OpenAI...")
+            logger.debug(f"📨 Full Prompt Sent to OpenAI:\n{prompt}")
 
             response = client.chat.completions.create(
                 model=model,
-                messages=[
-                    {"role": "system", "content": "You are a shipment tracking AI."},
-                    {"role": "user", "content": prompt}
-                ],
+                messages=[{"role": "system", "content": "You are a shipment tracking AI."},
+                          {"role": "user", "content": prompt}],
                 temperature=0
             )
 
@@ -44,7 +41,7 @@ def get_openai_response(prompt, retries=3):
 
             return predicted_status, token_input, token_output
 
-        except OpenAIError as e:  # ✅ Log OpenAI's Exact Error Message
+        except openai.OpenAIError as e:
             logger.error(f"❌ OpenAI API Error: {e}")
             wait_time = (attempt + 1) * 5  # Exponential backoff
             logger.warning(f"⚠️ Retrying in {wait_time} seconds...")

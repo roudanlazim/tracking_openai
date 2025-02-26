@@ -23,7 +23,7 @@ def process_row(scan_history, prompt_file):
         if not SystemSettings.status_elements:
             SystemSettings.load_status_elements()
 
-        # ✅ Generate the AI Prompt using full `ScanGroups`
+        # ✅ Do NOT truncate ScanGroups (Pass full shipment history)
         structured_prompt = generate_prompt(prompt_file, scan_history, SystemSettings.status_elements)
 
         # ✅ Print and Log Full AI Request for Debugging
@@ -32,9 +32,7 @@ def process_row(scan_history, prompt_file):
         logger.info(f"📨 AI Input:\n{structured_prompt}")
 
         # ✅ Call AI Model
-        predicted_status, token_input, token_output = get_ai_prediction(
-            structured_prompt, SystemSettings.status_elements, prompt_file
-        )
+        predicted_status, token_input, token_output = get_openai_response(structured_prompt)
 
         return {
             "Input_Text": scan_history,
