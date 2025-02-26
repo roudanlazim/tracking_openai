@@ -1,19 +1,43 @@
 from modules.logging_utils import logger
 import pandas as pd
-from modules.file_handler import load_csv, save_csv  # ✅ Correct function import
-from modules.ai_model import get_openai_response
-from modules.prompt_generator import generate_prompt
-from config.settings_loader import CACHED_JSON_DATA  # ✅ Use cached JSON from settings_loader
+from modules.file_handler import load_csv, save_csv
+from modules.ai_model import get_ai_prediction
+from modules.system_settings import SystemSettings
+from modules.prompt_generator import generate_prompt, load_prompt  # ✅ Correct imports
 
-def process_row(input_text, status_elements, prompt_file):
-    """Process a single row for AI prediction."""
+def process_row(scan_history, prompt_file):
+    """Process a single row and get AI prediction using full shipment history."""
     try:
-        input_text = str(input_text).strip()
-        prompt = generate_prompt(input_text, status_elements, prompt_file)  # ✅ Uses dynamic prompt file
-        predicted_status, token_input, token_output = get_openai_response(prompt)
+        scan_history = str(scan_history).strip()
+
+        if not scan_history:
+            logger.warning("⚠️ Skipping empty input row.")
+            return {
+                "Input_Text": "EMPTY",
+                "Predicted_Status": "Error",
+                "Token_Input": 0,
+                "Token_Output": 0
+            }
+
+        # ✅ Ensure `status_elements` is loaded before using it
+        if not SystemSettings.status_elements:
+            SystemSettings.load_status_elements()
+
+        # ✅ Generate the AI Prompt using full `ScanGroups`
+        structured_prompt = generate_prompt(prompt_file, scan_history, SystemSettings.status_elements)
+
+        # ✅ Print and Log Full AI Request for Debugging
+        print("\n🔍 **AI REQUEST (Prompt Sent to OpenAI):**")
+        print(structured_prompt)
+        logger.info(f"📨 AI Input:\n{structured_prompt}")
+
+        # ✅ Call AI Model
+        predicted_status, token_input, token_output = get_ai_prediction(
+            structured_prompt, SystemSettings.status_elements, prompt_file
+        )
 
         return {
-            "Input_Text": input_text,
+            "Input_Text": scan_history,
             "Predicted_Status": predicted_status,
             "Token_Input": token_input,
             "Token_Output": token_output
@@ -22,7 +46,7 @@ def process_row(input_text, status_elements, prompt_file):
     except Exception as e:
         logger.error(f"❌ Error processing row: {str(e)}")
         return {
-            "Input_Text": input_text,
+            "Input_Text": scan_history,
             "Predicted_Status": "Error",
             "Token_Input": 0,
             "Token_Output": 0
@@ -41,14 +65,18 @@ def process_csv(input_file, output_file, selected_column, prompt_file):
         logger.error(f"❌ Column '{selected_column}' not found in CSV. Available columns: {list(df.columns)}")
         return  
 
-    status_elements = CACHED_JSON_DATA.get("status_elements", {"statuses": ["Delivered", "In Transit", "Returned to Sender"]})  # ✅ Ensure default values exist
+    # ✅ **Ensure `status_elements.json` is loaded before processing**
+    if not SystemSettings.status_elements:
+        SystemSettings.load_status_elements()
 
-    results = []
     logger.info(f"🚀 Processing predictions for column '{selected_column}' using prompt '{prompt_file}'...")
 
+    results = []
     for _, row in df.iterrows():
-        results.append(process_row(row[selected_column], status_elements, prompt_file))
+        input_text = row[selected_column]  # ✅ Extract `ScanGroups` for prediction
+        results.append(process_row(input_text, prompt_file))
 
-    # Convert results list to DataFrame before saving
+    # ✅ Convert results list to DataFrame before saving
     results_df = pd.DataFrame(results)
-    save_csv(results_df, output_file)  # ✅ Now correctly calling save_csv()
+    save_csv(results_df, output_file)
+    logger.info(f"✅ Predictions saved to: {output_file}")

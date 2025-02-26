@@ -45,36 +45,37 @@ def save_prompt(prompt_file, prompt_data):
     logger.info(f"✅ Saved prompt: {prompt_path}")
     return prompt_path
 
-def generate_prompt(prompt_file):
-    """Generate a structured AI prompt based on a selected JSON prompt file."""
-    prompt_path = os.path.join(PROMPT_DIR, prompt_file)  # ✅ Convert filename to full path
+def generate_prompt(prompt_file, scan_history, status_elements):
+    """Generate a structured AI prompt based on full shipment scan history and status elements."""
+    prompt_template = load_prompt(prompt_file)
     
-    try:
-        prompt_template = load_json(prompt_path)  # ✅ Load full path
-        
-        if not prompt_template:
-            logger.error(f"❌ Failed to load prompt file: {prompt_path}")
-            return ""
-
-        # ✅ Fully dynamic prompt structure
-        prompt_sections = []
-        
-        for key, value in prompt_template.items():
-            if isinstance(value, list):  
-                section_text = "\n".join([f"- {item}" if isinstance(item, str) else f"Input: {item['input']}\nOutput: {item['output']}" for item in value])
-            else:
-                section_text = str(value)
-
-            prompt_sections.append(f"\n**{key.replace('_', ' ').title()}**:\n{section_text}")
-
-        final_prompt = "\n".join(prompt_sections)
-
-        logger.debug(f"✅ Generated AI prompt from {prompt_file} successfully.")
-        return final_prompt
-
-    except Exception as e:
-        logger.error(f"❌ Error generating prompt: {str(e)}")
+    if not prompt_template:
+        logger.error(f"❌ Failed to load prompt file: {prompt_file}")
         return ""
+
+    instruction = prompt_template.get("instruction", "Analyze the shipping data and return the correct status.")
+    rules = "\n".join(prompt_template.get("rules", []))
+    status_list = ", ".join(status_elements)
+
+    # ✅ Format Scan History for AI (Show Most Recent Events First)
+    scan_events = scan_history.split(",")  # ✅ Split shipment scans
+    formatted_scan_history = "\n".join([f"- {event.strip()}" for event in scan_events[-10:]])  # ✅ Show Last 10 Events
+
+    structured_prompt = f"""
+    **{instruction}**
+    
+    **Rules:**
+    {rules}
+
+    **Possible Statuses:**
+    {status_list}
+
+    **Shipment Tracking History (Most Recent First):**
+    {formatted_scan_history}
+    """
+
+    logger.debug(f"✅ Generated AI Prompt:\n{structured_prompt}")
+    return structured_prompt
 
 ### ✅ SELECT OR CREATE A PROMPT (Moved from `user_input.py`)
 def select_or_create_prompt():
