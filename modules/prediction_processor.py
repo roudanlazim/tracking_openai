@@ -1,7 +1,7 @@
 from modules.logging_utils import logger
 import pandas as pd
 from modules.file_handler import load_csv, save_csv
-from modules.ai_model import get_ai_prediction
+from modules.ai_model import get_openai_response  # ✅ FIX: Import get_openai_response
 from modules.system_settings import SystemSettings
 from modules.prompt_generator import generate_prompt, load_prompt  # ✅ Correct imports
 
@@ -32,7 +32,7 @@ def process_row(scan_history, prompt_file):
         logger.info(f"📨 AI Input:\n{structured_prompt}")
 
         # ✅ Call AI Model
-        predicted_status, token_input, token_output = get_openai_response(structured_prompt)
+        predicted_status, token_input, token_output = get_openai_response(structured_prompt)  # ✅ FIX: Function now exists
 
         return {
             "Input_Text": scan_history,
