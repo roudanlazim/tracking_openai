@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import platform
 import webbrowser
+import subprocess
 from pathlib import Path
 from modules.logging_utils import logger  # ✅ Import centralized logger
 
@@ -65,14 +66,41 @@ def save_csv(df, csv_path):  # ✅ Rename from save_results to save_csv
         logger.error(f"❌ Error saving CSV file {csv_path}: {str(e)}")
 
 def open_file_after_save(csv_path):
-    """Automatically open the CSV file after saving."""
+    """Automatically open the CSV file after saving, ensuring Excel opens on Windows."""
     try:
         if platform.system() == "Windows":
-            os.startfile(csv_path)  # ✅ Windows default app
-        elif platform.system() == "Darwin":  # macOS
-            os.system(f"open {csv_path}")  # ✅ macOS default app
-        else:  # Linux
-            os.system(f"xdg-open {csv_path}")  # ✅ Linux default app
+            # ✅ Force Excel to open the file instead of relying on os.startfile
+            subprocess.run(["cmd.exe", "/c", "start", "", csv_path], shell=True)
+            logger.info(f"✅ Opened file in Excel (Windows): {csv_path}")
+            return  # ✅ Prevents browser fallback
+
+        elif platform.system() == "Darwin":  # ✅ macOS
+            os.system(f"open -a 'Microsoft Excel' {csv_path}")  
+            logger.info(f"✅ Opened file in Excel (macOS): {csv_path}")
+            return  # ✅ Prevents browser fallback
+
+        else:  # ✅ Linux
+            os.system(f"xdg-open {csv_path}")  
+            logger.info(f"✅ Opened file in system default application (Linux): {csv_path}")
+            return  # ✅ Prevents browser fallback
+
     except Exception as e:
-        logger.error(f"❌ Could not open output file automatically: {str(e)}")
-        webbrowser.open(csv_path)  # ✅ Opens in web browser as fallback
+        logger.error(f"⚠️ Could not open file with system default app: {str(e)}")
+    
+    # ✅ Prevent browser fallback completely if the file exists
+    if os.path.exists(csv_path):
+        logger.warning(f"⚠️ Skipping browser fallback to prevent duplicate openings.")
+
+def list_files(directory, extension):
+    """List all files with a given extension in a directory."""
+    try:
+        if not os.path.exists(directory):
+            logger.warning(f"⚠️ Directory not found: {directory}")
+            return []
+
+        files = [f for f in os.listdir(directory) if f.endswith(extension)]
+        logger.info(f"✅ Found {len(files)} '{extension}' files in {directory}.")
+        return files
+    except Exception as e:
+        logger.error(f"❌ Error listing files in {directory}: {str(e)}")
+        return []

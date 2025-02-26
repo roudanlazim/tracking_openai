@@ -1,24 +1,28 @@
 from modules.logging_utils import logger
 
 class SystemSettings:
-    """Holds global settings for the AI prediction system."""
-    
-    model_type = None  # LLM model type (e.g., OpenAI, Anthropic)
-    model_name = None  # Selected AI model name
-    api_key = None  # API key (Stored only during runtime)
-    prediction_column = "ScanGroups"  # Default CSV column for predictions
+    """Stores user selections during runtime for AI prediction."""
 
-    @classmethod
-    def set_api_key(cls, key):
-        """Set the API key securely for the session."""
-        cls.api_key = key
-        logger.info("✅ API key set successfully (not logged for security).")
+    model_type = None   # e.g., OpenAI
+    model_name = None   # e.g., gpt-4
+    api_key = None      # API key (not stored permanently)
+    input_file = None   # Selected CSV file
+    selected_column = None  # Column to predict from
+    prompt_file = None  # Selected JSON prompt file
 
     @classmethod
     def log_settings(cls):
-        """Log current system settings."""
-        logger.info(f"🔧 System Settings - Model Type: {cls.model_type}, Model Name: {cls.model_name}, Prediction Column: {cls.prediction_column}")
+        """Log the current system settings for debugging."""
+        logger.info(f"🔧 System Settings Updated - Model: {cls.model_name}, "
+                    f"CSV: {cls.input_file}, Column: {cls.selected_column}, Prompt: {cls.prompt_file}")
 
-# ✅ Log settings when the module is first loaded
-logger.info("✅ System settings initialized.")
-SystemSettings.log_settings()
+    @classmethod
+    def reset(cls):
+        """Reset all cached settings (if needed)."""
+        cls.model_type = None
+        cls.model_name = None
+        cls.api_key = None
+        cls.input_file = None
+        cls.selected_column = None
+        cls.prompt_file = None
+        logger.info("🔄 System settings reset.")

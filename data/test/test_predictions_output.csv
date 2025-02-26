@@ -1,0 +1,4 @@
+Input_Text,Predicted_Status,Token_Input,Token_Output
+Package scanned at facility,Error,0,0
+Package delivered to customer,Error,0,0
+Delivery attempt failed,Error,0,0

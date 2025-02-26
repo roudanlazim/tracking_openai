@@ -4,50 +4,50 @@ import os
 # ✅ Ensure Python finds the 'modules' directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from modules.logging_utils import logger  # ✅ Import centralized logger
-from modules.user_input import get_model_type, get_model_name, get_api_key, select_csv_column  
-from modules.file_handler import get_output_file, open_file_after_save  # ✅ Now correctly importing get_output_file
+from modules.logging_utils import logger
+from modules.user_input import (
+    get_model_type, get_model_name, get_api_key, 
+    select_csv_file, select_csv_column, select_prompt, confirm_selection
+)
+from modules.system_settings import SystemSettings
 from modules.prediction_processor import process_csv
-from config.settings_loader import SETTINGS  # ✅ Ensure settings are loaded first
+from modules.file_handler import get_output_file, open_file_after_save
 
-# Log script start
 logger.info("🚀 Starting AI prediction process...")
 
-# Get user configurations
+# ✅ Step 1: Get Model Type (e.g., OpenAI)
 get_model_type()
+
+# ✅ Step 2: Get Model Name (e.g., GPT-4)
 get_model_name()
+
+# ✅ Step 3: Get API Key
 get_api_key()
 
-# Get file paths
-input_file = input("📂 Enter path to input CSV file: ").strip()
-output_file = get_output_file()  # ✅ Now correctly generating output file path
+# ✅ Step 4: CSV Selection
+select_csv_file()
 
-if not os.path.exists(input_file):
-    logger.error(f"❌ Input file '{input_file}' not found. Exiting.")
-    exit(1)
+# ✅ Step 5: Column Selection
+select_csv_column()
 
-# ✅ Select the CSV column dynamically
-selected_column = select_csv_column(input_file)
+# ✅ Step 6: JSON Prompt Selection
+select_prompt()
 
-# ✅ Ask user for the JSON prompt file
-prompt_file = input("📂 Enter the name of the JSON prompt file to use (from data/prompts/): ").strip()
+# ✅ Step 7: Confirmation Before Execution
+if not confirm_selection():
+    logger.info("🚫 Process canceled by user.")
+    print("\n🚫 Process canceled. No API calls were made.")
+    exit(0)
 
-# ✅ Ensure only the filename is passed (Fix for double path issue)
-prompt_file = os.path.basename(prompt_file)
+# ✅ Step 8: Process CSV with AI Model
+output_file = get_output_file()
+logger.info(f"🚀 Processing file: {SystemSettings.input_file} using model {SystemSettings.model_name} and prompt {SystemSettings.prompt_file}")
 
-# ✅ Validate prompt file path
-prompt_path = os.path.join("data/prompts/", prompt_file)
+process_csv(SystemSettings.input_file, output_file, SystemSettings.selected_column, SystemSettings.prompt_file)
 
-if not os.path.exists(prompt_path):
-    logger.error(f"❌ Prompt file '{prompt_path}' not found. Exiting.")
-    exit(1)
-
-# Run AI predictions
-logger.info(f"📂 Processing file: {input_file} with prompt {prompt_file}")
-process_csv(input_file, output_file, selected_column, prompt_file)  # ✅ Pass selected column & prompt file
+# ✅ Step 9: Save results & Open CSV automatically
 logger.info("✅ AI prediction process completed!")
 
-# ✅ Ensure file exists before trying to open it
 if os.path.exists(output_file):
     open_file_after_save(output_file)
 else:
