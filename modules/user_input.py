@@ -3,8 +3,8 @@ import getpass
 from modules.logging_utils import logger
 from modules.system_settings import SystemSettings
 from modules.file_handler import load_csv, list_files
-from modules.model_handler import fetch_openai_models
-from modules.prompt_generator import select_or_create_prompt  # ✅ Now calling from prompt_generator
+from modules.ai_model import fetch_openai_models
+from modules.json_handler import list_json_files  
 
 DATA_DIR = "data/"
 
@@ -43,15 +43,15 @@ def get_model_name():
     """Ask the user to select a model from available OpenAI models."""
     
     if SystemSettings.model_type != "openai":
-        logger.warning("⚠️ No other LLMs are available yet. Defaulting to 'gpt-3.5-turbo'.")
-        SystemSettings.model_name = "gpt-3.5-turbo"
+        logger.warning("⚠️ No other LLMs are available yet. Defaulting to 'gpt-4o-mini'.")
+        SystemSettings.model_name = "gpt-4o-mini"
         return
 
     available_models = fetch_openai_models()
 
     if not available_models:
-        logger.warning("⚠️ No models retrieved. Defaulting to 'gpt-3.5-turbo'.")
-        SystemSettings.model_name = "gpt-3.5-turbo"
+        logger.warning("⚠️ No models retrieved. Defaulting to 'gpt-4o-mini'.")
+        SystemSettings.model_name = "gpt-4o-mini"
         return
 
     print("\n🧠 Available OpenAI Models:")
@@ -59,18 +59,19 @@ def get_model_name():
         print(f"{idx} - {model}")
 
     while True:
-        choice = input(f"\nSelect a model (1-{len(available_models)}) or press Enter for default (gpt-3.5-turbo): ").strip()
+        choice = input(f"\nSelect a model (1-{len(available_models)}) or press Enter for default (gpt-4o-mini): ").strip()
 
         if not choice:  # Default model
-            SystemSettings.model_name = "gpt-3.5-turbo"
-            break
+            SystemSettings.model_name = "gpt-4o-mini"
+            logger.info(f"✅ Defaulting to model: {SystemSettings.model_name}")  # ✅ Log default selection
+            return  # ✅ Ensure function exits properly
 
         if choice.isdigit():
             choice = int(choice)
             if 1 <= choice <= len(available_models):
                 SystemSettings.model_name = available_models[choice - 1]
                 logger.info(f"✅ Model set to {SystemSettings.model_name}")
-                break
+                return  # ✅ Ensure function exits properly
             else:
                 print("❌ Invalid selection. Please enter a valid number.")
         else:
@@ -79,9 +80,13 @@ def get_model_name():
 ### ✅ CSV & COLUMN SELECTION FUNCTIONS
 def select_csv_file():
     """Allow user to select a CSV file from `data/` and cache the selection."""
-    csv_files = list_files(DATA_DIR, ".csv")
+    print(f"\n🟢 DEBUG: Checking for CSV files in '{os.path.abspath(DATA_DIR)}'...")  # ✅ Debug print
+
+    csv_files = list_files("", ".csv")  # ✅ Uses `DATA_DIR` from `file_handler.py`
+
     if not csv_files:
         logger.error("❌ No CSV files found in `data/`. Exiting.")
+        print(f"\n❌ DEBUG: No CSV files found in '{os.path.abspath(DATA_DIR)}'. Exiting...")
         exit(1)
 
     print("\n📂 Available CSV Files:")
@@ -91,17 +96,22 @@ def select_csv_file():
     while True:
         choice = input("\nSelect a CSV file (Enter number): ").strip()
         if choice.isdigit() and 1 <= int(choice) <= len(csv_files):
-            selected_csv = os.path.join(DATA_DIR, csv_files[int(choice) - 1])
+            selected_csv = os.path.join(DATA_DIR, csv_files[int(choice) - 1])  # ✅ Correct path usage
             logger.info(f"✅ Selected CSV file: {selected_csv}")
+            print(f"\n🟢 DEBUG: Selected CSV file: {selected_csv}")  # ✅ Debug print
             SystemSettings.input_file = selected_csv
+            print(f"\n🟢 DEBUG: CSV file set in `SystemSettings.input_file`: {SystemSettings.input_file}")  # ✅ Debug print
             return selected_csv
+
         else:
             print("❌ Invalid choice. Please enter a valid number.")
 
 def select_csv_column():
     """Allow user to select a column from the chosen CSV file and cache the selection."""
     csv_file = SystemSettings.input_file
-    df = load_csv(csv_file)
+    print(f"\n🟢 DEBUG: Loading selected CSV file: `{csv_file}`...")  # ✅ Debug print
+    df = load_csv(csv_file)  # ✅ Ensure file is actually being loaded
+
     
     if df is None or df.empty:
         logger.error("❌ CSV file is empty or failed to load.")
@@ -123,10 +133,24 @@ def select_csv_column():
 
 ### ✅ PROMPT SELECTION (Now Calls `prompt_generator.py`)
 def select_prompt():
-    """Allow user to select or create a prompt using `prompt_generator.py`."""
-    SystemSettings.prompt_file = select_or_create_prompt()  # ✅ Calls the function from `prompt_generator.py`
-    logger.info(f"✅ Selected prompt: {SystemSettings.prompt_file}")
-    return SystemSettings.prompt_file
+    """Allow user to select an existing JSON prompt from `data/prompts/`."""
+    prompt_files = list_json_files("data/prompts/")  # ✅ Uses json_handler.py
+
+    if not prompt_files:
+        logger.error("❌ No available prompt files found in `data/prompts/`. Exiting.")
+        exit(1)
+
+    # ✅ Remove duplicate printing here (list_json_files() already prints available JSON files)
+
+    while True:
+        choice = input("\nSelect a system prompt (Enter number): ").strip()
+        if choice.isdigit() and 1 <= int(choice) <= len(prompt_files):
+            selected_prompt = os.path.join("data/prompts/", prompt_files[int(choice) - 1])
+            logger.info(f"✅ Selected system prompt: {selected_prompt}")
+            SystemSettings.prompt_file = selected_prompt
+            return selected_prompt
+        else:
+            print("❌ Invalid choice. Please enter a valid number.")
 
 ### ✅ FINAL CONFIRMATION
 def confirm_selection():

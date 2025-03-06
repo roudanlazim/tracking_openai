@@ -1,4 +1,4 @@
 Input_Text,Predicted_Status,Token_Input,Token_Output
-"(2024-09-26T07:05:00) Delivery attempted, (2024-09-12T04:46:00) Delivery attempted, (2024-09-11T22:39:00) Arrival at delivery depot",Error,0,0
-"(2024-09-06T08:44:00) In Transit, (2024-09-05T08:31:00) Arrival scan, (2024-09-05T07:19:00) Export Scan",Error,0,0
-"(2024-09-05T03:20:00) Warehouse Scan, (2024-09-05T01:12:00) Warehouse Scan, (2024-09-05T01:00:00) In Transit",Error,0,0
+"(2024-09-26T07:05:00) Delivery attempted, (2024-09-12T04:46:00) Delivery attempted, (2024-09-11T22:39:00) Arrival at delivery depot","""In Transit""",4354,4
+"(2024-09-06T08:44:00) In Transit, (2024-09-05T08:31:00) Arrival scan, (2024-09-05T07:19:00) Export Scan","""In Transit""",4352,4
+"(2024-09-05T03:20:00) Warehouse Scan, (2024-09-05T01:12:00) Warehouse Scan, (2024-09-05T01:00:00) In Transit","""In Transit""",4352,4

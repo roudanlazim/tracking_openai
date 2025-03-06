@@ -1,34 +1,34 @@
 import time
 import openai
-import json
 from openai import OpenAIError
 from modules.logging_utils import logger
 from modules.system_settings import SystemSettings
-from modules.prompt_generator import load_prompt  # ✅ Ensure AI uses JSON-based prompt
 
-def get_openai_response(prompt, retries=3):
+# ✅ Initialize global MODEL_CACHE to avoid NameError
+MODEL_CACHE = None  
+
+def get_openai_response(prompt_messages, retries=3):
     """Send request to OpenAI API and return response, retrying on failure."""
-
+    
     # ✅ Ensure correct API Key is set
     api_key = SystemSettings.api_key  
     if not api_key:
-        logger.error("❌ No API key found in SystemSettings. Please enter it in `user_input.py`.")
+        logger.error("❌ No API key found. Please enter it in `user_input.py`.")
         return "Error: No API Key", 0, 0
 
-    # ✅ Ensure correct model is used (force `gpt-3.5-turbo`)
-    model = "gpt-3.5-turbo"
-
+    # ✅ Default to GPT-4o Mini if no model is explicitly selected
+    model = SystemSettings.model_name if SystemSettings.model_name else "gpt-4o-mini"
+    
     client = openai.OpenAI(api_key=api_key)
 
     for attempt in range(retries):
         try:
             logger.info(f"🚀 Attempt {attempt + 1}: Sending request to OpenAI...")
-            logger.debug(f"📨 Full Prompt Sent to OpenAI:\n{prompt}")
 
+            # ✅ Send structured prompt to OpenAI
             response = client.chat.completions.create(
                 model=model,
-                messages=[{"role": "system", "content": "You are a shipment tracking AI."},
-                          {"role": "user", "content": prompt}],
+                messages=prompt_messages,
                 temperature=0
             )
 
@@ -37,8 +37,6 @@ def get_openai_response(prompt, retries=3):
             token_output = response.usage.completion_tokens
 
             logger.info(f"✅ AI Response: {predicted_status}")
-            logger.debug(f"📊 Tokens Used - Input: {token_input}, Output: {token_output}")
-
             return predicted_status, token_input, token_output
 
         except openai.OpenAIError as e:
@@ -50,50 +48,36 @@ def get_openai_response(prompt, retries=3):
     logger.error("❌ OpenAI API request failed after multiple attempts.")
     return "Error: API request failed", 0, 0
 
-def get_ai_prediction(input_text, status_elements, prompt_file):
-    """Processes input text using AI and retrieves the predicted status using a JSON-based prompt."""
-    
-    # ✅ Fetch API Key at runtime
+def fetch_openai_models():
+    """Retrieve the list of available OpenAI models from the API, caching the result."""
+    global MODEL_CACHE
+
+    # ✅ Return cached models if already retrieved
+    if MODEL_CACHE is not None:
+        return MODEL_CACHE
+
+    if SystemSettings.model_type != "openai":
+        logger.warning("⚠️ OpenAI models requested, but OpenAI is not selected. Returning default model.")
+        return ["gpt-4o-mini"]
+
     if not SystemSettings.api_key:
-        logger.error("❌ No API Key Found! Please set your OpenAI API Key.")
-        return "Error: No API Key", (0, 0)
+        logger.error("❌ API key is missing but should have been set! Aborting.")
+        return ["gpt-4o-mini"]
 
-    # ✅ Load JSON-based prompt
-    prompt_data = load_prompt(prompt_file)
-    if not prompt_data:
-        logger.error(f"❌ Failed to load prompt file: {prompt_file}")
-        return "Error: Failed to load prompt", (0, 0)
+    try:
+        client = openai.OpenAI(api_key=SystemSettings.api_key)
+        models = client.models.list()
 
-    # ✅ Debugging: Log Loaded Prompt Data
-    logger.debug(f"📄 Loaded Prompt Data from {prompt_file}: {json.dumps(prompt_data, indent=2)}")
+        # Extract model names and filter relevant ones
+        MODEL_CACHE = [model.id for model in models.data if "gpt" in model.id]
 
-    # ✅ Build Prompt from JSON
-    instruction = prompt_data.get("instruction", "Analyze shipment tracking data and return the correct status.")
-    examples = prompt_data.get("examples", [])
+        if not MODEL_CACHE:
+            logger.warning("⚠️ No OpenAI models retrieved. Defaulting to 'gpt-4o-mini'.")
+            return ["gpt-4o-mini"]
 
-    # ✅ FIX: Change "input" to "tracking_data"
-    example_text = "\n".join([
-        f"Tracking Data: {ex.get('tracking_data', 'MISSING TRACKING DATA')}\nOutput: {ex.get('output', 'MISSING OUTPUT')}"
-        for ex in examples
-    ])
+        logger.info(f"✅ Retrieved {len(MODEL_CACHE)} OpenAI models.")
+        return MODEL_CACHE
 
-    full_prompt = f"""
-    **{instruction}**
-    
-    **Possible Statuses:**
-    {', '.join(status_elements)}
-
-    **Examples:**
-    {example_text}
-
-    **User Input:**
-    {input_text}
-    """
-
-    # ✅ Call OpenAI
-    ai_response, token_input, token_output = get_openai_response(full_prompt)
-
-    # ✅ Log response
-    logger.info(f"🔹 AI Model Prediction: {ai_response}")
-
-    return ai_response, (token_input, token_output)
+    except openai.OpenAIError as e:
+        logger.error(f"❌ Error fetching OpenAI models: {str(e)}")
+        return ["gpt-4o-mini"]

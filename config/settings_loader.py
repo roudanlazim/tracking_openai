@@ -1,35 +1,29 @@
-from modules.logging_utils import logger  # ✅ Import centralized logger
-import json
+from modules.logging_utils import logger  # Import centralized logger
 import os
-from modules.file_handler import load_json, save_json, get_json_path
+import json
 
-CONFIG_FILE = "settings.json"
-CACHED_JSON_DATA = {}  # Store JSON data in memory
+CONFIG_FILE = os.path.join("config", "settings.json")
 
 def get_relative_path(settings, key, default_filename):
     """Ensure paths are relative, falling back to defaults."""
     base_dir = os.path.dirname(os.path.abspath(__file__))
     default_path = os.path.join(base_dir, "config", default_filename)
-
     return settings.get(key, default_path)
 
 def load_settings():
-    """Load settings from JSON file, prompting user for missing paths."""
-    
-    settings = load_json(CONFIG_FILE, fallback={})
-    
-    if not settings:
-        logger.warning("⚠️ No existing settings found, using defaults.")
+    """Load settings directly from `settings.json`."""
+    if not os.path.exists(CONFIG_FILE):
+        logger.warning("⚠️ No `settings.json` found in `config/`. Using defaults.")
+        return {}
 
-    # Convert paths to relative using settings dictionary (not SETTINGS)
-    settings["status_elements_file"] = get_relative_path(settings, "status_elements_file", "status_elements.json")
+    try:
+        with open(CONFIG_FILE, "r") as f:
+            settings = json.load(f)
+        logger.info("✅ Settings loaded successfully.")
+        return settings
+    except Exception as e:
+        logger.error(f"❌ Error loading `settings.json`: {str(e)}")
+        return {}
 
-    CACHED_JSON_DATA["status_elements"] = load_json(settings["status_elements_file"], fallback={"statuses": ["Delivered", "In Transit", "Returned to Sender"]})
-
-    save_json(CONFIG_FILE, settings)
-    logger.info("✅ Settings loaded successfully.")
-
-    return settings
-
-# ✅ Assign SETTINGS after the function is fully defined
+# Assign SETTINGS once after function definition
 SETTINGS = load_settings()

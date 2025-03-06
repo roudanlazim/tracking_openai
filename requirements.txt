@@ -4,3 +4,5 @@ pandas
 python-dotenv
 tqdm  # Optional, useful for progress tracking in loops
 requests  # Optional, useful if calling external APIs later
+tenacity # api call retries 
+tiktoken # used to accurately count tokens

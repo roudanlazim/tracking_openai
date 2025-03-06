@@ -1,4 +1,18 @@
 {
-    "name": "Test",
-    "status": "Working"
+    "instruction": "Analyze shipment tracking data and return the most appropriate status.",
+    "status_elements": [
+        "In Transit",
+        "Delivered",
+        "Exception"
+    ],
+    "examples": [
+        {
+            "input": "Package scanned at facility",
+            "output": "In Transit"
+        },
+        {
+            "input": "Package delivered to customer",
+            "output": "Delivered"
+        }
+    ]
 }
