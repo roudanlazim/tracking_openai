@@ -1,5 +1,5 @@
 pip==25.0.1
-openai
+openai==1.14.3
 pandas
 python-dotenv
 tqdm  # Optional, useful for progress tracking in loops
