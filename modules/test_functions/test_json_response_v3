@@ -2,6 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 from openai import OpenAI
+from modules.json_handler import save_json
 
 # Load API Key
 load_dotenv(dotenv_path=os.path.join("config", ".env"))
@@ -33,6 +34,7 @@ def get_ai_progress(messages, model="gpt-4o-mini"):
             "request_id": response.id
         }
 
+        save_json(output)
         print(json.dumps(output, indent=2))
         return response_json
 

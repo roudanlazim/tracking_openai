@@ -1,3 +1,26 @@
+# Set up Step 1: Create and activate virtual environment
+python -m venv tracking_openai_env
+source tracking_openai_env/bin/activate    # Linux/MacOS
+.\tracking_openai_env\Scripts\activate.bat # Windows
+
+# Set up Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Set up Step 3: Install your project in editable mode
+pip install -e .
+
+# Step 1: Create and activate virtual environment
+python -m venv tracking_openai_env
+source tracking_openai_env/bin/activate    # Linux/MacOS
+.\tracking_openai_env\Scripts\activate.bat # Windows
+
+# Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Step 3: Install your project in editable mode
+pip install -e .
+
+
 # AI Shipment Tracking Pipeline
 
 ## Overview
@@ -12,7 +35,7 @@ It's is really for testing lots of predictions using different models etc.
 
 ### User Input & Configuration
 - Select an AI model (OpenAI GPT or future models).
-- Choose a specific model (e.g., `gpt-3.5-turbo` or `gpt-4`).
+- Choose a specific model (e.g., ``gpt-4o mini`).
 - Enter an API key for authentication.
 - Pick an input CSV file for processing.
 - Choose the column containing shipment scan histories.
