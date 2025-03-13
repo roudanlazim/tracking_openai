@@ -1,0 +1,17 @@
+{
+  "response": {
+    "p": 1,
+    "s": 3,
+    "f": 7
+  },
+  "token_usage": {
+    "prompt_tokens": 444,
+    "cached_tokens": 0,
+    "dynamic_message_tokens": 444,
+    "completion_tokens": 20,
+    "total_tokens": 464
+  },
+  "model_used": "gpt-4o-mini-2024-07-18",
+  "created_at": 1741778233,
+  "request_id": "chatcmpl-BAENFPcVGn6HHWeKx1YVgaj0vEuye"
+}

@@ -1,0 +1,36 @@
+{
+    "progress": {
+      "1": "Manifested",
+      "2": "Collected",
+      "3": "In Transit",
+      "4": "Out for Delivery",
+      "5": "On Hold",
+      "6": "Delivered",
+      "7": "Returned",
+      "8": "Discarded"
+    },
+    "sub_status": {
+      "1": "Manifested",
+      "2": "Collection Scheduled",
+      "3": "Collection Failed",
+      "4": "Not Collected"
+    },
+    "final_status": {
+      "1": "Manifested - Awaiting Collection",
+      "2": "Address Corrected - Collection Rescheduled",
+      "3": "Collection Scheduled - Next Business Day",
+      "4": "Collection Scheduled - No Further Info",
+      "5": "Collection Failed - Another Attempt Next Day",
+      "6": "Collection Failed - Rescheduled, No Info",
+      "7": "Collection Failed - Rebooking Required",
+      "8": "Collection Failed - Oversized",
+      "9": "Collection Failed - Access Issue",
+      "10": "Collection Failed - Shipper Unavailable",
+      "11": "Collection Failed - Parcel Not Ready",
+      "12": "Collection Failed - No Info",
+      "13": "Collection Failed - Package Damaged",
+      "14": "Collection Not Attempted - Directions Required",
+      "15": "Collection Not Attempted - Address Query/Error"
+    }
+  }
+  

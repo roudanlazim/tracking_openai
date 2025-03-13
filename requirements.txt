@@ -6,3 +6,4 @@ tqdm  # Optional, useful for progress tracking in loops
 requests  # Optional, useful if calling external APIs later
 tenacity # api call retries 
 tiktoken # used to accurately count tokens
+setuptools # So that my modules can be used easily by python
