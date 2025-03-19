@@ -46,20 +46,20 @@ def list_json_files(directory="data"):
 
     return json_files
 
-def load_json(filename, fallback=None):
+def load_json(filename):
     """Load a JSON file safely."""
-    json_path = find_json_file(filename)
-    if not json_path:
-        return fallback
+    if not os.path.exists(filename):
+        print(f"🚨 File Not Found: {filename}")
+        return None
 
     try:
-        with open(json_path, "r") as file:
+        with open(filename, "r", encoding="utf-8") as file:  # Ensure UTF-8 encoding
             data = json.load(file)
-            logger.info(f"✅ JSON file `{json_path}` loaded.")
+            print(f"✅ JSON Loaded Successfully from {filename}")
             return data
     except Exception as e:
-        logger.error(f"❌ Error loading JSON file `{json_path}`: {e}")
-        return fallback
+        print(f"❌ JSON Load Error: {e}")
+        return None
 
 def save_json(data, filename=None, directory="output"):
     """Save data to JSON, uniquely named by timestamp."""

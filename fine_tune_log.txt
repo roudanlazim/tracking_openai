@@ -1,0 +1,398 @@
+Fine-tuning job started:
+  File ID: file-4FrFbXTTiDuezXEAiNFtEg
+  Fine-tune job ID: ftjob-7bH73fbwtltbeQ7ROjjo3VoV
+  Response: {
+  "id": "ftjob-7bH73fbwtltbeQ7ROjjo3VoV",
+  "created_at": 1742369600,
+  "error": {
+    "code": null,
+    "message": null,
+    "param": null
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 842280396,
+  "status": "validating_files",
+  "trained_tokens": null,
+  "training_file": "file-4FrFbXTTiDuezXEAiNFtEg",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Final status of job ftjob-7bH73fbwtltbeQ7ROjjo3VoV: failed
+{
+  "id": "ftjob-7bH73fbwtltbeQ7ROjjo3VoV",
+  "created_at": 1742369600,
+  "error": {
+    "code": "invalid_training_file",
+    "message": "The job failed due to an invalid training file. Invalid file format. Line 1, key \"correct\": Extra inputs are not permitted",
+    "param": "training_file"
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 842280396,
+  "status": "failed",
+  "trained_tokens": null,
+  "training_file": "file-4FrFbXTTiDuezXEAiNFtEg",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Validating JSONL file: /mnt/data/basic_correct_training.jsonl
+Validating JSONL file: /mnt/data/basic_correct_training.jsonl
+Fine-tuning job started:
+  File ID: file-UFrnzFWVgQnfv2YopnvFy3
+  Fine-tune job ID: ftjob-Cu2qrjYZeKu5fR6YHd2NR6M2
+  Response: {
+  "id": "ftjob-Cu2qrjYZeKu5fR6YHd2NR6M2",
+  "created_at": 1742372979,
+  "error": {
+    "code": null,
+    "message": null,
+    "param": null
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 135017873,
+  "status": "validating_files",
+  "trained_tokens": null,
+  "training_file": "file-UFrnzFWVgQnfv2YopnvFy3",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Final status of job ftjob-Cu2qrjYZeKu5fR6YHd2NR6M2: failed
+{
+  "id": "ftjob-Cu2qrjYZeKu5fR6YHd2NR6M2",
+  "created_at": 1742372979,
+  "error": {
+    "code": "invalid_n_examples",
+    "message": "Training file has 3 example(s), but must have at least 10 examples",
+    "param": "training_file"
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 135017873,
+  "status": "failed",
+  "trained_tokens": null,
+  "training_file": "file-UFrnzFWVgQnfv2YopnvFy3",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 1.8,
+        "n_epochs": 25
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+📝 Fine-tuning job started:
+📂 File ID: file-471Lq37uCz9xRMayq2cQBM
+🆔 Job ID: ftjob-eyjq0p0Fh0K6g07WN1JuqGv0
+📝 Response: {
+  "id": "ftjob-eyjq0p0Fh0K6g07WN1JuqGv0",
+  "created_at": 1742374694,
+  "error": {
+    "code": null,
+    "message": null,
+    "param": null
+  },
+  "fine_tuned_model": "ft:gpt-4o-mini-2024-07-18:parcelhero::BCjdOuQv",
+  "finished_at": 1742375052,
+  "hyperparameters": {
+    "batch_size": 1,
+    "learning_rate_multiplier": 1.8,
+    "n_epochs": 10
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [
+    "file-5EiyGE9yhpvauXeiLCdgHs"
+  ],
+  "seed": 1458098041,
+  "status": "succeeded",
+  "trained_tokens": 2690,
+  "training_file": "file-471Lq37uCz9xRMayq2cQBM",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 1.8,
+        "n_epochs": 10
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Fine-tuning job started:
+File ID: file-Jt2kwd3WmCoZMJ2NVzjDSb
+Job ID: ftjob-CKMWtFcpHyV1iLGCYHYkKnXw
+Response: {
+  "id": "ftjob-CKMWtFcpHyV1iLGCYHYkKnXw",
+  "created_at": 1742375353,
+  "error": {
+    "code": "invalid_training_file",
+    "message": "The job failed due to an invalid training file. Invalid file format. Line 1, key \"correct\": Extra inputs are not permitted",
+    "param": "training_file"
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 758368607,
+  "status": "failed",
+  "trained_tokens": null,
+  "training_file": "file-Jt2kwd3WmCoZMJ2NVzjDSb",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Fine-tuning job started:
+File ID: file-7rG4YrumABSXYVF95aZkKZ
+Job ID: ftjob-gtAisAV1Ey8z5GV6kiXaSFdX
+Response: {
+  "id": "ftjob-gtAisAV1Ey8z5GV6kiXaSFdX",
+  "created_at": 1742375411,
+  "error": {
+    "code": null,
+    "message": null,
+    "param": null
+  },
+  "fine_tuned_model": "ft:gpt-4o-mini-2024-07-18:parcelhero::BCjoqyhy",
+  "finished_at": 1742375762,
+  "hyperparameters": {
+    "batch_size": 1,
+    "learning_rate_multiplier": 1.8,
+    "n_epochs": 10
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [
+    "file-XyEqBKzWjAwPDdZgAR2toZ"
+  ],
+  "seed": 490630095,
+  "status": "succeeded",
+  "trained_tokens": 2690,
+  "training_file": "file-7rG4YrumABSXYVF95aZkKZ",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 1.8,
+        "n_epochs": 10
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Fine-tuning job started:
+File ID: file-Egomrxd8jUurU7z5cy2UPK
+Job ID: ftjob-cziZ3DDbn3dhAbDRRgaBpCZi
+Response: {
+  "id": "ftjob-cziZ3DDbn3dhAbDRRgaBpCZi",
+  "created_at": 1742376036,
+  "error": {
+    "code": "invalid_training_file",
+    "message": "The job failed due to an invalid training file. Invalid file format. Line 1, key \"correct\": Extra inputs are not permitted",
+    "param": "training_file"
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 451572208,
+  "status": "failed",
+  "trained_tokens": null,
+  "training_file": "file-Egomrxd8jUurU7z5cy2UPK",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+
+Fine-tuning job started:
+File ID: file-TkKh2kJLzyVDosKu4uGjFR
+Job ID: ftjob-u9r1sakphzLOkPhMkoPwDpEM
+Response: {
+  "id": "ftjob-u9r1sakphzLOkPhMkoPwDpEM",
+  "created_at": 1742376353,
+  "error": {
+    "code": "invalid_training_file",
+    "message": "The job failed due to an invalid training file. Invalid file format. Line 1, key \"correct\": Extra inputs are not permitted",
+    "param": "training_file"
+  },
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto",
+    "n_epochs": "auto"
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": "org-E2yTxlatydFFtKqxyqj1VxMq",
+  "result_files": [],
+  "seed": 920148899,
+  "status": "failed",
+  "trained_tokens": null,
+  "training_file": "file-TkKh2kJLzyVDosKu4uGjFR",
+  "validation_file": null,
+  "estimated_finish": null,
+  "integrations": [],
+  "metadata": null,
+  "method": {
+    "dpo": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    },
+    "type": "supervised"
+  },
+  "user_provided_suffix": null
+}
+

@@ -1,0 +1,10 @@
+{"messages": [{"role": "user", "content": "Where is my shipment?"}, {"role": "assistant", "content": "Your shipment is currently in transit."}]}
+{"messages": [{"role": "user", "content": "Has my package been delivered?"}, {"role": "assistant", "content": "Yes, your package was delivered successfully."}]}
+{"messages": [{"role": "user", "content": "Why is my package delayed?"}, {"role": "assistant", "content": "Your package is delayed due to weather conditions."}]}
+{"messages": [{"role": "user", "content": "What is the estimated delivery date?"}, {"role": "assistant", "content": "Your package is expected to arrive on June 5th."}]}
+{"messages": [{"role": "user", "content": "Has my return been processed?"}, {"role": "assistant", "content": "Your return has been successfully processed and refunded."}]}
+{"messages": [{"role": "user", "content": "Can I change my delivery address?"}, {"role": "assistant", "content": "You can update your address within 24 hours of placing the order."}]}
+{"messages": [{"role": "user", "content": "My package was marked as delivered but I didn't receive it."}, {"role": "assistant", "content": "Please check with your neighbors or contact support for assistance."}]}
+{"messages": [{"role": "user", "content": "Is my package insured?"}, {"role": "assistant", "content": "Yes, your package is covered under our standard shipping insurance."}]}
+{"messages": [{"role": "user", "content": "Why was my package returned to sender?"}, {"role": "assistant", "content": "Your package was returned due to an incorrect address."}]}
+{"messages": [{"role": "user", "content": "What time will my package be delivered?"}, {"role": "assistant", "content": "Delivery times vary, but it should arrive between 9 AM and 7 PM."}]}

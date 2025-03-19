@@ -1,3 +1,12 @@
+
+{
+ "response": { "p": 1, "s": "3" } 
+}
+where p stands for progress and s for status element, due to the fact we do not know how this is going to be exposed let’s just return a string type
+
+
+
+
 # Set up Step 1: Create and activate virtual environment
 python -m venv tracking_openai_env
 source tracking_openai_env/bin/activate    # Linux/MacOS

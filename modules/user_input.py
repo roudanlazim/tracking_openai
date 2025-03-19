@@ -134,23 +134,28 @@ def select_csv_column():
 ### ✅ PROMPT SELECTION (Now Calls `prompt_generator.py`)
 def select_prompt():
     """Allow user to select an existing JSON prompt from `data/prompts/`."""
-    prompt_files = list_json_files("data/prompts/")  # ✅ Uses json_handler.py
+    prompt_dir = os.path.join("data", "prompts")  # ✅ Ensure correct directory
+    prompt_files = list_json_files(prompt_dir)
 
     if not prompt_files:
-        logger.error("❌ No available prompt files found in `data/prompts/`. Exiting.")
+        logger.error(f"❌ No prompt files found in `{prompt_dir}`. Exiting.")
+        print(f"❌ No JSON prompt files found in '{prompt_dir}'. Check the directory.")
         exit(1)
 
-    # ✅ Remove duplicate printing here (list_json_files() already prints available JSON files)
+    print("\n📂 Available JSON Prompt Files:")
+    for idx, file in enumerate(prompt_files, start=1):
+        print(f"{idx} - {file}")
 
     while True:
-        choice = input("\nSelect a system prompt (Enter number): ").strip()
+        choice = input("\nSelect a prompt by number: ").strip()
         if choice.isdigit() and 1 <= int(choice) <= len(prompt_files):
-            selected_prompt = os.path.join("data/prompts/", prompt_files[int(choice) - 1])
-            logger.info(f"✅ Selected system prompt: {selected_prompt}")
+            selected_prompt = os.path.join(prompt_dir, prompt_files[int(choice) - 1])  # ✅ Now returns full path
             SystemSettings.prompt_file = selected_prompt
+            logger.info(f"✅ Prompt selected: {selected_prompt}")
+            print(f"✅ Selected Prompt Path: {selected_prompt}")  # Debug print
             return selected_prompt
         else:
-            print("❌ Invalid choice. Please enter a valid number.")
+            print("❌ Invalid selection. Enter a valid number.")
 
 ### ✅ FINAL CONFIRMATION
 def confirm_selection():

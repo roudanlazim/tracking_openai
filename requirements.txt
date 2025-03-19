@@ -1,5 +1,5 @@
 pip==25.0.1
-openai==1.14.3
+openai-1.66.3
 pandas
 python-dotenv
 tqdm  # Optional, useful for progress tracking in loops
@@ -7,3 +7,5 @@ requests  # Optional, useful if calling external APIs later
 tenacity # api call retries 
 tiktoken # used to accurately count tokens
 setuptools # So that my modules can be used easily by python
+pymongo # this is really so I can create a collection and store/ test a lot of shipments at once. Might be a little hrd to do otherwise. 
+jsonschema # validates Json schema is correct 

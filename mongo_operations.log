@@ -1,0 +1,95 @@
+2025-03-17 07:37:52,265 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:37:52,265 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:37:54,551 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 07:37:54,552 - INFO - example_prompt.json
+2025-03-17 07:37:54,552 - INFO - status_mapping.json
+2025-03-17 07:37:54,552 - INFO - system_prompt.json
+2025-03-17 07:38:29,054 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:38:29,054 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:38:29,760 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 07:38:29,760 - INFO - example_prompt.json
+2025-03-17 07:38:29,762 - INFO - status_mapping.json
+2025-03-17 07:38:29,762 - INFO - system_prompt.json
+2025-03-17 07:38:45,170 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:38:45,170 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 07:38:45,850 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 07:38:45,850 - INFO - example_prompt.json
+2025-03-17 07:38:45,850 - INFO - status_mapping.json
+2025-03-17 07:38:45,850 - INFO - system_prompt.json
+2025-03-17 07:38:51,817 - INFO - \u2705 Prompt selected: data\prompts\system_prompt.json
+2025-03-17 07:38:51,922 - ERROR - \u274c JSON file `data\prompts\system_prompt.json` not found.
+2025-03-17 08:34:55,232 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 08:34:55,233 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 08:34:55,926 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 08:34:55,926 - INFO - example_prompt.json
+2025-03-17 08:34:55,926 - INFO - status_mapping.json
+2025-03-17 08:34:55,926 - INFO - system_prompt.json
+2025-03-17 08:35:04,994 - INFO - \u2705 Prompt selected: system_prompt.json
+2025-03-17 08:35:05,007 - INFO - \u2705 Found JSON file at C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json
+2025-03-17 08:35:05,007 - INFO - \u2705 JSON file `C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json` loaded.
+2025-03-17 08:35:05,023 - INFO - \u2705 Created new MongoDB client.
+2025-03-17 08:35:05,029 - INFO - \U0001f50d Retrieved 5 valid shipments.
+2025-03-17 08:35:05,134 - ERROR - \u274c JSON file `data/prompts/system_prompt.json` not found.
+2025-03-17 08:35:05,134 - ERROR - \u274c Failed to load system prompt: system_prompt.json
+2025-03-17 08:35:06,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 08:35:08,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 08:35:12,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 08:48:53,048 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 08:48:53,048 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 08:48:55,175 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 08:48:55,175 - INFO - example_prompt.json
+2025-03-17 08:48:55,175 - INFO - status_mapping.json
+2025-03-17 08:48:55,175 - INFO - system_prompt.json
+2025-03-17 08:48:57,872 - INFO - \u2705 Prompt selected: system_prompt.json
+2025-03-17 08:48:57,884 - INFO - \u2705 Found JSON file at C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json
+2025-03-17 08:48:57,893 - INFO - \u2705 JSON file `C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json` loaded.
+2025-03-17 08:48:57,930 - INFO - \u2705 Created new MongoDB client.
+2025-03-17 08:48:57,952 - INFO - \U0001f50d Retrieved 5 valid shipments.
+2025-03-17 08:48:57,952 - ERROR - Prompt file not found: system_prompt.json
+2025-03-17 08:48:57,952 - ERROR - Failed to load system prompt: system_prompt.json
+2025-03-17 08:48:58,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 08:49:00,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 09:01:04,386 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:01:04,387 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:01:05,191 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 09:01:05,191 - INFO - example_prompt.json
+2025-03-17 09:01:05,191 - INFO - status_mapping.json
+2025-03-17 09:01:05,191 - INFO - system_prompt.json
+2025-03-17 09:01:07,929 - INFO - \u2705 Prompt selected: system_prompt.json
+2025-03-17 09:01:07,939 - INFO - \u2705 Found JSON file at C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json
+2025-03-17 09:01:07,939 - INFO - \u2705 JSON file `C:\Users\Shaalan\tracking_openai\data\prompts\system_prompt.json` loaded.
+2025-03-17 09:01:07,945 - INFO - \u2705 Created new MongoDB client.
+2025-03-17 09:01:07,953 - INFO - \U0001f50d Retrieved 5 valid shipments.
+2025-03-17 09:01:07,953 - ERROR - Prompt file not found: system_prompt.json
+2025-03-17 09:01:07,953 - ERROR - Failed to load system prompt: system_prompt.json
+2025-03-17 09:01:08,577 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-03-17 09:17:08,849 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:17:08,849 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:17:09,577 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 09:17:09,577 - INFO - example_prompt.json
+2025-03-17 09:17:09,577 - INFO - status_mapping.json
+2025-03-17 09:17:09,577 - INFO - system_prompt.json
+2025-03-17 09:17:11,618 - INFO - \u2705 Prompt selected: system_prompt.json
+2025-03-17 09:23:36,143 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:23:36,143 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:23:36,891 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 09:23:36,891 - INFO - example_prompt.json
+2025-03-17 09:23:36,892 - INFO - status_mapping.json
+2025-03-17 09:23:36,892 - INFO - system_prompt.json
+2025-03-17 09:23:40,327 - INFO - \u2705 Prompt selected: data\prompts\system_prompt.json
+2025-03-17 09:23:40,331 - INFO - \u2705 Created new MongoDB client.
+2025-03-17 09:23:40,337 - INFO - \U0001f50d Retrieved 5 valid shipments.
+2025-03-17 09:23:45,398 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:23:51,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:25:23,982 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:25:23,982 - INFO - \u2705 Settings loaded successfully.
+2025-03-17 09:25:24,707 - INFO - \U0001f4c2 JSON Files found:
+2025-03-17 09:25:24,707 - INFO - example_prompt.json
+2025-03-17 09:25:24,707 - INFO - status_mapping.json
+2025-03-17 09:25:24,707 - INFO - system_prompt.json
+2025-03-17 09:25:26,680 - INFO - \u2705 Prompt selected: data\prompts\system_prompt.json
+2025-03-17 09:25:26,685 - INFO - \u2705 Created new MongoDB client.
+2025-03-17 09:25:26,690 - INFO - \U0001f50d Retrieved 5 valid shipments.
+2025-03-17 09:25:30,990 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-17 09:25:31,004 - INFO - \u2705 Stored 5 AI results in 'shipment_variations_batch_1'.
+2025-03-17 09:30:12,955 - INFO - \u2705 Created new MongoDB client.
