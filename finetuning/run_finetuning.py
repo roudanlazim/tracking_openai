@@ -81,7 +81,8 @@ def fine_tune_model(training_file, base_model="gpt-4o-mini-2024-07-18", log_file
         print(f"Starting fine-tuning with base model '{base_model}'...")
         fine_tune_job = client.fine_tuning.jobs.create(
             training_file=file_id,
-            model=base_model
+            model=base_model,
+            suffix="v8_shaalan_2025"
         )
         fine_tune_id = fine_tune_job.id
         print(f"Fine-tuning job started. Job ID: {fine_tune_id}")

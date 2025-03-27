@@ -9,3 +9,4 @@ tiktoken # used to accurately count tokens
 setuptools # So that my modules can be used easily by python
 pymongo # this is really so I can create a collection and store/ test a lot of shipments at once. Might be a little hrd to do otherwise. 
 jsonschema # validates Json schema is correct 
+numpy
