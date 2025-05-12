@@ -2,7 +2,9 @@ setup.py
 config/__init__.py
 config/settings_loader.py
 finetuning/__init__.py
-finetuning/mongo_db_compiler.py
+finetuning/csv_combiner_playgroundtesting.py
+finetuning/csv_testdata_compiler.py
+finetuning/mongo_db_searchcompiler.py
 finetuning/mongo_query.py
 finetuning/prepare_finetuning_data.py
 finetuning/retrieve_finetuning_log.py
@@ -46,6 +48,7 @@ scripts/__init__.py
 scripts/ai_status_testing.py
 scripts/run_chunk_tests.py
 scripts/run_predicting.py
+scripts/run_scan_group_alignment.py
 tracking_openai.egg-info/PKG-INFO
 tracking_openai.egg-info/SOURCES.txt
 tracking_openai.egg-info/dependency_links.txt

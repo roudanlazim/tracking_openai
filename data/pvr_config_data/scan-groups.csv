@@ -1,0 +1,252 @@
+﻿scanGroupId,scan_group,description,smart scan - match ,tags
+fab7a1ed-c7e2-42bf-852b-0c7f3d2038b3,Shipment manifested,Shipment manifested,,"collection,manifested"
+d583ab1d-2667-419c-b84e-4320192e1825,Delivered,Delivered,,delivered
+667c9f0c-4671-4af0-a788-c264b8553dac,Package on hold for delivery,Package on hold for delivery,,"delivery,on_hold,future_delivery_date_requested"
+475f6865-4882-4523-8795-9a0d4f8e1d6e,Out for delivery,Out for delivery,,out_for_delivery
+fb7930dd-9d90-4dde-82cf-930de2e0e216,Delivery issue resolved. Delivery will be scheduled for the next working day,Delivery issue resolved. Delivery will be scheduled for the next working day,,"scheduled_for_delivery,issue_resolved"
+7e750f7e-2154-4c2f-836e-007e7786480c,Shipment collected,Shipment collected,,collected
+6c58c5e3-ac1b-4278-a29e-3d8b88034a71,Warehouse Scan,Warehouse Scan,,warehouse
+b3c222da-581b-4b4d-ad4f-8b08d0a997a2,In Transit,In Transit,,in_transit
+1e842847-3377-47a9-81cd-07be30c50e72,Collection failed. To be rescheduled.,Collection failed. To be rescheduled.,,"collection,collection_failed,collection_rescheduled,collect_next_business_day"
+4907c213-ab51-4fdb-877d-9f4cd6c1f240,Collection failed or cancelled. Rebooking required,Collection failed or cancelled. Rebooking required,,"collection,rebooking_required,collection_failed"
+a69c1c77-6db6-4b02-a805-435b8dac6998,Collection failed - Parcel not ready,Collection failed - Parcel not ready,,"collection,collection_failed,parcel_not_ready"
+7c2f9c16-44e8-405a-8565-b530ae9d7f66,Collection failed - Shipper not available,Collection failed - Shipper not available,,"collection,collection_failed,shipper_not_available"
+621a4e19-0918-4625-baff-c7cda11feb0c,Collection made - label issue,Collection made - label issue,,"collection,collected,label,label_issue"
+6f8c77fe-bb96-485b-8feb-e95d70e6ba80,Package not collected - Damaged,Package not collected - Damaged,,"collection,not_collected,damaged"
+1d635596-d18b-4254-8398-916d3c5f32bb,Not collected,Not collected,,"collection,not_collected,no_longer_required"
+6a2b2a91-205b-41b6-a784-0ed76df873e5,Collection failed - Unable to gain access,Collection failed - Unable to gain access,,"collection,collection_failed,unable_to_gain_access"
+2c23cb2a-1856-476c-8070-59ea2cbb1ca7,Collection scheduled,Collection scheduled,,"collection,collection_scheduled"
+b63f9db2-ee1e-406b-991c-be300ad3b32d,Collection scheduled for next business day,Collection scheduled for next business day,,"collection,collection_scheduled,collect_next_business_day"
+c1722b4d-c3e3-4b30-b171-fac3ec6add0f,Not collected due to address issue,Not collected due to address issue,,"collection,address_issue"
+778872ee-9dcf-4522-9998-26e6e06d38ff,Arrival at delivery depot,Arrival at delivery depot,,"in_transit,arrived_at_delivering_depot"
+bd649c1a-edfd-4ccd-b830-ff940bf55f55,Import Scan,Import Scan,,"in_transit,import"
+bfea056c-8daf-4846-894b-f0e79240cf9e,Shipment dropped off awaiting carrier collection,Shipment dropped off awaiting carrier collection,,"collection,pudo,dropped_off_pudo"
+3d583349-098f-487d-a75c-71dea69b81f3,Export Scan,Export Scan,,"in_transit,export"
+8a6f5bab-4a6d-46fc-8d5c-33eb00e367b1,Released by customs. Clearance complete.,Released by customs. Clearance complete.,,"customs,clearance,released_by_customs"
+66fc71f9-e01b-4b87-9138-14ebf068c01e,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,,"delivery,receiver_unavailable,delivery_attempted,force_pudo_delivery,pudo"
+4f4bd244-5ace-4477-9179-34fd9e5b9023,Shipment ready for collection from pick-up point,Shipment ready for collection from pick-up point,,"delivery,delivered,pudo,delivered_to_pudo,awaiting_collection"
+4d0470ee-32d3-463d-8eb7-f187eb016ce1,1st of 3 Delivery attempts. Receiver not available,1st of 3 Delivery attempts. Receiver not available,,"receiver_unavailable,delivery_attempted,one_of_three_attempts"
+4baae71a-4579-4fed-860a-05da3b13ddc9,Delivery rescheduled,Delivery rescheduled,,delivery_rescheduled
+4796f4a2-c081-41d0-82fe-d8a982078677,Customs clearance in progress,Customs clearance in progress,,"customs,clearance,customs_clearance_in_progress"
+846d6640-376c-49b4-96d7-f5af9ab057d7,Delay due to adverse weather conditions,Delay due to adverse weather conditions,,"transit_delay,force_majeure,adverse_weather"
+399c081b-ae68-4372-9034-172fcc2619f3,Request to reschedule delivery,Request to reschedule delivery,,"delivery,new_instructions,being_rescheduled"
+242a0d42-f28c-41ca-8c57-c3bf000812a8,Awaiting release from customs,Awaiting release from customs,,"customs,clearance,awaiting_customs_release"
+670d81f1-0218-4fb2-848d-6a3bd0098713,Missing or incomplete export documentation,Missing or incomplete export documentation,,"customs,missing_docs,export_documentation"
+5ea46330-cc6d-4f62-b891-7e347342f3dd,Shipment to be returned,Shipment to be returned,,"returns,will_be_returned"
+836f52ff-3538-4879-9a97-d681154a864f,Delivery to pick-up point pending,Delivery to pick-up point pending,,"delivery,pudo,delivery_to_pudo_pending"
+da51b056-3d09-4978-ab8e-695c2852f981,Delayed due to circumstances beyond our control - Corrective action underway,Delayed due to circumstances beyond our control - Corrective action underway,,"transit_delay,force_majeure,corrective_action_underway"
+26fc15fd-0457-44b8-8f91-b96b13ce2809,Correct company or receiver name needed for delivery,Correct company or receiver name needed for delivery,,"delivery,address_issue,company_or_name_needed,receiver"
+b57205dc-a8ba-4dfe-b958-85b18d25e4bd,Held awaiting tax payment by the receiver,Held awaiting tax payment by the receiver,,"customs,duties,hold_awaiting_duty_payment,receiver"
+18ce5e3f-a98f-46b5-bc06-e7f4e1299dcc,Valid receiver's tax ID required for customs clearance,Valid receiver's tax ID required for customs clearance,,"customs,required_info,tax_id"
+063db3fe-b8dc-4500-a63e-96a2441b08f3,Carrier misrouted the shipment - Corrective action underway,Carrier misrouted the shipment - Corrective action underway,,"transit_delay,corrective_action_underway,misroute"
+a6692e8e-3b22-4433-aff8-31e76ec6d446,Billing information received,Billing information received,,billing_information_received
+09d773ea-c117-40a5-849e-d4f927bc016f,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,,"delivery,address_issue,receiver"
+cae871bc-b874-4a61-9b2a-d980d6afcb21,Delivery to alternative address requested,Delivery to alternative address requested,,"delivery,new_instructions,address_change"
+fbb3a433-4084-4c96-b0b6-f88a2f3b07e5,SCAN GROUP TO BE DELETED,,,to_be_deleted
+c7e17dc9-f619-4e01-b4f2-288e60670bbc,Final delivery attempt. Shipment to be returned.,Final delivery attempt. Shipment to be returned.,,"delivery,receiver_unavailable,final_delivery_attempted,will_be_returned"
+ee46b1a3-4ee8-4a98-8c25-ab08efbfe00a,Delivery scheduled for next business day,Delivery scheduled for next business day,,"scheduled_for_delivery,next_working_day"
+ea0d4eb0-2f76-4002-bbd7-1e853a32948b,Carrier error delayed delivery,Carrier error delayed delivery,,"transit_delay,carrier_error"
+756b914a-2d36-4de9-87b2-588443c88916,Shipment is held to verify commodity description for correct classification,Shipment is held to verify commodity description for correct classification,,"customs,verify_value_commodity,commodity,verify_description_for_classification"
+b5abb73d-8d7b-4319-b849-3ca060076422,Delivery attempted. Security access needed for delivery.,Delivery attempted. Security access needed for delivery.,,"delivery,delivery_attempted,access,security_access_required"
+7a5b24ed-fd04-44e5-813d-f94d49d07f91,Carrier to contact sender or receiver,Carrier to contact sender or receiver,,"contact,attempting_contact,sender_or_receiver"
+ddd24d12-0320-4c2b-bc05-82707a51871a,Address located in remote area where deliveries not made daily,Address located in remote area where deliveries not made daily,,"delivery,remote_area"
+e197487d-bc6b-48e8-a617-3b80bfc78144,Held for inspection by government agency,Held for inspection by government agency,,"customs,clearance,inspection"
+95933051-a6e3-4bd5-976b-0e780f887cbe,2nd delivery attempt. Receiver not available.,2nd delivery attempt. Receiver not available.,,"delivery,receiver_unavailable,delivery_attempted,2_of_3_attempts"
+c964a016-6e04-46dc-98fc-dd5acebfb7ac,Return label left with the receiver,Return label left with the receiver,,"returns,will_be_returned,returns_label_left_with_receiver"
+0f360233-f02d-4399-b561-8da5abf78eb4,Delivery refused,Delivery refused,,"delivery,unable_to_deliver,delivery_refused"
+86d838a1-97cc-41c6-b2ec-d671bd85b450,Delay due to flight cancelled or delayed,Delay due to flight cancelled or delayed,,"transit_delay,force_majeure,flight_issue"
+e6b9d6cf-c415-4708-afc1-66205ab85d88,Receiver moved,Receiver moved,,"delivery,unable_to_deliver,receiver_moved"
+790eb422-1fc4-4074-b2a7-e3330538c7a2,Handover to broker for clearance,Handover to broker for clearance,,"customs,broker,handover_clearance"
+2f774d6e-b42b-425d-9d7d-e260e978de9e,Information needed from the receiver,Information needed from the receiver,,"contact,contact_made,awaiting_instructions,receiver"
+16ccd96a-db97-48d3-a2aa-95bdb0b85613,Receiver to pick up shipment,Receiver to pick up shipment,,"delivery,pudo,new_instructions,collect_from_depot,receiver"
+04815b19-8a89-4d13-8e71-a4c59981518d,Investigation opened for lost package,Investigation opened for lost package,,lost
+0786ada3-2869-4053-a36d-17ae0525782e,Power of attorney documentation missing,Power of attorney documentation missing,,"customs,missing_docs,power_of_attorney"
+4b67c606-617b-455f-b410-1a17ce4ad186,Tax payment received,Tax payment received,,"customs,duties,payment_received"
+c00bf613-506c-423f-b34a-ac3a2ad1fc90,Package damaged in transit,Package damaged in transit,,damage
+205b64f8-74d0-4bfe-8c13-b1ac717a34b8,Unable to deliver to pick-up point - Re-attempt on the next business day,Unable to deliver to pick-up point - Re-attempt on the next business day,,"delivery,pudo,pudo_unavailable,delivery_rescheduled,next_working_day"
+91a79d19-a887-4125-bf15-0969503ae985,1st delivery attempt. Unable to collect tax payment.,1st delivery attempt. Unable to collect tax payment.,,"delivery_attempted,unable_to_collect_duty_charges,one_of_three_attempts"
+1330f9fc-43ae-482a-b896-7a976d952b97,A late trailer arrival has delayed delivery - Delivery may be delayed by 24 hours,A late trailer arrival has delayed delivery - Delivery may be delayed by 24 hours,,"transit_delay,force_majeure,late_trailer"
+a7cba95f-1ab9-42ec-b86c-a970c9a918cc,Return parcel now delivered back to sender,Return parcel now delivered back to sender,,"returns,returned,delivered"
+1341cfa6-cc11-4e8f-9bcb-5e5c26663268,Shipment to be held and receiver to be contacted for clearance instructions,Shipment to be held and receiver to be contacted for clearance instructions,,"customs,clearance,awaiting_instructions_or_info,receiver"
+e91cdab5-9f28-4c32-ac82-5b052f3c3978,Delivery to pick-up point requested,Delivery to pick-up point requested,,"delivery,pudo,deliver_to_pudo_requested"
+ddde0dd5-a185-4060-b12e-e390d8ab062c,Shipment cannot be held any longer to pick-up location,Shipment cannot be held any longer to pick-up location,,"delivery,pudo,recipient_collection,not_collected,will_be_returned"
+da4e6203-9784-442c-b6af-204ca9af6517,Delivery attempted. Receiver not available for delivery. Delivery rescheduled for next business day.,Delivery attempted. Receiver not available for delivery. Delivery rescheduled for next business day.,,"delivery,receiver_unavailable,delivery_attempted,delivery_rescheduled"
+feb1032d-11f4-41a1-ae62-f6ecf9c0cf86,We are awaiting 'return to sender' authorisation,We are awaiting 'return to sender' authorisation,,"returns,return_authorisation_required"
+48e436f7-9dba-46dd-8d47-ff3566eaa9c2,Package was cleared after the scheduled departure. Expect a 1 business day delay,Package was cleared after the scheduled departure. Expect a 1 business day delay,,"customs,clearance,cleared_after_departure"
+e2dfa742-6a87-4e30-97a6-eafec17c2edf,Return of the package requested,Return of the package requested,,"returns,return_requested"
+e4f3df0c-b4df-45c8-b441-b3d1c235d7d1,"Due to commodity or weight, your package is being held to verify value.","Due to commodity or weight, your package is being held to verify value.",,"customs,verify_value_commodity,value,hold"
+0472d1dd-17cf-45a4-86f8-39c52fa8d124,Missing export license required for clearance,Missing export license required for clearance,,"customs,missing_docs,export_license"
+e88ff616-6014-4117-9c92-de79a974709f,Clearance has been delayed by customs or other government agency,Clearance has been delayed by customs or other government agency,,"customs,clearance,clearance_delay_customs"
+b7349cb4-896b-4a03-a984-8b556118a1b7,Arrived late at destination - Expect 1 business day delivery delay,Arrived late at destination - Expect 1 business day delivery delay,,"transit_delay,arrived_late"
+c7111e6f-7106-4022-b768-130c93960584,Contant with sender made,Contant with sender made,,"contact,contact_made,sender"
+e21a9237-0517-450e-9ccb-53c87df229f9,Additional information required for customs clearance,Additional information required for customs clearance,,"customs,required_docs,unspecified_info,receiver"
+cb725fa8-79cf-422f-b982-791a43805638,"Transferred to Post Office for delivery, delivery may be delayed by up to 2 business days","Transferred to Post Office for delivery, delivery may be delayed by up to 2 business days",,"delivery,transferred_to_3rd_party_delivery_agent,post_office"
+1510f0db-9ff0-4b60-8acc-4ab8f1bf0874,Package needs to be collected within 5 business days,Package needs to be collected within 5 business days,,"delivery,pudo,recipient_collection,not_collected,will_be_returned"
+19294f9f-1011-45a5-894d-77859f1f9cec,Claim issued,Claim form issued,,claim_issued
+6c79594c-7041-4f9d-82f1-4f452d2c1bb7,Receiver contact attempt for pickup arrangements,Receiver contact attempt for pickup arrangements,,"delivery,contact,contact_attempted"
+231879d7-3789-4583-9bf0-022fe5aa6c18,Unable to deliver to pick-up point - Re-attempt delivery to the receiver's address,Unable to deliver to pick-up point - Re-attempt delivery to the receiver's address,,"delivery,pudo,pudo_unavailable,deliver_original_address"
+1c7ea3b8-dbe6-49d6-98e1-7b80b227e269,Delivery attempted. Receiver not available for delivery,Delivery attempted. Receiver not available for delivery,,"receiver_unavailable,delivery_attempted"
+0675fba7-8474-4654-bce9-579e163a4595,Package has been re-directed to the destination,Package has been re-directed to the destination,,"transit_delay,mis-route,now_rerouted"
+ac2ea6ba-0e4d-4a6d-9710-b986c170f65e,Valid receiver's contact information required,Valid receiver's contact information required,,"contact,unable_to_contact,phone_number_invalid,receiver"
+72dba80e-ccf9-4e7e-967b-b04b9ede4ee1,Shipment on hold after request,Shipment on hold after request,,"in_transit,on_hold,requested"
+7a674ef1-16cd-49c7-947a-fee0deb8725d,Shipment on hold due to restricted items,Shipment on hold due to restricted items,,"dg,restricted_prohibited_item,on_hold"
+c81aa907-940d-4929-af1f-439db72b4865,Personal affects form required for customs clearance ,Personal affects form required for customs clearance ,,"customs,missing_docs,personal_affects_docs"
+4b22eecd-bdb4-4030-a64b-f7f1f7a8bf37,Delivery rescheduled due to holiday closures,Delivery rescheduled due to holiday closures,,"delivery_rescheduled,holiday_closures"
+305edab0-4c35-4bd1-85c6-1f991389ccbb,Unable to contact receiver,Unable to contact receiver,,"unable_to_contact,receiver"
+0b6f2e65-c1a7-4b3d-90da-de65f31b6160,New instructions received - We updated the delivery information for your package,New instructions received - We updated the delivery information for your package,,"delivery,new_instructions,delivery_information_updated"
+f1210d20-d968-43c1-be67-04a2678cb3f5,Shipment was not processed by brokerage. This has caused a delay,Shipment was not processed by brokerage. This has caused a delay,,"customs,clearance,not_processed_brokerage"
+3d3bb87b-f197-407b-b7cc-cd33835f135d,The returned package requires an export invoice for duty relief,The returned package requires an export invoice for duty relief,,"customs,ipr,awaiting_instructions_or_info,re-import_details_required,receiver"
+cabd1ecd-a9af-41b9-813e-78fd02c44d3d,Carrier is unable to deliver to the PO Box address and is attempting to locate an alternative address,Carrier is unable to deliver to the PO Box address and is attempting to locate an alternative address,,"delivery,unable_to_deliver,pobox"
+9e262692-641d-4d5d-a649-2f6128bdae45,1st delivery attempt. No adult signature. Delivery rescheduled.,1st delivery attempt. No adult signature. Delivery rescheduled.,,"delivery,delivery_attempted,no_adult_signature_available,delivery_rescheduled,first_attempt"
+c43e8de0-d0c7-41cb-b749-0658e647aa8a,Shipment cannot be held any longer,Shipment cannot be held any longer,,"returns,being_returned,hold_period_expired"
+6304c807-f86e-415c-a4b8-bd033fbe68b7,Trying to contact receiver,Trying to contact receiver,,"contact,attempting_contact,receiver"
+498073f9-9119-4e73-a93d-99a3586ea132,Service not available for this location and will be changed,Service not available for this location and will be changed,,"delivery,service_unavailable,being_rescheduled"
+54e6dd7d-974e-4b3d-ba76-a2dee34f970d,Damaged package being returned,Damaged package being returned,,"damage,being_returned"
+1ffa247f-3e95-4e75-9af9-c3f190dc688b,The receiver wishes to use their own broker for customs clearance. This may delay delivery,The receiver wishes to use their own broker for customs clearance. This may delay delivery,,"customs,broker,nominate_clearance_broker_pending,awaiting_instructions"
+536f6505-2739-435d-a636-3fb8930e037e,1st collection attempt. Package not ready. 2nd collection attempt to be made.,1st collection attempt. Package not ready. 2nd collection attempt to be made.,,"collection,collection_failed,collection_rescheduled,i_of_iii_attempts"
+d4fa251b-7854-4f0e-8ca6-ea0d15e4488e,To be delivered today,To be delivered today,,"scheduled_for_delivery,today"
+75c11b4a-0534-400b-a3a2-733932614a2f,The request for this package was cancelled,The request for this package was cancelled,,"delivery,new_instructions,request_cancelled"
+5f1cea21-b53f-4528-b5d8-8de061bf0294,Package could not be located for intercept,Package could not be located for intercept,,"delivery,intercept,request_failed"
+e6e3e3b7-6046-40ac-8236-21d12576a5e7,Customs clearance delay,Customs clearance delay,,"customs,clearance,clearance_delay"
+426c3e78-0237-4191-b362-3c97c4a622e0,Missing import license required for clearance,Missing import license required for clearance,,"customs,required_info,import_license"
+80a7cb28-5fba-4c4b-8b4f-5a4a0b59d13a,"As requested, the package was transferred to a free trade zone or a recipient nominated broker.","As requested, the package was transferred to a free trade zone or a recipient nominated broker.",,"customs,broker,handover_clearance_delivery,free_trade_zone,delivered"
+2fc9e102-6581-46dc-9524-99741a596302,2nd delivery attempt. Unable to collect tax payment.,2nd delivery attempt. Unable to collect tax payment.,,"delivery,delivery_attempted,unable_to_collect_duty_charges,two_of_three_attempts"
+2758d92f-0621-488b-81ad-550937b4066a,Unique customs identification number missing required for clearance,Unique customs identification number missing required for clearance,,"customs,required_info,customs_id,sender"
+53e44803-b64b-418e-8bcf-c6ec2fdbe0d0,Request to contact carrier,Request to contact carrier,,"contact,attempting_contact"
+8af1aaaa-7cb5-4ba1-b340-7bd61b485b16,Contents damaged and balance being returned,Contents damaged and balance being returned,,"damage,some_merchandise_missing,being_returned"
+fd89460e-af3b-49eb-805e-63bf96db9489,Shipment not collected by receiver from pick-up point and will be returned to sender,Shipment not collected by receiver from pick-up point and will be returned to sender,,"delivery,pudo,recipient_collection,not_collected,being_returned"
+f74bbe55-eab8-433c-bfce-9fcbe46bb26d,Damaged contents to be discarded,Damaged contents to be discarded,,"damage,some_merchandise_missing,being_delivered"
+606792b8-f3c2-4986-adf7-fe2a689d700a,Package not arrived at destination,Package not arrived at destination,,"transit_delay,didnt_arrive"
+11f2043a-c144-43f8-833a-b43c04f787a4,Destination address not served,Destination address not served,,"delivery,unable_to_deliver,destination_address_not_served"
+89dabf26-3a5a-4394-b1ec-8ccc37fc05d9,TO BE DELETED,Delivery Attempted. No Adult Signature Available. Unable to deliver. ,,to_be_deleted
+e5820d09-3fcd-4b89-9dfe-0a32f7672ffe,Delivery scheduled for a future date,Delivery date set / rescheduled for DD/MM/YY,,"scheduled_for_delivery,delivery_date_set"
+699db87e-0837-4c3d-93d8-58a562216338,Final delivery attempt. Unable to collect tax payment.,Final delivery attempt. Unable to collect tax payment.,,"delivery,delivery_attempted,unable_to_collect_duty_charges,final_delivery_attempt"
+f51e35f7-420e-4c59-8641-5a7fcb60f4f0,Unable to deliver to PO box. Package to be returned.,Unable to deliver to PO box. Package to be returned.,,"delivery,unable_to_deliver,pobox,will_be_returned"
+df0f8dc8-63fb-4893-90d6-a1ad1daa7ac5,Scheduled for delivery,Scheduled for delivery,,scheduled_for_delivery
+1bd2ae08-39db-4489-a573-5ba5281922a6,Shipment on hold,Shipment on hold,,"transit_delay,shipment_on_hold"
+d85cc369-31bf-43aa-9329-ab420060f618,Delivery delayed due to a traffic related issue,Delivery delayed due to a traffic related issue,,traffic_delay
+89348a48-2b53-4761-b3d5-a64d11515bb6,_DELETE SCAN GROUP,Carrier is unable to deliver package,,scangroup_to_be_deleted
+41d9399a-3514-420d-a36b-53c539b89423,Additional information or paperwork required for customs clearance,Additional information or paperwork required for customs clearance,,"customs,required_docs,unspecified_info"
+a2d95bb0-21b2-43f1-aaa3-3c6cf6367765,Change of delivery address,Change of delivery address,,"delivery,change_of_address_requested,being_rescheduled,receiver"
+f7ef1e19-b92e-4acf-8c76-efd62a3654f0,Delivery attempted. Receiver's location vacant.,Delivery attempted. Receiver's location vacant.,,"delivery,unable_to_deliver,location_vacant,receiver"
+d75875ec-230a-4d38-abd2-47c53c0917d9,Unable to access premises. Delivery to be rescheduled.,Unable to access premises. Delivery to be rescheduled.,,"delivery,inaccessible,special_event,being_rescheduled"
+afe00404-5d36-4834-ab66-6dc657df4124,On hold - Pending delivery book-in with receiver (Scheduled delivery),On hold - Pending delivery book-in with receiver (Scheduled delivery),,"delivery,on_hold,pending_book-in,receiver"
+a319d767-1440-4bae-8fc9-3560e4c50a9b,Shipment returned or being returned to sender,Shipment returned or being returned to sender,,"returns,being_returned"
+071f34ab-45f0-4c47-9354-d0cb6701591d,Package damaged - On hold,Package damaged - On hold,,"damage,on_hold"
+da7ed4e3-9f6b-4cda-a826-203458bb1dad,Customs cleareance delay - Formal entry - Additional processing may delay delivery,Customs cleareance delay - Formal entry - Additional processing may delay delivery,,"customs,clearance,formal_entry"
+8585cc1a-d66b-48d4-b400-98adfd6ec789,Shipment delivered with possible damage,Shipment delivered with possible damage,,"delivery,damage,delivered,possible_damage"
+617f7ef7-9c07-40b8-aaf7-59782380955d,Shipment is held due to unrealistic value,Shipment is held due to unrealistic value,,"customs,verify_value_commodity,value,unrealistic"
+3a2455f1-6023-4aa8-a476-4277771824fa,Delay due to mechanical failure,Delay due to mechanical failure,,"transit_delay,force_majeure,mechanical_failure"
+81ce63c1-d956-4387-ac30-a0b7df734ad7,Package damaged in transit - Chemical or Dangerous goods,Package damaged in transit - Chemical or Dangerous goods,,"dg,damage"
+af2fd3d3-673d-4dcd-8bcb-aef6065a5a32,Still awaiting further instructions,No response to request for further instructions,,"contact,awaiting_instructions_or_info,no_response"
+c000f751-7d43-474b-b47a-1493599beb1b,2nd delivery attempt. No adult signature. Delivery rescheduled.,2nd delivery attempt. No adult signature. Delivery rescheduled.,,"delivery,delivery_attempted,no_adult_signature_available,delivery_rescheduled,second_attempt"
+0d85f9ff-275a-4f7a-9a47-700b4a63ecf0,The country of origin is required on the invoice before the shipment can be released,The country of origin is required on the invoice before the shipment can be released,,"customs,missing_docs,country_of_origin"
+06c040aa-646b-4172-9d61-6acff8a0369c,Importer disputes the value or other information on invoice; shipment held to verify accuracy with shipper,Importer disputes the value or other information on invoice; shipment held to verify accuracy with shipper,,"customs,verify_value_commodity,value,receiver_disputes"
+ca2f3476-d53c-4e44-b361-9915968e77bf,Transit or bond documentation is missing and is required for clearance. We are working to obtain this information,Transit or bond documentation is missing and is required for clearance. We are working to obtain this information,,"customs,missing_docs,transit_or_bond_docs"
+f089686e-6113-48f0-94f6-18c3360925a1,Missing Certificate of Origin,Missing Certificate of Origin,,"customs,missing_docs,certificate_of_origin"
+c743474a-6778-4f87-9ff6-c1d5fb41f51e,The recipient must provide their unique customs ID number for customs clearance,The recipient must provide their unique customs ID number for customs clearance,,"customs,required_info,customs_id,receiver"
+bb0f2c48-c5f0-43ee-bb78-0b6dfd1e6c10,The shipment value or currency is missing from the invoice and is required for clearance. ,The shipment value or currency is missing from the invoice and is required for clearance. ,,"customs,verify_value_commodity,value,missing_info"
+d7acd181-1da7-466b-9683-1e51adf505e8,The receiver is no longer in business,The receiver is no longer in business,,"delivery,unable_to_deliver,receiver_no_longer_in_business"
+885fc64e-2750-4eae-a413-0cf28a9285f2,2nd collection attempt. Package not ready. Final collection attempt to be made.,2nd collection attempt. Package not ready. Final collection attempt to be made.,,"collection,collection_failed,collection_rescheduled,ii_of_iii_attempts"
+8fc69005-a6e1-4282-95c4-200c76711c10,Pick-up point unavailable. Delivery to alternative location.,Pick-up point unavailable. Delivery to alternative location.,,"delivery,pudo,pudo_unavailable"
+ab454223-1cc5-4f32-8b5e-40741743367e,Incorrect currency on the invoice,Incorrect currency on the invoice,,"customs,verify_value_commodity,value,missing_info"
+56c82b97-80e0-46db-b12c-671c17d6d6fd,Delivery attempted. No adult signature available. Delivery failed.,Delivery attempted. No adult signature available. Delivery failed.,,"delivery,delivery_attempted,no_adult_signature_available"
+20c828db-d27a-42a9-8c50-8ee2c1d7a7ba,Personal affects form required for customs clearance,Personal affects form required for customs clearance,,"customs,missing_docs,personal_affects_docs"
+683e4758-4d70-4c2e-98a3-43fa1e270a93,Processed for clearance,Processed for clearance,,"customs,clearance,processed"
+9d2bfb98-0f46-4d06-957b-1bd9fef410ab,Returned to sender,Returned to sender,,"returns,returned"
+f8b45100-754b-49dc-ac78-e9598811583e,Driver release - Delivered to a safe place,Driver release - Delivered to a safe place,,"delivery,delivered,delivered_to_safe_location"
+91349ad2-8859-4778-a6a2-a280b3e2a2e8,Internal activity scan,Internal activity scan,,internal_activity
+503ccd73-5556-48d9-a8fa-1c7dce74b2d6,Shipment exception - Corrective action underway,Shipment exception - Corrective action underway,,"transit_delay,corrective_action_underway"
+15f4571c-c322-47dd-be65-0fa72b3507a1,Partial delivery,Partial delivery,,"corrective_action_underway,partially_delivered"
+6f0d10f4-1dfa-4104-9b97-f0009843f63d,DELETE THIS SCAN GROUP Shipment exception - Corrective action underway,PVR1234,,to_be_deleted
+86e8d772-1b95-4d85-a37f-be0bbefd9ac6,The package is being forwarded to the destination city,The package is being forwarded to the destination city,,"in-transit,forwarded_destination"
+cd35be6a-f189-4b1f-94a9-6266504d8748,On hold awaiting collection,On hold awaiting collection,,"on_hold,awaiting_collection"
+124cc122-a41b-446f-bc89-da47408a209d,Delivered to outbuilding,Delivered to outbuilding,,"delivery,delivered,delivered_to_outbuilding"
+9ec8e111-7ade-4afa-bda7-37938b05d697,Package relabelled,Package relabelled,,"label,parcel_relabelled"
+5e415cf1-6bd2-4698-982e-5785ebedf07a,Delivered to neighbour,Delivered to neighbour,,"delivery,delivered,delivered_to_alternative_location"
+f8beec24-b0b5-464a-8f3c-3d63230bab17,Receiver contacted for clearance instructions,Receiver contacted for clearance instructions,,"customs,clearance,awaiting_instructions_or_info,contact_made"
+4d4b5269-e6b0-40ce-8b6e-56fa26ddc59a,Handover to broker for clearance and delivery,Handover to broker for clearance and delivery,,"customs,broker,handover_clearance_delivery,delivered"
+6422b180-bdd7-4175-b118-1f196e078d53,Delivery by post - No proof of delivery will be available,Delivery by post - No proof of delivery will be available,,"delivery,delivered,delivered_by_post"
+c79b37ca-e536-4495-9d64-2f3b3ce77074,The contents of your package are subject to export restrictions. Cleareance may therefore be delayed,The contents of your package are subject to export restrictions. Cleareance may therefore be delayed.,,"customs,special_clearance,commodity_restriction"
+a237ccee-ba2a-4cc9-a13f-ec20ca3fd4d5,Delivery attempted. Unable to collect tax payment.,Delivery attempted. Unable to collect tax payment.,,"delivery,delivery_attempted,unable_to_collect_duty_charges"
+a89224c3-e848-4bb2-a7f5-7ed58e7d4041,Package reported damaged after delivery,Package reported damaged after delivery,,"damage,reported_after_delivery"
+abcb909f-5259-4ccc-93a1-2eba844ac186,Address directions for delivery required,Address directions for delivery required,,"address_issue,directions_needed,delivery"
+3ccaf9ce-49b6-467f-9504-4d6b7e11798c,Packaging damaged. Repacked and forwarded for delivery,Packaging damaged. Repacked and forwarded for delivery,,"delivery,damage,packaging_damaged,re-packed,forwarded_for_delivery"
+f743d215-d4e9-4bbf-ba3f-b3a8dbe0018c,Delivery failed,PVR1326,,"delivery,delivery_failed"
+620b8c95-f501-4344-a88e-80f651a0a6d0,Package exceeds maximum weight,Package exceeds maximum weight,,"service_issue,oversize_or_overweight"
+28f0485e-d196-4631-966e-a11cb6530442,Documents or info requested has now been received and submitted to the regulatory agency for clearance,,,"customs,clearance,instructions_or_info_received,submitted_for_clearance"
+a3f98c55-2fca-4189-a026-517ab25ca1f3,Transit delay,,,transit_delay
+54e3331f-0c46-4137-86b0-0f477cd2e3df,Transferred to third party for delivery,"PVR1423	Transferred to third party for delivery",,"delivery,transferred_to_3rd_party_delivery_agent"
+8a60fe2c-105e-41aa-be6f-97e116a411e6,Collection failed,Collection failed,,"collection,oversize_weight,collection_failed"
+fa5b04f8-5672-4749-aa6d-f4192a90267c,Delivery attempted. Unable to access the premises for delivery.,Delivery attempted. Unable to access the premises for delivery.,,"delivery,delivery_attempted,unable_to_gain_access,access"
+d2246030-fa22-4d5b-bf35-a8558e01c424,Delivery to be re-attempted,Delivery to be re-attempted,,"delivery,new_instructions,reattempt_original_address"
+e9e60f23-c0a4-4837-86f9-b45bd35c97db,Delivered to greenhouse,PVR1007,,"delivery,delivered,delivered_to_greenhouse"
+4e0a874c-b41d-44e1-9125-0829b8d8a192,Shipment delayed due to a customs gateway hold,,,"customs,clearance,gateway_hold"
+6c949f1a-d06e-4d27-9795-feeaa8ccad30,Sender tendered the shipment to Carrier after the latest pick-up time for the requested service. A one day delay is likely,,,"collection,pudo,dropped_off_pudo,received_after_cut_off"
+e9f14f3d-ad2a-4b5a-b833-517d52dc2547,"Manifested, not received",,,"manifested,not_collected,collection"
+3b062e72-8d71-4498-99ed-d9aa45306016,Shipment located and en route to destination,Shipment located and en route to destination,,"lost,now_found"
+a80c5c73-993a-4579-b0ba-cf9b3fd37287,Shipment collected from pick-up location,,,"delivery,pudo,recipient_collection,delivered"
+729f8768-d03c-4710-ab3f-5153b4d1759d,Delivery failed due to circumstances outside the carrier's control - Delivery will be rescheduled,Anything other than traffic -- e.g. weather,,"delivery,delivery_failed,being_rescheduled"
+763e76ba-eb15-4e9f-bb15-66120f35da47,Package damaged and contents discarded,Package damaged and contents discarded,,"damage,merchandise_missing_or_discarded"
+0c462958-ce7f-4593-a2ee-3b16ebbab29f,Inspection of damaged contents scheduled,Inspection of damaged contents scheduled,,"claims,damage,claim_investigation,inspection_scheduled"
+d04e327b-3f3c-4cb3-9981-facc08f9d067,Shipment partially received,Shipment partially received,,"transit_delay,split_shipment"
+c349e8fc-62d0-4c1c-8e93-b00f9c3f70da,Package damaged - Refused by receiver,PVR1012,,"damage,delivery_refused"
+7891d2ea-6ba2-4ff1-bc18-c7573715fb6c,Package too large for delivery,Package too large for delivery,,"service_issue,oversize_or_overweight,specialised_courier"
+e38b945a-6691-4e56-8f2e-2e01bca4f636,Awaiting further instructions from sender,PVR1429,,"contact,awaiting_instructions_or_info,sender"
+f77abb6a-14d1-485f-91b6-71ed3e096044,Rescheduled delivery due to updated address,Rescheduled delivery due to updated address,,"delivery,address_issue,address_corrected"
+5bb9438e-ce1e-4f7f-a6db-789fe42ce7dc,New tracking number assigned to the package,New tracking number assigned to the package,,"label,new_tracking_number_assigned"
+7796aad9-589d-42bd-81ce-d9245f592433,Package sent to lost and found,Package sent to lost and found,,"lost,lost_and_found_department"
+1555d69f-6100-404f-a807-fa3702bf776b,Shipment contains hazardous material,Shipment contains hazardous material,,dg
+ef214afd-cf13-4824-b611-2b01018148a0,Requested instructions received,Requested instructions received,,"contact,instructions_or_info_received"
+de36457c-ab83-46eb-8d1b-d3b0dca56e76,Package abandoned by sender,Package abandoned by sender,,"delivery,abandoned"
+d9f9ff94-b3ce-4e7a-8733-c728fe756d52,Customs clearance error,,,"customs,customs_clearance_error"
+41b99635-882b-4d08-ae21-92b93ae1faf1,Customs clearance cancelled,,,"customs,customs_clearance_cancelled"
+c5112a6b-1b24-44e2-a931-2e91c0650601,Awaiting further instructions,,,"contact,awaiting_instructions_or_info"
+6065251b-5e28-4ebf-8c33-a65ac16e5dd8,Refusal to pay tax,Refusal to pay tax,,"delivery,unable_to_collect_duty_charges,delivery_refused"
+f7ef227a-2c2b-4fb2-a2df-7744e835fe36,Some merchandise missing or discarded as damaged,PVR1026,,"damage,some_merchandise_missing"
+02ab7ae4-cd67-4792-bdc2-379c0123fe70,Package returned to sender due to incomplete address,Package returned to sender due to incomplete address,,"unable_to_deliver,being_returned"
+ae59ed93-f90d-4463-9bdb-44a169477b58,Investigation closed,Investigation closed,,"claims,investigation_closed,delivered"
+c353684f-6816-41fc-bcbd-28d129ab40d0,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,,"delivery,pudo,pudo_unavailable,contact_carrier"
+b9c04e40-5251-47e9-8a3a-baeb9c05d5b8,Delivery attempted,,,delivery_attempted
+66c6ca0c-ee9b-4cd7-b439-5752dd05ebb1,Delivered damaged,,,"delivered,damaged"
+311adf68-0ef1-4454-bc65-370085350fab,"Misdelivered, parcel retrieved",,,"misdelivered,retrieved"
+67224b76-1437-4890-877c-d375005362a8,Unable to deliver,Unable to deliver,,unable_to_deliver
+2dbff64d-5858-44f2-98ed-b6548737566d,The cash on delivery amount is missing from the label,,,cod_amount_missing
+95f4723f-7c0c-44c1-a6f0-693cf7ed2926,The investigation has been closed as the receiver was unavailable,,,"investigation_closed,receiver_unavailable"
+c793eb64-2f51-4fe5-b405-9fe5a9767fab,Held in customs after being refused,the parcel is currently held in customs after being refused,,"customs_clearance_in_progress,delivery_refused"
+863b1cda-304d-4000-af98-5ecb2957adcc,Payment received during delivery,Payment received during delivery,,"payment_received,delivery"
+c5c21a17-0769-4694-9417-2a6e1bd0d7ce,Shipment cancelled,,,new_scan_group
+8dcc418e-4470-47b2-a439-6e2c517a7546,Arrival scan,,,new_scan_group
+1a43aeea-2cae-4521-a88d-36cbf583d163,Parcel disposed of,,,new_scan_group
+6b480b62-61fd-4146-8e0e-8fd0a4e4e2d2,Shipment on hold - awaiting rest of shipment,,,new_scan_group
+00d98d85-8861-41ae-8ddb-c497137f3610,Delay due to local restrictions,,,new_scan_group
+a1cdd0fd-3bb6-4fa7-abdd-512a43c85d08,"Delivered to receiver, return no longer possible",,,new_scan_group
+8f4fa7b8-01bb-458a-9e48-1fa81e116b52,Labelling error by sender,,,new_scan_group
+b84a037a-53a0-40f0-865f-8b555affc746,Security Inspection completed,,,new_scan_group
+765b80e3-79e9-4afa-965f-2b630f51ce36,MSDS required,,,new_scan_group
+dd8de472-5173-423d-a1f3-b2227c97b522,Handed to partner carrier,,,new_scan_group
+62624d9e-dca7-4cb3-9dec-073ed7be634b,Label damage or detached. Corrective actions underway,,,new_scan_group
+433db431-b626-49cf-b479-b47f60c5085d,Shipment requires manual handling,,,new_scan_group
+ab308615-82b8-4a6d-8793-44d0ae35c1f3,Hs code required,,,new_scan_group
+60520f50-14d1-4f2e-bee1-ada8d4fa525a,Awaiting further instructions from receiver,,,new_scan_group
+2a730911-559d-4bd9-852f-2b2dcb981def,Special handling required requested,,,new_scan_group
+b2e1f7cd-5198-4c1c-9a30-127ef7f30974,Return partially received,,,new_scan_group
+d1c12d04-30eb-49a5-9480-01f648ddd201,Insufficient packaging. Corrective actions underway,,,new_scan_group
+5d12581c-3fde-47c3-89d3-32cf009b0fe4,Return shipment. Sender collection required,,,new_scan_group
+a0e2ecb5-bd0e-4e70-b7fb-66f36af15e1d,Delay due to industrial action,,,new_scan_group
+9ecf6495-970b-4135-8266-cf882fc6a88a,Package disposed due to exceeding maximum shelf-life,,,new_scan_group
+171a3cc6-9bb5-4348-943c-0ee29ce9a2a6,Shipment refused due to hazardous goods,,,new_scan_group
+b39c5dc6-4c68-4c6a-9606-c02b7b7b4059,Alternative vehicle scheduled for this delivery due to size,,,new_scan_group
+9ded9aee-9a37-473a-b747-2fa5cbfc28e0,Parcel cannot be located,,,new_scan_group
+d86a37bc-9600-4e7b-8b72-99009f73ee1b,Unable to deliver to PO box,,,new_scan_group
+e672ed4a-8ffd-4538-bf6d-442c48130d28,Delay due to operational reasons,,,new_scan_group
+ddb74326-d54d-4dfe-9624-abdb3d6cc0c5,Departure Scan,,,new_scan_group
+d7d54496-c327-422d-b08c-a25945a7b4ae,Destination scan,,,new_scan_group
+014385bb-d863-489b-8f36-f266909a3b98,Hub scan,,,new_scan_group
+44c482df-3cda-4374-a758-820981e78be9,Location scan,,,new_scan_group
+666cc82a-e3b3-4a68-95e0-541604e1c46c,Origin scan,,,new_scan_group
+32f91a67-c1d2-416b-a766-301ad5740f4a,Unload scan,,,new_scan_group
+f17b19db-88e2-4686-a4fa-db70c4b68c7f,Shipment loaded on vehicle,,,new_scan_group
+13851f9c-c7cf-4ef7-9281-98c5068ff0ad,We're working to deliver the package as soon as possible,,,new_scan_group
+ade1c646-78df-4bff-91f2-f227aa5036ea,Delivered to postbox,,,new_scan_group
+cba98df5-340e-469c-bfe1-2a6cc80a78b5,Import charges are due,Import charges are due,,new_scan_group

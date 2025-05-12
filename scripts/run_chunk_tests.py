@@ -39,35 +39,35 @@ def get_ai_progress(messages, model="gpt-4o-mini", retries=3):
             if "shipments" in response_json and isinstance(response_json["shipments"], list):
                 return response_json["shipments"]
 
-            print("⚠️ AI response did not contain expected 'shipments' key.")
+            print("AI response did not contain expected 'shipments' key.")
             return None
 
         except Exception as e:
-            print(f"❌ Error on attempt {attempt + 1}: {e}")
+            print(f"Error on attempt {attempt + 1}: {e}")
             time.sleep((attempt + 1) * 2)
 
-    print("❌ GPT API failed after multiple retries. Skipping this batch.")
+    print("GPT API failed after multiple retries. Skipping this batch.")
     return None
 
 if __name__ == "__main__":
     selected_prompt_file = select_prompt()
     system_prompt_json = load_json(selected_prompt_file)
     if system_prompt_json is None:
-        raise FileNotFoundError(f"❌ Prompt file '{selected_prompt_file}' not found or invalid.")
+        raise FileNotFoundError(f"Prompt file '{selected_prompt_file}' not found or invalid.")
 
     shipments = fetch_filtered_shipments("your_input_collection", batch_size=5)
     if not shipments:
-        print("⚠️ No valid shipments to process.")
+        print("No valid shipments to process.")
         exit(0)
 
     messages = generate_prompt(shipments, selected_prompt_file)
     ai_responses = get_ai_progress(messages)
 
-    if ai_responses and len(ai_responses) == len(shipments):  # ✅ Ensure proper mapping
+    if ai_responses and len(ai_responses) == len(shipments):
         for shipment, ai_response in zip(shipments, ai_responses):
-            shipment["ai_analysis"] = ai_response  # ✅ Attach AI response
+            shipment["ai_analysis"] = ai_response  # Attach AI response
 
         store_ai_results("ai_predictions", shipments)
-        print(f"\n✅ Successfully processed and stored {len(shipments)} shipments.")
+        print(f"\nSuccessfully processed and stored {len(shipments)} shipments.")
     else:
-        print("\n⚠️ AI responses did not match the number of shipments. Skipping storage.")
+        print("\nAI responses did not match the number of shipments. Skipping storage.")

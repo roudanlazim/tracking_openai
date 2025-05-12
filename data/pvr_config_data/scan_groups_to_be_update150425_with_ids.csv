@@ -1,0 +1,789 @@
+carrierId,carrier,pattern,proposed_scan_group,scanGroupId
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups has returned your package to the sender,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i273,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i259,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,arrived at facility,Arrival scan,8dcc418e-4470-47b2-a439-6e2c517a7546
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i260,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i261,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,local delay your package may be late local delivery restrictions,Delay due to operational reasons,e672ed4a-8ffd-4538-bf6d-442c48130d28
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,682,Delivery rescheduled due to holiday closures,4b22eecd-bdb4-4030-a64b-f7f1f7a8bf37
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,departed from facility,Departure Scan,ddb74326-d54d-4dfe-9624-abdb3d6cc0c5
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,unfortunately this parcel is damaged we ll assess the damage and update tracking,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i258,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,your package is on the way,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,shipper created a label ups has not received the package yet,Shipment manifested,fab7a1ed-c7e2-42bf-852b-0c7f3d2038b3
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,all merchandise missing empty carton was discarded ups will notify the sender with details of the damage,Package damaged and contents discarded,763e76ba-eb15-4e9f-bb15-66120f35da47
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivered to courier,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we were unable to deliver your package it s on the way to a secure ups access point location for pick up,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,66fc71f9-e01b-4b87-9138-14ebf068c01e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,import scan,Import Scan,bd649c1a-edfd-4ccd-b830-ff940bf55f55
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,pre advice loaded from offline qr code,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at unit 10 received by jim,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,pickup scan,Shipment collected,7e750f7e-2154-4c2f-836e-007e7786480c
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,ihwa,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1646,not_clear,not_clear
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,processing at ups facility,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,export scan,Export Scan,3d583349-098f-487d-a75c-71dea69b81f3
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after depot returns sort,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible collect from pickup apology sms collect from pickup apology e mail notification sent,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,757,Delay due to industrial action,a0e2ecb5-bd0e-4e70-b7fb-66f36af15e1d
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,commercial inside release,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,out for delivery today,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,in hub parcel expired,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we ve left a notice about the package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,delivered,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivered bfpo hq uk,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,return has been processed at the hermes hub and will be with the retailer shortly,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible collect from pickup apology sms notification sent,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups initiated contact with receiver to collect the import processing fee select pay now where available,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1436,MSDS required,765b80e3-79e9-4afa-965f-2b630f51ce36
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,warehouse scan,Warehouse Scan,6c58c5e3-ac1b-4278-a29e-3d8b88034a71
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay unable to contact recipient for broker info,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,parcel disposed of due to exceeding maximum shelf life,Parcel disposed of,1a43aeea-2cae-4521-a88d-36cbf583d163
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,returned to sender,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the sender requested that we return the package,Return of the package requested,e2dfa742-6a87-4e30-97a6-eafec17c2edf
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after depot sort,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 11 received by hampton,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,shipment unvoided,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the billing option selected is not valid for this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,icac,Collection failed,8a60fe2c-105e-41aa-be6f-97e116a411e6
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i533,Shipment not collected by receiver from pick-up point and will be returned to sender,fd89460e-af3b-49eb-805e-63bf96db9489
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,ibpd,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1502,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sun 16 june 2024 between 07 00 and 22 00 upgrade acknowledgement sms notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after pshop driver collection,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 2 received by jones,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 195 received by toolstation,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,locker full,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1505,Shipment collected,7e750f7e-2154-4c2f-836e-007e7786480c
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,duties or taxes are due on this package,Import charges are due,cba98df5-340e-469c-bfe1-2a6cc80a78b5
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,import charges are due for this package select pay now where available or pay at delivery,Import charges are due,cba98df5-340e-469c-bfe1-2a6cc80a78b5
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1543,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,import c o d icod charges are due for this package online payment required at ups com,Import charges are due,cba98df5-340e-469c-bfe1-2a6cc80a78b5
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,stop and return customer request,new__new__stop and return customer request,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 11 received by lloyd d,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at unit 2 jm clark received by asal,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 48 received by newton,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at uk electricals whole sale trade counter offic2 received by sam,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,safe place open porch request,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,return holding / storage limit expired,Shipment to be returned,5ea46330-cc6d-4f62-b891-7e347342f3dd
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,723,Delivery rescheduled due to holiday closures,4b22eecd-bdb4-4030-a64b-f7f1f7a8bf37
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,out for delivery,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the billing option selected is not valid for this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1446,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,this parcel is too large a specialist hermes courier will deliver on the next working day,Alternative vehicle scheduled for this delivery due to size,b39c5dc6-4c68-4c6a-9606-c02b7b7b4059
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after courier inbound activity,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,carded,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 1 received by h greaves,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,on hold,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at maydencroft received by james,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for tue 27 february 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at jjs cafe received by jjs cafe,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at security office received by rubly,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,in hub incomplete address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the commodity value of your package exceeds the limit we allow,new__new__Commodity value exceeds limit,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,merchandise missing balance being returned ups will notify the sender with details of the damage,Some merchandise missing or discarded as damaged,f7ef227a-2c2b-4fb2-a2df-7744e835fe36
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,ups has received the information needed to submit your package for clearance,Customs clearance in progress,4796f4a2-c081-41d0-82fe-d8a982078677
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,van held locker technical issue,Delay due to mechanical failure,3a2455f1-6023-4aa8-a476-4277771824fa
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver delivery date rescheduled,new_Unable to deliver. Delivery rescheduled,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel is at the local depot awaiting a suitable time to deliver,Arrival at delivery depot,778872ee-9dcf-4522-9998-26e6e06d38ff
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,recovered by net buster,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,safe place building foyer/entrance request,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel has now been collected from the local pickup point,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,returned by customer,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,damaged merchandise returned remaining content will be delivered ups will notify the sender with details of the damage,new_Some merchandise damaged and returned. Remaining contents will be delivered,new_sg
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after hub despatch,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay package delayed,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,ups initiated contact with the sender to obtain clearance information once received ups will submit for clearance,new_ Contact with sender made,new_sg
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivery sorted at depot,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 11 received by pharmacy,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to neighbour has been requested if recipient is not in to receive the item,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,collected from depot received by james,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at brynawelon received by evans,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held in depot,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 40 received by aaron,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 25 received by garry,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 30 rose received by rose,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at a1 received by adam,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker esso woodston service station requested not home sms not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 84 received by janel,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at daisy chain received by daisy,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at flat 2 received by john,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at premier shop received by birkett,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at unit11 received by jerry,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 38 received by michelle,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 3 received by price,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at d spirit next to sg tanks received by driving spirit,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker bp girdle toll service station requested not home sms notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 5 received by windy,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at dulux received by smith,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 140 received by patsy,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 20 received by corb,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 23 received by wood,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 2 received by mcgowan,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 190 received by martina,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 70 lm design received by anna,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at unit no5 received by iian,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1622,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 78 received by sarah,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 9c sam received by sam,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 25 received by open,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 6 received by street,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 70 received by lawson,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 12 received by edwards,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at by the way received by finch,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel was refused at the delivery point,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 6 received by danial,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at organic received by jemie,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 1a received by fountain,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,711,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at nightingale loghd3 received by nightingale lodhe,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at raze the roof received by smith,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 9 0pp received by richard,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at coral received by a adam,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1585,new_Unidentifiable substance,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,damage investigation currently in progress,new_Damage investigation in progress.,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 11 received by owens,Delivered to neighbour,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker bp milton regis service station requested not home sms notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,locker access problem,new_delay due to PUDO locker issue,new_sg
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,idd,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i166,Package not collected - Damaged,6f8c77fe-bb96-485b-8feb-e95d70e6ba80
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,the customer has requested that this parcel be diverted to their porch,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,drop off,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,your package is currently at the ups access point and is scheduled to be tendered to ups,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we missed you we are taking your package to a local ups access point next business day for customer pickup,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,66fc71f9-e01b-4b87-9138-14ebf068c01e
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i137,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,return has been processed at the evri hub and will be with the retailer shortly,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 38 received by paul,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,return to shipper required for compliance reasons,Shipment to be returned,5ea46330-cc6d-4f62-b891-7e347342f3dd
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay adult recipient unavailable age and required identification vary by country,Delivery attempted. No adult signature available. Delivery failed.,56c82b97-80e0-46db-b12c-671c17d6d6fd
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivery instruction amended by client,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,manually sorted non conveyable traffic,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the damage inspection request has been reissued,new__Damage inspection request reissued,new_sg
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i112,Parcel cannot be located,9ded9aee-9a37-473a-b747-2fa5cbfc28e0
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,return has been processed at the evri hub and will be with the retailer shortly,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 01 march 2025 between 08 00 and 12 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at loyal auto received by loyal,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,record of transit,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,customer has picked up package at ups access point,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,673,A late trailer arrival has delayed delivery - Delivery may be delayed by 24 hours,1330f9fc-43ae-482a-b896-7a976d952b97
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,ups initiated contact with receiver or importer for clearance information once received ups will submit for clearance,Receiver contacted for clearance instructions,f8beec24-b0b5-464a-8f3c-3d63230bab17
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver has moved we re returning the package to the sender,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1417,new__Denied Party Screening,new_sg
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,deferred p c scan,not_clear,not_clear
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i238,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1055,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1466,Shipment on hold due to restricted items,7a674ef1-16cd-49c7-947a-fee0deb8725d
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we ll contact the sender or receiver about this delivery,Carrier to contact sender or receiver,7a5b24ed-fd04-44e5-813d-f94d49d07f91
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,stop and return acknowledged,new_stop and return acknowledged,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver has moved we will deliver the package to the receiver s new address,Receiver moved,e6b9d6cf-c415-4708-afc1-66205ab85d88
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,765,Unable to deliver to PO box,d86a37bc-9600-4e7b-8b72-99009f73ee1b
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the package is being processed for clearance,Customs clearance in progress,4796f4a2-c081-41d0-82fe-d8a982078677
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we re returning this package to the sender as requested by the receiver,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,the address provided isn t correct so please send a replacement with the correct address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after pshop customer drop off,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,misloaded and redirected,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel was refused at the pickup point by the receiver,NEW: Refused at collection point,new_sg
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,import c o d icod charges have been paid or billed,Import charges are due,cba98df5-340e-469c-bfe1-2a6cc80a78b5
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,this package was not picked up from the requested ups facility and will be returned to the sender,Shipment not collected by receiver from pick-up point and will be returned to sender,fd89460e-af3b-49eb-805e-63bf96db9489
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiving business was closed at the time of the final delivery attempt,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,788,not_clear,not_clear
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,voided information received,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,click on get updates to receive email updates on your shipment s progress,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex authorized shipcenter staples package received after final location pickup has occurred scheduled for pickup next business day,Sender tendered the shipment to Carrier after the latest pick-up time for the requested service. A one day delay is likely,6c949f1a-d06e-4d27-9795-feeaa8ccad30
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after depot return despatch,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to post office/collection point,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the floor number is either missing or incorrect this may delay delivery we re attempting to update the address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we tried to deliver the package but were unable to receive payment a second attempt will be made the next business day,1st delivery attempt. Unable to collect tax payment.,91a79d19-a887-4125-bf15-0969503ae985
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,we re unable to deliver this parcel as it has been damaged please send a replacement parcel,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1487,Hs code required,ab308615-82b8-4a6d-8793-44d0ae35c1f3
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the package has been sent to ups lost and found,Package sent to lost and found,7796aad9-589d-42bd-81ce-d9245f592433
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at rafs received by raf,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the driver was not able to receive payment a final attempt will be made the next business day,Delivery attempted. Unable to collect tax payment.,a237ccee-ba2a-4cc9-a13f-ec20ca3fd4d5
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,change of delivery method alert pshop,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,customer has picked up package at ups access point,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at dml received by matt,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i532,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,awaiting hub return despatch,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,stop and return customer dispute,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex authorized shipcenter,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the damaged merchandise is being held at an agent s location ups will notify the sender with details of the damage,Package damaged - On hold,071f34ab-45f0-4c47-9354-d0cb6701591d
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,644,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,stop and return parcel out of sla,not_clear,not_clear
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,returned to consignor,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we are returning the package to the sender as the receiver requested,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,return to depot no preadvce,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay fedex holding package,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,this parcel is too large for our network so will be disposed of please send a replacement parcel,New_this parcel is too large for our network so will be disposed of please send a replacement parcel,new_sg
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1587,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,safe place residential concierge request,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1460,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i145,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,address amended by client,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the driver was unable to collect funds on the final delivery attempt,Final delivery attempt. Unable to collect tax payment.,699db87e-0837-4c3d-93d8-58a562216338
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after hub returns receipt,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery refused by driver using saturn,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,signed delivery notice,new__Signed delivery notice,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,signed delivery notice,new__Signed delivery notice,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at emm dee stores received by dinish,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1648,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery runsheet image available,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,774,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,confirmed returns fraud,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,deliver to alternative address requested,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,collection updated,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay fedex holding package,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,van held locker full,"New_locker full, transit delay ",new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by drew,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient by drew,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused to sign by drew,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 49 received by lisa,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,637,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,returned to sender,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your package was upgraded to a new service level,new_service upgrade processed,new_sg
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay we have your package,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i123,Information needed from the receiver,2f774d6e-b42b-425d-9d7d-e260e978de9e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 67 surbiton road londis shop received by patel,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at 53 received by lowing,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,663,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,reminder email sent successfully,new_sms noytification sent,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your delivery has been rescheduled,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for wed 24 april 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,offshore downgrade hazardous goods,new_service downgraded due to hazourdous goods,new_sg
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,we can t deliver due to a road incident we ll update tracking once your parcel is on its way,Delivery delayed due to a traffic related issue,d85cc369-31bf-43aa-9329-ab420060f618
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i130,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,this delivery was made after the ups service commitment time of noon,New_delivered late,new_sg
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the c o d amount is missing from the label we re attempting to update this information,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left at back door,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,693,Power of attorney documentation missing,0786ada3-2869-4053-a36d-17ae0525782e
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,660,Shipment partially received,d04e327b-3f3c-4cb3-9981-facc08f9d067
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ready for collection pickup,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,change delivery date requested,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we tried to deliver to the business but it was closed a second attempt will be made the next business day,1st of 3 Delivery attempts. Receiver not available,4d0470ee-32d3-463d-8eb7-f187eb016ce1
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay recipient location security delay delivery will be reattempted,Delivery attempted. Security access needed for delivery.,b5abb73d-8d7b-4319-b849-3ca060076422
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for wed 10 may 2023 alternative address acknowledgement sms alternative address acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver,Unable to deliver,67224b76-1437-4890-877c-d375005362a8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for tue 03 september 2024 between 08 00 and 12 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,727,Departure Scan,ddb74326-d54d-4dfe-9624-abdb3d6cc0c5
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i124,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,iccp,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left at front desk,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1588,new__new__Shipment Value exceeds service limits,new_sg
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the driver was not able to receive payment a final attempt will be made the next business day,Delivery attempted. Unable to collect tax payment.,a237ccee-ba2a-4cc9-a13f-ec20ca3fd4d5
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker yeep the brewery requested collect from pickup acknowledgement e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,receiver refused to pay on delivery,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we received a request from the receiver to reschedule the delivery,Request to reschedule delivery,399c081b-ae68-4372-9034-172fcc2619f3
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we tried to deliver to the business again but it was closed a final attempt will be made the next business day,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1550,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,the parcel is at the local depot and is being sorted for delivery within 24 hours,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,closed shipment,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivery updated held unable to collect payment,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,as requested by the sender this package requires special handling,Special handling required requested,2a730911-559d-4bd9-852f-2b2dcb981def
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,this parcel is too large a specialist evri courier will deliver on the next working day,Alternative vehicle scheduled for this delivery due to size,b39c5dc6-4c68-4c6a-9606-c02b7b7b4059
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the street number is incorrect this may delay delivery we re attempting to update the address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,670,Delay due to flight cancelled or delayed,86d838a1-97cc-41c6-b2ec-d671bd85b450
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,scheduled for movement,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held unexpected/uncontrollable event,Delayed due to circumstances beyond our control - Corrective action underway,da51b056-3d09-4978-ab8e-695c2852f981
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,late arrival in transit,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,icax,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivered to customer,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to pickup point sms notification proof of delivery sms notification sent,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we ve left the package on one of our planes this may cause a delay,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,your delivery will be rescheduled,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups will follow up with the sender,Carrier to contact sender or receiver,7a5b24ed-fd04-44e5-813d-f94d49d07f91
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,a missing commercial invoice is causing a delay we are working to obtain this information,Additional information or paperwork required for customs clearance,41d9399a-3514-420d-a36b-53c539b89423
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we ve updated the delivery address as requested by the receiver,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,903,Additional information or paperwork required for customs clearance,41d9399a-3514-420d-a36b-53c539b89423
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker homebase requested collect from pickup acknowledgement sms collect from pickup acknowledgement e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your shipment s delivery will be scheduled upon entry clearance or returned if denied entry,Customs clearance in progress,4796f4a2-c081-41d0-82fe-d8a982078677
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the address has been updated as the receiver requested,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups printed and applied the shipping label,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the company or receiver name is incorrect this will delay delivery we re attempting to update this information,Correct company or receiver name needed for delivery,26fc15fd-0457-44b8-8f91-b96b13ce2809
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver uncontrollable event,Unable to deliver,67224b76-1437-4890-877c-d375005362a8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,as requested by the sender the package will be delivered later than the normal delivery time for your area,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups my choice member s chosen ups access point preferences are not available,new_,new_sg
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,in clearance processing,Customs clearance in progress,4796f4a2-c081-41d0-82fe-d8a982078677
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,622,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,prohibited goods,new__prohibited goods,new_sg
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,held in pra stop and return,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1545,Tax payment received,4b67c606-617b-455f-b410-1a17ce4ad186
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the ups access point selected as part of your delivery change request is unavailable at this time please select an alternate location for delivery,"new_pick up point unavailable, please select an alternative",new_sg
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1526,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1613,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your package has been delayed due to a security check,Security Inspection completed,b84a037a-53a0-40f0-865f-8b555affc746
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 06 april 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible pickup delay sms notification sent,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held in depot contents checked,Held for inspection by government agency,e197487d-bc6b-48e8-a617-3b80bfc78144
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after depot receipt,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 31 august 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,preadvice update,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1592,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,626,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivery preference specified,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,613,not_clear,not_clear
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver doesn t accept c o d s and refused the delivery,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 06 april 2024 between 07 00 and 22 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the company or receiver name is incorrect your delivery will be rescheduled once this issue is resolved,Correct company or receiver name needed for delivery,26fc15fd-0457-44b8-8f91-b96b13ce2809
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,delivery will be delayed by one business day,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible sms e mail notification sent,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,supplementary information has been received and merged with applicable shipment data,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the package contains an unauthorized tobacco commodity and we are unable to complete the delivery,Shipment on hold due to restricted items,7a674ef1-16cd-49c7-947a-fee0deb8725d
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex authorized shipcenter rawleigh food mart,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by sandro strasser,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver address changed,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker stonegate talisman tunstall requested collect from pickup acknowledgement sms collect from pickup acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused not required,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay customer access delay,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,a guaranteed service refund has been requested for this package,not_clear,not_clear
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the delivery date has been rescheduled as the receiver requested,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the package is being held for a future delivery date we ll attempt to deliver on the date requested,Delivery scheduled for a future date,e5820d09-3fcd-4b89-9dfe-0a32f7672ffe
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,refused not ordered,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,held for payment,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,delivery attempted,Delivery attempted,b9c04e40-5251-47e9-8a3a-baeb9c05d5b8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the package is being held for pickup as the receiver requested pickup must be made within 5 business days,Package needs to be collected within 5 business days,1510f0db-9ff0-4b60-8acc-4ab8f1bf0874
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we ve received a request from the receiver to hold the package for pickup at a ups location,Receiver to pick up shipment,16ccd96a-db97-48d3-a2aa-95bdb0b85613
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery refused as the contact name was not recognised by sam,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible pickup delay sms pickup delay e mail notification sent,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 02 march 2024 between 08 00 and 12 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we are trying to get the security access our driver needs for this delivery,new_security access instructions required for delivery,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,as requested by the sender the delivery change for this package was completed,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your package entry was rejected by the clearing agency we will process according to the sender s instructions,new_Customs clearance failed - Instructions required,new_sg
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,delivery has been rescheduled due to holiday closures,Delivery rescheduled due to holiday closures,4b22eecd-bdb4-4030-a64b-f7f1f7a8bf37
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,/ the receiver has acknowledged receipt of this package,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,unfortunately a labor strike unrelated to ups has prevented delivery of your package,Delay due to industrial action,a0e2ecb5-bd0e-4e70-b7fb-66f36af15e1d
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker esso westbound requested not home sms not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ready for collection sms confirmed as received,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1447,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for thu 29 august 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver requested ups my choice authorize shipment release,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we were unable to deliver your package it s on the way to a secure ups access point location for pick up,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,66fc71f9-e01b-4b87-9138-14ebf068c01e
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,return label link emailed to return sender,New_return label left with sender,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the recovery intercept was successfully completed,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered left at quinn roofing received by dunn,Delivered to neighbour,5e415cf1-6bd2-4698-982e-5785ebedf07a
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,delivered to ups access point,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,ups access point possession,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,pending information from origin depot,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1488,Missing import license required for clearance,426c3e78-0237-4191-b362-3c97c4a622e0
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,misrouted via gp,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver has moved we will deliver the package to the receiver s new address,Receiver moved,e6b9d6cf-c415-4708-afc1-66205ab85d88
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,customs inspection required,Held for inspection by government agency,e197487d-bc6b-48e8-a617-3b80bfc78144
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,/ all merchandise was not recoverable and was discarded ups will notify the sender with details of the damage,Package damaged and contents discarded,763e76ba-eb15-4e9f-bb15-66120f35da47
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by justyna weiss,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,missing shipment data is causing a delay we are awaiting electronic data upload from the shipper,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,your package is pending release from a government agency once they release it your package will be on its way,Awaiting release from customs,242a0d42-f28c-41ca-8c57-c3bf000812a8
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after driver collected from locker,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by esser dr simone,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by wolfgang jern,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1510,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,629,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by nimatullah azami,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the delivery address provided is incorrect we are attempting to update the address your delivery will be rescheduled,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by thomas haderli c/o llan lin,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we ve missed the scheduled transfer time this may cause a delay,Delay due to operational reasons,e672ed4a-8ffd-4538-bf6d-442c48130d28
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the ups surepost package was misrouted it is currently being transferred to the correct usps office for final delivery,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we ll contact the sender or receiver because sender/importer validation is required by customs before release,Additional information required for customs clearance,e21a9237-0517-450e-9ccb-53c87df229f9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by windler,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the delivery will be rescheduled as the receiver requested,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,we have arrange for this parcel to be returned as requested by the retailer,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by huber kerstin,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,this package is being held for a future delivery date,Delivery scheduled for a future date,e5820d09-3fcd-4b89-9dfe-0a32f7672ffe
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,security inspection,Held for inspection by government agency,e197487d-bc6b-48e8-a617-3b80bfc78144
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,945,Shipment on hold due to restricted items,7a674ef1-16cd-49c7-947a-fee0deb8725d
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by tatjana lewinski,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by wolthusen janine,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left at front door package delivered to recipient address release authorized,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered id checked,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by elbadawi sophie,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by kern wolfgang,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the delivery change was completed,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by michael rumpel,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel has been requested to be returned,Shipment to be returned,5ea46330-cc6d-4f62-b891-7e347342f3dd
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,a claim has been issued to the sender for your package please contact the sender for more information,Request to contact carrier,53e44803-b64b-418e-8bcf-c6ec2fdbe0d0
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,an investigation has been opened for your lost package,Investigation opened for lost package,04815b19-8a89-4d13-8e71-a4c59981518d
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,good news we ve received export clearance information for your package this hold has been resolved,Released by customs. Clearance complete.,8a6f5bab-4a6d-46fc-8d5c-33eb00e367b1
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,agreed delivery,Package on hold for delivery,667c9f0c-4671-4af0-a788-c264b8553dac
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1419,Labelling error by sender,8f4fa7b8-01bb-458a-9e48-1fa81e116b52
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by silke hoenselaar,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1624,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,617,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient by gilles,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we require a phone number for the delivery address,Information needed from the receiver,2f774d6e-b42b-425d-9d7d-e260e978de9e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,your package has been released by the government agency,Released by customs. Clearance complete.,8a6f5bab-4a6d-46fc-8d5c-33eb00e367b1
+66bdc51d-a6ec-4c82-8b6d-ae07fb619028,ParcelForce UK,i525,not_clear,not_clear
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,not home,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we missed you again we ll make a final attempt on the next business day,2nd delivery attempt. Receiver not available.,95933051-a6e3-4bd5-976b-0e780f887cbe
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address by almira batanovic,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by baskakov,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by doris heine,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop viatim nederland b v hoofdaccoun requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we re sorry your package was delayed we are adjusting delivery plans as quickly as possible,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,potential security issue,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay your package is over the size/weight limit,Package exceeds maximum weight,620b8c95-f501-4344-a88e-80f651a0a6d0
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,843,Held for inspection by government agency,e197487d-bc6b-48e8-a617-3b80bfc78144
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by bernd mutke,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup locker not possible collect from pickup apology sms collect from pickup apology e mail notification sent,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver requested this package to be held for pickup at the ups facility,Receiver to pick up shipment,16ccd96a-db97-48d3-a2aa-95bdb0b85613
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,exception resolved,Shipment exception - Corrective action underway,503ccd73-5556-48d9-a8fa-1c7dce74b2d6
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,facility check in,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by dr florian stellmacher,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,scheduled for delivery today,To be delivered today,d4fa251b-7854-4f0e-8ca6-ea0d15e4488e
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,/ the information requested has been obtained and the hold has been resolved,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sun 16 june 2024 between 08 00 and 12 00 upgrade acknowledgement sms notification sent,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the package will be returned to the sender,Returned to sender,9d2bfb98-0f46-4d06-957b-1bd9fef410ab
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex onsite vons,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by annika haas,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request deliver to neighbour made for mon 24 april 2023 delivery to neighbour acknowledgement sms notification sent,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,we have this parcel we ll get it on its way once the parcel information has been sent to hermes,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex onsite dollar general,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1434,Labelling error by sender,8f4fa7b8-01bb-458a-9e48-1fa81e116b52
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver requested ups my choice authorize shipment release,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by wajiha noor malik,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by den boer markus,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,import charges reminder sent,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for thu 06 june 2024 between 08 00 and 12 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,contents checked during hub sort,Security Inspection completed,b84a037a-53a0-40f0-865f-8b555affc746
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop budni friedrichshain requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop romulco tweewielers requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop viatim a b requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for thu 11 may 2023 alternative address acknowledgement sms alternative address acknowledgement e mail notification sent,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver was not available for delivery we ll make a second attempt the next business day,1st of 3 Delivery attempts. Receiver not available,4d0470ee-32d3-463d-8eb7-f187eb016ce1
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups will deliver your ups surepost package instead of the post office,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,dropped off at fedex authorized shipcenter nobleton expres mart,Shipment dropped off awaiting carrier collection,bfea056c-8daf-4846-894b-f0e79240cf9e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop diska oschatz requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop vatantel requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we re sorry this package has experienced a sortation delay the package has been rerouted to the correct destination,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,driver not del no preadvice,not_clear,not_clear
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,not delivered,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop b k food wine requested not home sms not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver door access code required,Delivery attempted. Security access needed for delivery.,b5abb73d-8d7b-4319-b849-3ca060076422
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,a delay has occurred due to late processing by ups brokerage we are adjusting delivery plans as quickly as possible,Delay due to operational reasons,e672ed4a-8ffd-4538-bf6d-442c48130d28
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by gohlke thomas,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held in trailer from hub trailer 1953,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver doesn t accept c o d s and refused the delivery we ll contact the sender about this delivery attempt,Delivery attempted. Unable to collect tax payment.,a237ccee-ba2a-4cc9-a13f-ec20ca3fd4d5
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,sort at internal chute,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,786,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,unable to contact customer at primary number,Unable to contact receiver,305edab0-4c35-4bd1-85c6-1f991389ccbb
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your package has been removed from a climate controlled environment,new_,new_sg
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop nur design requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,this delivery was made after the ups service commitment time of 10 30 a m,new_service guarantee failure or similar,new_sg
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we have upgraded the package as requested by the receiver,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by evm 68,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,off loaded,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for thu 17 october 2024 between 08 00 and 12 00 upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,a new tracking number was assigned to this package use the new tracking number for status updates,New tracking number assigned to the package,5bb9438e-ce1e-4f7f-a6db-789fe42ce7dc
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,weigh and dimension,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,hazardous materials labeling is missing and is required for clearance we are working to obtain this information,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery refused by jesus using saturn,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,imported by international gateway from dpd group import arrived sms notification sent,new_notifaction,new_sg
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver does not want the product and refused the delivery,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop lotto totto kiosk requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for fri 18 october 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for fri 30 august 2024 between 07 00 and 22 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for tue 23 april 2024 between 09 00 and 12 00,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver damaged,Package damaged - On hold,071f34ab-45f0-4c47-9354-d0cb6701591d
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1054,Insufficient packaging. Corrective actions underway,d1c12d04-30eb-49a5-9480-01f648ddd201
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,700,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the package was given to ups after the cutoff time and the delivery date may be impacted,Sender tendered the shipment to Carrier after the latest pick-up time for the requested service. A one day delay is likely,6c949f1a-d06e-4d27-9795-feeaa8ccad30
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,there was a modification to the recovery intercept on this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible collect from pickup apology e mail notification sent,Unable to deliver to pick-up point. Contact carrier for alternative arrangements,c353684f-6816-41fc-bcbd-28d129ab40d0
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for mon 26 june 2023 alternative address acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left at back door package delivered to recipient address release authorized,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,import charges paid,Tax payment received,4b67c606-617b-455f-b410-1a17ce4ad186
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,we ve incorrectly sorted this package which may cause a delay,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,en oficina local de fedex,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,shipment stopped,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,1 parcels collected on delivery,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by handyhaus,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by kindermann wolfgang,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by swiss paket,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by sylwia gwardys,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery refused by danthony using saturn,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop awg mode center requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop gordijn wereld requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop king candy schwerin requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop pieterse mode textiel requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop sahin sahin gbr requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop top1toys drachten requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop wow nails nijmegen requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by mike,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient on holiday,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient by elms,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,the parcel is too large for the locker we re now returning the parcel back to you,Shipment to be returned,5ea46330-cc6d-4f62-b891-7e347342f3dd
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by stummer,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery instructions provided instruction please can you delivery it by 1pm as its needed for a event in the evening and they need to leave by 2pm,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by dawnbreed records jeff,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,66fc71f9-e01b-4b87-9138-14ebf068c01e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop optique malesherbes requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop primeur saint clement requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop super u express requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,missing or incorrect delivery data,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by dawnbreed records,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by ramio fernandez gonzalez,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by rib,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request leave in safe place made for thu 09 march 2023 safe place acknowledgement sms safe place acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request leave in safe place made for tue 28 march 2023 safe place acknowledgement sms safe place acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for fri 10 march 2023 alternative address acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for fri 31 march 2023 alternative address acknowledgement sms alternative address acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redirected to depot shipment delayed sms shipment delayed e mail notification sent,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,reminder sms confirmed as received,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver address query by barry emons,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left at office/leasing,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,764,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,a work stoppage at the receiver s location has prevented delivery,Delay due to industrial action,a0e2ecb5-bd0e-4e70-b7fb-66f36af15e1d
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by burn,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by buur v,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by milop,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by tol f,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by schmitt,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by argirov gillmeister dimitar mark,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by dÃƒÂ£ rner michael,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by lamm mario,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by seli gmbh a technik,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by soppa bruno,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop carrefour market drive requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop franprix requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop harryÃƒÂ¢ s getrÃƒÂ£ nkeecke requested,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop hyper u multimedia billetterie requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop lÃƒÂ¢ amiral requested,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop la poste carrepro montrouge requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop mon animalerie requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop not possible pickup delay e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop premier wharf road requested not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop rapid pare brise monkey requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by ms sabrina mirza,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,postcode error redirected,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for sat 15 june 2024 between 12 00 and 18 00 upgrade acknowledgement sms upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient by dpd,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,image available,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,missort,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left in mail room package delivered to recipient address release authorized,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,we ve requested a modified intercept for this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your ups surepost package was transferred to the wrong post office it is being corrected,Carrier misrouted the shipment - Corrective action underway,063db3fe-b8dc-4500-a63e-96a2441b08f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by a de jong,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by prebeck kathrin,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by i4light,Delivery attempted. Receiver not available for delivery. Shipment to be delivered to a nearby pick-up point.,66fc71f9-e01b-4b87-9138-14ebf068c01e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held in trailer from hub trailer 2960,Shipment on hold,1bd2ae08-39db-4489-a573-5ba5281922a6
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by i4light,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for mon 30 january 2023 alternative address acknowledgement sms alternative address acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for fri 23 august 2024 between 07 00 and 22 00 upgrade acknowledgement sms notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the receiver refused the delivery ups will contact the sender for further instructions,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,parcel delayed 24hrs at the hub,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,a guaranteed service refund has been voided for this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the address has been corrected,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver has agreed to accept the delivery charges,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by jacqueline jokic,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by stock sebastian,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop droguerie g dubouloz requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop toeter gadgets requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request leave in safe place made for fri 16 june 2023 safe place acknowledgement sms notification sent,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request new address made for fri 26 may 2023,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,awaiting marshall,not_clear,not_clear
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,return has been processed at the hermes depot and will be with the retailer shortly,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,destroyed/disposal,Parcel disposed of,1a43aeea-2cae-4521-a88d-36cbf583d163
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1514,Return of the package requested,e2dfa742-6a87-4e30-97a6-eafec17c2edf
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by evgenia grishina,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by michelle cooper jrkxjx,Delivery to pick-up point pending,836f52ff-3538-4879-9a97-d681154a864f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop la tabatiere requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop max shop almelo requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by michelle,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by n owen,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,other driver follow up,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver requested the package be rerouted to an alternate location for customer pickup,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the street suffix is incorrect this may delay delivery we re attempting to update the address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop moreton in marsh post office requested not home sms not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,a delivery change for this package is in progress,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+5f3885a8-03c7-4f94-adb4-5ea4d5c4d0e0,UPS Ireland,the information requested has been obtained and the hold has been resolved shipment is now in transit,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,damaged after pshop driver delivery,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,package found,Shipment located and en route to destination,3b062e72-8d71-4498-99ed-d9aa45306016
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the receiver refused the package that requires a package release code the package will be returned to sender,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered collected from depot received by ziffitt id photo id passport,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by handy vip eyup,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by hartmann,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by j sj,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by kroeber,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by nr87,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by acklam stuart,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by grÃƒÂ£ pke steffen,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by mangold florian,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by seethaler florian,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by strittmatter nicole und oliver,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by adidas ag hzo brenes yolanda gome,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by aichholz marc,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by brÃƒÂ£ ning sarah,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by deser,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by easypaketshop,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by faiza umatul,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by goebber,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by haÃƒÂ£ elmann,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by hagedorn benjamin,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by hagen,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by haller,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by jungermann dominik,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by kinga pinterova,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by kraus,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by lerch sarah und philipp,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by mail sam,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by maraun /17732 thorsten,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by oder rainer,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by ortmeier,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by petterson ronald,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by rugins de montoya susan,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by saager norman und sabine,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by seitz christopher,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by stephan tobias,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by stojanocic,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by technische universitaet,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by vogt angelina,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by zaylia israel,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery note / order reference required by brachmann,Information needed from the receiver,2f774d6e-b42b-425d-9d7d-e260e978de9e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by danny winter,Delivery to pick-up point pending,836f52ff-3538-4879-9a97-d681154a864f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by frans van heel van heel,Delivery to pick-up point pending,836f52ff-3538-4879-9a97-d681154a864f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup point after unsuccessful delivery attempt not home by pricilja veenkamp veen,Delivery to pick-up point pending,836f52ff-3538-4879-9a97-d681154a864f
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop alimentation grand palais requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop billa filiale 8158 requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop cordonnerie serrurerie patricio requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop e leclerc bricolage requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop hyper u requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop la poste ppdc narbonne requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop le relais des mousquetaires requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop leyton post office requested not home e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop marche aux affaires requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop profi line gotha requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop save requested,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,forwarded to mps pre paid roissy fr,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,held in customs vat/id required,Held awaiting tax payment by the receiver,b57205dc-a8ba-4dfe-b958-85b18d25e4bd
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by andrew goudie,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by daniel mulder,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by danny,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by duco,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by frank k,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by frans van heel,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by ivan varela domarco,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by mathew cooper,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by pip menzel,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by pricilja veenkamp,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ready for collection sms sent successfully,Shipment ready for collection from pick-up point,4f4bd244-5ace-4477-9179-34fd9e5b9023
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,received at pickup by andrew goudie,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,recipient absent on second delivery attempt by cox,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redirected to southall depot shipment delayed sms shipment delayed e mail notification sent,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver address changed,Receiver moved,e6b9d6cf-c415-4708-afc1-66205ab85d88
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver address changed by pieterse mode a textiel,Receiver moved,e6b9d6cf-c415-4708-afc1-66205ab85d88
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver delivery date rescheduled by alide he,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver delivery date rescheduled by linde reus,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver reason unknown by alide he,Unable to deliver,67224b76-1437-4890-877c-d375005362a8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by cox,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by dernadett,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by estes,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by grosch,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by kevin geweyer,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient absent by linde reus,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver recipient on holiday by linde reus,Delivery attempted. Receiver not available for delivery,1c7ea3b8-dbe6-49d6-98e1-7b80b227e269
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused by recipient by tamara kvit,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,unable to deliver refused to sign by brachmann,Delivery refused,0f360233-f02d-4399-b561-8da5abf78eb4
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,new parcel label created,New tracking number assigned to the package,5bb9438e-ce1e-4f7f-a6db-789fe42ce7dc
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,shipment delivered san jose logistic center ca usa,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã©â‚¬â€Ã¤Â¸Â­,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,657,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,/ a guaranteed service refund has been voided for this package,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority by bogdahn holger,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by holeschek western style shopping,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered with consignee s authority received by schule birklehof e v,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by van vegchel,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for tue 17 october 2023 between 07 00 and 22 00 upgrade acknowledgement e mail notification sent,New instructions received - We updated the delivery information for your package,0b6f2e65-c1a7-4b3d-90da-de65f31b6160
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,customer moved,Receiver moved,e6b9d6cf-c415-4708-afc1-66205ab85d88
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,en el vehÃƒÂ­culo de fedex para entregar,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,excepciÃƒÂ³n de entrega el cliente no estÃƒÂ¡ disponible o la empresa cerrÃƒÂ³,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,shipper release,Released by customs. Clearance complete.,8a6f5bab-4a6d-46fc-8d5c-33eb00e367b1
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the company or receiver name is incorrect we re working to contact the receiver for information,Correct company or receiver name needed for delivery,26fc15fd-0457-44b8-8f91-b96b13ce2809
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,the contents of the package being returned do not match the description provided by the sender,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,ups will redeliver to same address on day after same day will call request,Delivery rescheduled,4baae71a-4579-4fed-860a-05da3b13ddc9
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your shipment s international documents are needing commodity classification if you are the sender please submit valid documents to resume the transit journey,Additional information required for customs clearance,e21a9237-0517-450e-9ccb-53c87df229f9
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivered to alternative address received by goedt m,Delivery to alternative address requested,cae871bc-b874-4a61-9b2a-d980d6afcb21
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by drewes tebbes,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by kerli puvi,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by trix schmal,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delivered left in mail room,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¨Â´Â§Ã¤Â»Â¶Ã¤Â¿Â¡Ã¦ÂÂ¯Ã¥Â·Â²Ã¥Ââ€˜Ã©â‚¬ÂÃ§Â»â„¢ fedex,not_clear,not_clear
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,closed on arrival,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¦Â­Â£Ã¥Å“Â¨Ã¦Â¸â€¦Ã¥â€¦Â³,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,delivery to dpd pickup shop premier west road convenience store requested collect from pickup acknowledgement e mail notification sent,Delivery to pick-up point requested,e91cdab5-9f28-4c32-ac82-5b052f3c3978
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,export paperwork/invoices missing,Missing or incomplete export documentation,670d81f1-0218-4fb2-848d-6a3bd0098713
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email and sms notification between 11 30 12 30,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 16 34 17 34,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd sms notification between 13 25 14 25,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by egorov arseny romanovich,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by marcel antheunisse,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 15 06 16 06,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,delay location not currently served by fedex,Unable to deliver,67224b76-1437-4890-877c-d375005362a8
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,/,not_clear,not_clear
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,left at customer s location,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+0bb863db-1a5d-4688-8212-a842ab236726,UPS UK,your investigation has been closed with a proof of delivery,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 11 21 12 21,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 12 20 13 20,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 13 06 14 06,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 13 26 14 26,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd sms notification between 13 00 14 00,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,redelivery request service upgrade made for tue 17 october 2023 between 08 00 and 12 00 upgrade acknowledgement e mail notification sent,Delivery scheduled for a future date,e5820d09-3fcd-4b89-9dfe-0a32f7672ffe
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,return to consignor requested,Shipment to be returned,5ea46330-cc6d-4f62-b891-7e347342f3dd
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the parcel has been collected by loura,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 13 01 14 01,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,courier received,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,delivered to secure location,Driver release - Delivered to a safe place,f8b45100-754b-49dc-ac78-e9598811583e
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,pre advice loaded,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,processed at depot,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,processed at hermes hub,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,receipt at hub,Arrival at delivery depot,778872ee-9dcf-4522-9998-26e6e06d38ff
+6e28e500-05f1-4745-9878-e4952ac9afeb,Hermes UK,received at hermes hub,Arrival at delivery depot,778872ee-9dcf-4522-9998-26e6e06d38ff
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,forwarded to third party delivery agent delivery details expected,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,envÃƒÂ­o cancelado por el remitente,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,liberaciÃƒÂ³n de envÃƒÂ­os internacionales importaciÃƒÂ³n,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥Ë†Â°Ã¨Â¾Â¾fedexÃ©â€ºâ€ Ã¦â€¢Â£Ã¤Â¸Â­Ã¥Â¿Æ’,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥Â¯â€žÃ¤Â»Â¶Ã¤ÂºÂºÃ¥Â·Â²Ã¥Ââ€“Ã¦Â¶Ë†Ã¨Â´Â§Ã¤Â»Â¶,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥Â·Â²Ã¦â€Â¶Ã¥Ââ€“,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥Â·Â²Ã¨â€¡ÂªÃ¨Â¡Å’Ã¦Å â€¢Ã©â‚¬â€™Ã¨â€¡Â³fedex onsite Ã§Â»Ë†Ã§â€šÂ¹Ã¦Å“ÂÃ¥Å Â¡Ã§Â«â„¢Ã¥Ââ€“Ã¤Â»Â¶Ã¥ÂÅ½ Ã¥Å’â€¦Ã¨Â£Â¹Ã¥Â·Â²Ã¦â€Â¶Ã¥Ë†Â° Ã¥Â·Â²Ã¥Â®â€°Ã¦Å½â€™Ã¤ÂºÅ½Ã¤Â¸â€¹Ã¤Â¸â‚¬Ã¤Â¸ÂªÃ¥Â·Â¥Ã¤Â½Å“Ã¦â€”Â¥Ã¥Ââ€“Ã¤Â»Â¶,not_clear,not_clear
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,1497,Handed to partner carrier,dd8de472-5173-423d-a1f3-b2227c97b522
+01f30ac3-4496-408f-b1b0-dc6ed4a36006,Norsk UK,695,not_clear,not_clear
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email and sms notification between 12 31 13 31,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 09 00 13 00,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 09 11 10 11,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 09 23 10 23,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 09 25 11 25,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 09 55 10 55,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 13 00 15 00,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 13 04 14 04,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd email notification between 13 54 14 54,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd sms notification between 08 40 09 40,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,ofd sms notification between 13 00 15 00,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,picked up by consumer by kruisland,Delivered,d583ab1d-2667-419c-b84e-4320192e1825
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 09 31 10 31,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 09 36 10 36,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 10 02 11 02,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 10 21 11 21,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 11 51 12 51,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 12 38 13 38,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 13 28 14 28,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+5d0e294f-b483-4ba8-bd53-7f058427f35a,DPD UK,the receiver has been advised of when their delivery will take place between 15 49 16 49,Out for delivery,475f6865-4882-4523-8795-9a0d4f8e1d6e
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,awaiting consignee collection,Receiver to pick up shipment,16ccd96a-db97-48d3-a2aa-95bdb0b85613
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,bad address,Incomplete or incorrect delivery address. Additional information or directions needed for delivery.,09d773ea-c117-40a5-849e-d4f927bc016f
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,missed delivery cycle,Transit delay,a3f98c55-2fca-4189-a026-517ab25ca1f3
+a1630cac-f11e-45eb-ba58-de00a0c48748,DHL UK,shipment has departed from a dhl facility vitoria bra,Departure Scan,ddb74326-d54d-4dfe-9624-abdb3d6cc0c5
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã«Â°Å“Ã¬â€ Â¡Ã¬ÂÂ¸Ã¬ÂÂ´ Ã«Â°Å“Ã¬â€ Â¡ Ã¬Â·Â¨Ã¬â€ Å’,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,address corrected,Change of delivery address,a2d95bb0-21b2-43f1-aaa3-3c6cf6367765
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,en el centro de clasificaciÃƒÂ³n de destino,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,fedexÃ«Â¡Å“ Ã«Â°Å“Ã¬â€ Â¡ Ã¬Â â€¢Ã«Â³Â´ Ã¬Â â€žÃ¬â€ Â¡Ã«ÂÂ¨,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,informazioni sulla spedizione inviate a fedex,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,liberaciÃƒÂ³n de envÃƒÂ­os internacionales exportaciÃƒÂ³n,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,retraso de liberaciÃƒÂ³n importaciÃƒÂ³n se requieren instrucciones de liberaciÃƒÂ³n del importador,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,sendungsinformationen an fedex gesendet,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,sendung von absender storniert,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,shipment exception barcode label unreadable and replaced,Shipment exception - Corrective action underway,503ccd73-5556-48d9-a8fa-1c7dce74b2d6
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,shipment exception unable to deliver damaged package,Package damaged in transit,c00bf613-506c-423f-b34a-ac3a2ad1fc90
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,zendingsinformatie naar fedex verzonden,Internal activity scan,91349ad2-8859-4778-a6a2-a280b3e2a2e8
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã—â€˜Ã—â„¢Ã—ËœÃ—â€¢Ã—Å“ Ã—Å¾Ã—Â©Ã—Å“Ã—â€¢Ã—â€” Ã—Â¢ Ã—â„¢ Ã—â€Ã—Â©Ã—â€¢Ã—Å“Ã—â€”,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã—Å¾Ã—â„¢Ã—â€œÃ—Â¢ Ã—Â¢Ã—Å“ Ã—â€Ã—Å¾Ã—Â©Ã—Å“Ã—â€¢Ã—â€” Ã—Â Ã—Â©Ã—Å“Ã—â€” Ã—ÂÃ—Å“ fedex,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥â€ºÂ½Ã©â„¢â€¦Ã¨Â´Â§Ã§â€°Â©Ã¦â€Â¾Ã¨Â¡Å’ Ã¨Â¿â€ºÃ¥ÂÂ£,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¥Â·Â²Ã§Â¦Â»Ã¥Â¼â‚¬ fedex Ã¥Â§â€¹Ã¥Ââ€˜Ã¥Å“Â°Ã¦Å“ÂÃ¥Å Â¡Ã§Â«â„¢,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¦Å ÂµÃ¨Â¾Â¾Ã¥Â½â€œÃ¥Å“Â° fedex Ã¦Å“ÂÃ¥Å Â¡Ã§Â«â„¢,not_clear,not_clear
+fede808b-fbf4-449c-8816-41aae5aa62ec,FEDEX UK,Ã¦Â­Â£Ã¥Å“Â¨Ã¥Â°â€ Ã¥Å’â€¦Ã¨Â£Â¹Ã©â‚¬â‚¬Ã¥â€ºÅ¾Ã§Â»â„¢Ã¥Â¯â€žÃ¤Â»Â¶Ã¤ÂºÂº Ã©â‚¬â‚¬Ã¤Â»Â¶Ã¨Â¿Â½Ã¨Â¸ÂªÃ¥ÂÂ·Ã§Â Â,not_clear,not_clear

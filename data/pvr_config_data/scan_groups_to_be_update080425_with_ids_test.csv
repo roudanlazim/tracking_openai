@@ -1,0 +1,2 @@
+﻿scan_id,scan_name,type,current_scanGroupId,carrier,carrierId,current_scan_group,proposed_scan_group,scanGroupId
+arrived at sort facility-DHL UK-Warehouse Scan,arrived at sort facility,RegEx,6c58c5e3-ac1b-4278-a29e-3d8b88034a71,DHL UK,a1630cac-f11e-45eb-ba58-de00a0c48748,Warehouse Scan,In Transit,b3c222da-581b-4b4d-ad4f-8b08d0a997a2

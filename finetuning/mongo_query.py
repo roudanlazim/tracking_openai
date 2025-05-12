@@ -4,9 +4,8 @@ query = {
     "$expr": {
         "$regexMatch": {
             "input": { "$arrayElemAt": ["$scans.scan", -1] },
-            "regex": "collection failed",
+            "regex": "^request$",
             "options": "i"
         }
     }
 }
-

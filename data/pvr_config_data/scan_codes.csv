@@ -1,0 +1,1089 @@
+scan,code
+Norsk,0
+RETURNS: Customer to collect,657
+Client manifest problem - HAWB discrepancy,659
+Piece not received,660
+Prepared for export / in transit,663
+Misroute,664
+Label created,665
+Import in warehouse - ready for collection,666
+Carrier Codes,667
+Carrier delay,668
+Airline delay,669
+Flight cancelled,670
+Flight technical,671
+Mishandled by airline,672
+Late arrival of carrier,673
+Schedule changes,674
+Industrial action,675
+Flight offloaded,676
+Missing with carrier,677
+Missed connection,678
+Weather delay,679
+Misrouted by carrier,680
+Others,681
+Destination on holiday,682
+Prepared for export,683
+Airline delay - inbound,684
+Non arrival of consolidation at gateway,685
+Consolidation arrived at gateway,686
+Customs,687
+Customs procedure/under inspection,688
+Waiting for information,689
+Waiting for information from consignee,690
+Waiting for standard paperwork,691
+Waiting for better details,692
+Waiting for Power of Attorney,693
+Waiting for payment of Duties & Taxes,694
+Consignee not registered at Customs,695
+Others,696
+Waiting for information from shipper,697
+Waiting for original invoices,698
+Waiting for telephone number,699
+Others,700
+Norsk waiting for info from customs,701
+Info received for clearance,702
+Broker to clear,703
+Free domicile,704
+Refused,705
+Consignee does not want the goods,706
+Consignee did not order the goods,707
+Consignee will not pay the duty / VAT amount,708
+Consignee will not complete the import entry documentation,709
+Others,710
+Stopped,711
+Mis-declared,712
+Illegal goods,713
+Detailed inspection,714
+Product restrictions,715
+Others,716
+Clearance deadline,717
+Approaching customs deadline,718
+Past customs deadline,719
+Storage charges,720
+Imminent,721
+Levied,722
+Destination on holiday,723
+Detailed pre-export inspection,724
+Internet purchase - private residence,725
+DG - Frontier Paperwork Verification,726
+Departed UK facility,727
+Flown as booked,728
+Agent Codes,729
+Standard Processing,730
+Not Received,731
+Being processed at destination,732
+Out for delivery,733
+Due for delivery next working day,734
+Given to on-forwarder,735
+Collection Processing,736
+Collection Problems,737
+Contact person unknown,738
+Collection ref no. not valid,739
+Collection not ready,740
+Goods unkown at collection address,741
+Customer instructed to post,742
+Others,743
+Consignee to collect from local pickup point,744
+Collection booking received,745
+Collection booked with agent,746
+Collection booked with driver,747
+Collection booked with sub-contrator,748
+Collection confirmed as collected,749
+Collection in local depot,750
+Collection en route to main hub,751
+Collection in main hub,752
+Delays,753
+Missed internal cut-off,754
+Local weather,755
+Roads,756
+Industrial strikes,757
+Pieces not received,758
+Part received out for delivery,759
+On hold until all pieces arrive,760
+Delivery problems,761
+Incorrect address,762
+Can't locate company,763
+Private address,764
+PO Box address,765
+Need phone number,766
+Delivery misroute,767
+Consignee Problems,768
+Consignee not in,769
+Consignee not in - telephone number provided is not in use,770
+Consignee not in - telephone number provided is incorrect,771
+Consignee not in - consignment too big to post,772
+Consignee not known,773
+Consignee on holiday,774
+Need consignee tel. No.,775
+Consignee moved,776
+Consignee refused shipment,777
+Consignee not in - voicemail left,778
+Consignee not in - unable to leave message,779
+Need contact name,780
+Delivery being arranged,781
+Company Problems,782
+Company closed,783
+Shipment refused,784
+Consignee does not want the goods,785
+Consignee did not order the goods,786
+Consignee no longer works for the company,787
+Deadlines,788
+Approaching agents deadline,789
+Past agents deadline,790
+Shipment held by agent,791
+Unable to Deliver to Receiver,792
+Awaiting further instructions from Norsk,793
+Shipment destroyed by agent ,794
+To be returned to Origin,795
+Unmanifested template,796
+Info received and passed to agent,797
+FERRAGOSTO - Italian Holiday,798
+Consignee to collect from agent office,799
+Awaiting further instructions from Shipper,800
+Proof Of Delivery,801
+Delivered,802
+POD for part delivery,803
+Business book-in,804
+Arrived at sort facility,805
+Departed sort facility,806
+Management Codes,807
+Lost,808
+Lost by agent,809
+Lost by agents agent,810
+Lost by Norsk,811
+Lost by airline,812
+Lost,813
+POD,814
+False POD,815
+No further action required,816
+Stolen,817
+Others,818
+Collection Pending,822
+Already collected,823
+Shipment sent by alternative means,824
+No shipment,825
+Contact not reached,826
+Auto cancelled unresolved problem booking,827
+Area not serviced by Integrator,829
+Item status codes,830
+MAWB,831
+Received,835
+Not received,836
+In customs,837
+Indemnity form required,839
+Clearance delay,840
+Clearance release,841
+Shipment inspection,843
+Send next rotation,863
+SECONDARY,864
+UK Operator,865
+EPOS Error,866
+DHL Operator,867
+Misrouted by Norsk,868
+Container label,869
+Send out no scan,870
+Paperwork Error,871
+Routing Error (Airline),872
+Loading Error (Norsk),873
+Left in Warehouse,874
+IT Error,875
+Pre-alert missed by Ops,876
+Norsk NCS error,877
+Customer misroute,878
+Unmanifested,879
+Missed Cut-off,880
+No EPOS Label,881
+No carrier label,882
+No EPOS and 3rd Party Label,883
+Misroute,884
+Certificate of Origin required,886
+Dest. on holiday (ROAD Service Only!),888
+No PAN Data,890
+No scans with Carrier,891
+Split shipment by Integrator,892
+Dangerous Goods,893
+DG - DG in EQ,894
+DG - Full IATA DG,895
+DG - Dry Ice,896
+DG - Biological Sub. Cat B,897
+DG - Lithium Batteries Sec. II,899
+DG - Limited Quantities (ROAD Service Only!),900
+Address does not exist,901
+Tax ID,902
+Better Invoice required,903
+Oversized pieces,904
+Voicemail left,905
+SMS message sent,906
+Email sent,907
+Abandoned by customs,908
+Abandoned by agent,909
+eShip,912
+eShip Order booked,913
+eShip Order Error,914
+eShip Order Saved,915
+eShip Order Cancelled,916
+eShip Order Deleted,917
+Label not received,918
+NMI - DHL,919
+Russia – private residence,920
+DDP,921
+Hawb not pulled,922
+Incorrect Carrier pod,923
+Driver collected,924
+DG - Lead acid battery SP A67,925
+DG - UN3171 Battery powered Vehicle,926
+eShip Order Processing,927
+Damaged in transit,928
+Import collected by customer,931
+Collection arrived at UK gateway,932
+Customer to collect - Approaching deadline,933
+Time Deliveries,935
+08:00 SPX,936
+09:00 SPX,937
+10:30 SPX,938
+12:00 SPX,939
+13:00 SPX,940
+MONITOR,941
+FREE DOMICILE (DDP),942
+On hold due to civil unrest,944
+Send next rotation - restricted item found,945
+Held in Error in Hold Cage,946
+Saturday Delivery,947
+Saturday Delivery AM,948
+Sunday Delivery,949
+DG - Undeclared by customer,950
+10:00 SPX,951
+Failed timed delivery,952
+Duplicate Shipment,953
+Invitation repeated - no response,954
+Invitation confirmed,955
+Invitation expired,956
+Pre-Export inspection,957
+Insurance Request,958
+Feedback,959
+Happy Client,960
+Complaint,961
+DG - Lithium batteries Section 1B,962
+DG - Lithium batteries SP188 (ROAD ONLY),963
+DG - Batteries SP A123,964
+DG - Batteries SP A199,965
+Import carried forward,966
+Returns,967
+Alternative /correct receiver contact details required for Receiver ,968
+Correct tel. number required for consignee,969
+Consignee failed to pay Duty and Taxes,970
+Receiver refused - not ordered,971
+Receiver refused - damaged,972
+Receiver failed to collect shipment,973
+Consignee paperwork required for clearance,974
+Receiver failed to clear shipment,975
+Consignee refused to pay clearnace charges,976
+Shipment failed the Customs Clearance process,977
+Receiver failed to provide import licence,980
+Receiver was not home,981
+Consignee was not in - attempts for delivery failed,982
+Parcel Statuses,983
+Processed at UK Hub,984
+Departed UK Hub,985
+Customs Cleared,986
+Item Scanned at Postal facility,987
+Item Grouped at Partner facility,988
+Item in transit with Carrier,989
+Item out for Delivery,990
+Delivery attempted,991
+Item available for Pickup,992
+Item re-directed to new address,993
+Item successfully delivered,994
+Return received,995
+Email address required,996
+Senders address required,997
+Itemised invoiced required,998
+Returns,999
+Arrived at ICP,1000
+Departed ICP,1001
+Lithium battery,1002
+Hold Cage,1003
+Invoice,1004
+New invoice with value required,1005
+New invoice with descriptoin of goods required,1006
+New itemised invoice required,1008
+New commercial invoice required,1009
+New typed invoice required,1010
+Address,1011
+Consignee street required,1012
+Consignee local tel. num. required,1013
+Consginee contact name required,1014
+Consignee zipcode required,1015
+Consignee email address required,1016
+Product and Packing,1017
+MSDS required,1018
+Transport document required,1019
+Shipment received damaged,1020
+Lithium caution label required,1021
+Shipper declaration required,1022
+Hazardous,1023
+Nail polish,1024
+Perfume,1025
+Aerosol,1026
+Pressurised container,1027
+No Service,1028
+Area not serviced by DHL,1029
+No Road service available,1030
+ERTs awaiting clearance,1031
+Awaiting clearance instructions,1032
+Alternative contact or email required,1033
+Voicemail left,1034
+Awaiting payment,1035
+Consignee refused payment,1036
+Approaching 20 days deadline,1037
+Requested HMRC for disposal of goods,1039
+Door code required,1043
+Processed at International Hub,1044
+Driver out of time,1045
+Lack of space on vehicle,1046
+Available at Store for pickup,1047
+Flight departed UK,1048
+Shipment not available on Collection,1049
+EMA Only,1050
+Farfetch,1051
+No Data,1052
+Boutique Address Unknown,1053
+Insufficient Packaging,1054
+Damaged,1055
+CNOR Cross Label,1056
+Easyship Cross Label,1057
+EPOS Cross Label,1058
+CNOR Data Entry Error,1060
+Easyship Data Entry Error,1061
+EPOS Data Entry Error,1062
+Data Entry Error,1063
+Accepted at Carrier Facility,1064
+Item Sortation Complete,1065
+Tendered to Agent for Delivery,1066
+Tendered to Postal Service,1067
+SPD Only,1069
+AKA,1072
+FW16-01-W-TANK- BREAKA ,1074
+Black - XS,1075
+Black - S,1076
+Black - M,1077
+Black - L,1078
+FW16-02-W-TANK- RESIN,1079
+Print - XS,1080
+Print - S,1081
+Print - M,1082
+Print - L,1083
+FW16-3-W-TEE- ALTONI,1087
+White - XS,1088
+White - S,1089
+White - M,1090
+White - L,1091
+FW16-4-W-TEE- BREAKA,1094
+Black - XS,1095
+Black - S,1097
+Black - M,1098
+Black - L,1099
+FW16-5-W-TEE- METON-BL,1102
+Black - XS,1103
+Black - S,1104
+Black - M,1105
+Black - L,1106
+FW16-6-W-TEE- METON-WH,1107
+White - XS,1108
+White - S,1109
+White - M,1110
+White - L,1111
+FW16-7-W-TEE- MANC-BL,1112
+Black - XS,1113
+Black - S,1114
+Black - M,1115
+Black - L,1116
+FW16-8-W-TEE- MANC-WH,1117
+White - XS,1119
+White - S,1121
+White - M,1122
+White - L,1123
+FW16-9-W-LS TEE- OSIL,1124
+White - XS,1125
+White - S,1126
+White - M,1127
+White - L,1128
+FW16-10-W-SWEAT- ALTONI,1129
+White - XS,1130
+White - S,1131
+White - M,1132
+White - L,1133
+FW16-11-W-SWEAT- BREAKA,1139
+White - XS,1140
+White - S,1141
+White - M,1142
+White - L,1143
+FW16-12-W-SWEAT- CAPRIAN-BL,1145
+Black - XS,1146
+Black - S,1147
+Black - M,1148
+Black - L,1150
+FW16-13-W-SWEAT- CAPRIAN-WH,1151
+White - XS,1152
+White - S,1153
+White - M,1155
+White - L,1156
+FW16-14-W-REV SWEAT- TALO,1157
+Black - XS,1158
+Black - S,1159
+Black - M,1160
+Black - L,1162
+FW16-15-W-DRESS- VAXTON,1163
+Black - XS,1164
+Black - S,1165
+Black - M,1166
+Black - L,1167
+FW16-16-W-DRESS- GENE,1169
+Print - XS,1170
+Print - S,1172
+Print - M,1173
+Print - L,1174
+FW16-17-W-DRESS- RESIN,1175
+Print - XS,1176
+Print - S,1178
+Print - M,1179
+Print - L,1180
+FW16-18-W-DRESS- FIRE,1181
+Black - S,1182
+Black - M,1183
+Black - L,1184
+FW16-19-W-JKT- NELLE,1185
+Black - XS,1186
+Black - S,1187
+Black - M,1188
+Black - L,1189
+FW16-20-W-HOODIE- DONAS,1191
+Black - S,1192
+Black - M,1193
+Black - L,1194
+FW16-21-W-JOG PT-YORK,1195
+Black - XS,1196
+Black - S,1197
+Black - M,1198
+Black - L,1199
+FW16-22-M-TANK- VAXTEN-BL,1200
+Black - S,1201
+Black - M,1202
+Black - L,1203
+Black - XL,1204
+FW16-23-M-TANK- VAXTEN-WH,1205
+White - S,1207
+White - M,1208
+White - L,1209
+White - XL,1210
+FW16-24-M-TEE- LANTONO-BL,1211
+Black - S,1212
+Black - M,1214
+Black - L,1215
+Black - XL,1216
+FW16-25-M-TEE- LANTONO-WH,1217
+White - S,1218
+White - M,1219
+White - L,1220
+White - XL,1222
+FW16-26-M-TEE- SCORSO,1223
+White - S,1224
+White - M,1225
+White - L,1226
+White - XL,1228
+FW16-27-M-TEE- POTENT-BL,1229
+Black - S,1230
+Black - M,1232
+Black - L,1233
+Black - XL,1235
+FW16-28-M-TEE- POTENT-WH,1236
+White - S,1237
+White - M,1238
+White - L,1240
+White - XL,1241
+FW16-29-M-TEE- DOTTER,1242
+Black - S,1243
+Black - M,1244
+Black - L,1245
+Black - XL,1246
+FW16-30-M-TEE -MANC-BL,1247
+Black - S,1248
+Black - M,1249
+Black - L,1250
+Black - XL,1251
+FW16-31-M-TEE- MANC-WH,1252
+White - S,1253
+White - M,1254
+White - L,1257
+White - XL,1258
+FW16-32-M-LS TEE- OSIL-BL,1259
+Black - S,1260
+Black - M,1261
+Black - L,1262
+Black - XL,1263
+FW16-33-M-LS TEE- OSIL-WH,1264
+White - S,1265
+White - M,1266
+White - L,1267
+White - XL,1268
+FW16-34-M-LS TEE- GRAPHICO-BL,1269
+Black - S,1270
+Black - M,1271
+Black - L,1275
+Black - XL,1276
+FW16-35-M-LS TEE- GRAPHICO-WH,1278
+White - S,1279
+White - M,1281
+White - L,1282
+White - XL,1283
+FW16-36-M-REV SWEAT- TEATRO,1284
+Black - S,1285
+Black - M,1286
+Black - L,1287
+Black - XL,1288
+FW16-37-M-REV SWEAT- TANTI,1289
+Black - S,1290
+Black - M,1291
+Black - L,1293
+Black - XL,1294
+FW16-38-M-REV HOODIE- DONNO,1295
+Black - S,1296
+Black - M,1298
+Black - L,1299
+FW16-39-M-HOODIE- FIRE,1300
+Black - S,1302
+Black - M,1303
+Black - L,1304
+Black - XL,1305
+FW16-40-M-JOG SHORT- CASTON,1306
+Black - S,1307
+Black - M,1309
+Black - L,1310
+Black - XL,1311
+FW16-41-M-JOG PT- VOLTA,1312
+Black - S,1313
+Black - M,1315
+Black - L,1316
+Black - XL,1317
+FW16-42-M-SWEAT PT- RACS,1318
+Black - S,1319
+Black - M,1320
+Black - L,1321
+Black - XL,1322
+Delayed departure,1325
+Brethren,1327
+Better Fly,1328
+SQ2957441,1329
+Blurcles,1330
+SQ2853312,1331
+Bushman,1332
+SQ9769401,1334
+Cuzzy Jay,1335
+SQ0291901,1336
+D-N-Eh,1337
+SQ4797910,1338
+Dazed Out,1339
+SQ9682040,1340
+Elefunk,1341
+SQ7900090,1342
+Green Fiend,1343
+SQ0232850,1344
+Grey Wizard,1345
+SQ5978730,1346
+Hall-Woo-Cinate,1347
+SQ2003010,1348
+Hypnoslide,1350
+SQ1962168,1351
+Indigenous,1352
+SQ9368065,1353
+Liz-Hard,1354
+SQ5575716,1355
+Oh-Sheet,1356
+SQ6028387,1357
+Safari,1358
+SQ7227164,1359
+Snake Eater,1360
+SQ3595715,1362
+Tribes Babe,1363
+SQ9654904,1364
+Tron,1366
+SQ8522397,1367
+Undercover,1368
+SQ3185560,1370
+White Blossom,1371
+SQ8564181,1372
+Wild Bush,1373
+SQ2070792,1374
+Wonderland,1375
+SQ0573955,1376
+Black Snapback,1378
+SQ6074817,1379
+White Snapback,1380
+SQ3375368,1381
+Cab - O - Abo,1382
+Beanies,1383
+Hoodie XXXL,1384
+Hoodie XXL,1385
+Hoodie XL,1387
+Hoodie L,1388
+Hoodie M,1390
+Hoodie Swansea M,1391
+T-shirt S SQ Logo,1392
+T- shirt S F Logo,1393
+T-shirt M SQ Logo,1395
+T-shirt M F Logo,1396
+T-shirt L SQ Logo,1398
+T-shirt L F Logo,1399
+T-shirt XL SQ Logo,1400
+T-shirt XL F Logo,1401
+Misc Thug Rugs (New Design),1402
+DG - Extinguisher SP594,1403
+DG - Human sample PI650,1404
+DG - Lead acid battery SP238 (Road only),1405
+DG - Lifejackets PI955,1406
+COD,1407
+Awaiting Payment,1408
+Consignee telephone required,1409
+New invoice with value required,1410
+Flight arrived,1411
+NCS,1412
+Customs Referral,1413
+Customs Referred,1414
+DG – Environmentally Haz SP197,1416
+Denied Party Screening,1417
+WPX Europe Deliveries,1418
+Incorrectly labelled,1419
+Faulty label,1420
+Denied Party Screening,1421
+Return arrived at Norsk Hub,1422
+Denied Party Screening,1423
+DG- Inhaler Not restricted as per SPA98,1425
+CLAIM,1426
+Multi-Piece on Single-Piece Service,1428
+Fraud Check,1429
+Pending Data,1430
+New typed invoice required,1431
+New invoice in English required,1432
+Consignees street required,1433
+Consignees full name required,1434
+Consignees zip code required,1435
+MSDS required,1436
+Shipment received damaged,1437
+Nail polish,1438
+Aerosols,1439
+Pressurised container,1440
+Multiple pieces on single service – cannot SEND,1441
+Customs Cleared - Pending Release,1443
+Other,1444
+Partial Processed at UK Hub,1445
+Partial Departed UK Hub,1446
+Money,1447
+Item scanned in container,1448
+Partial scanned in container,1449
+Held for re-packing,1450
+Hub Transfer,1451
+Partial Hub Transfer,1452
+Due back next day,1453
+DG-Lithium batteries Section I Road only ,1454
+consignee claiming non-receipt,1455
+Incorrect value/description,1456
+Alternative address required,1457
+Consignee Instructions - Authorised to leave safe with no signature,1458
+Consignee Instructions - Authorised to leave with Neighbour,1459
+Consignee Instructions - Authorised change of delivery address,1460
+Consignee Instructions - Consignee advised on holiday,1461
+Consignee Instructions - Authorised to leave at Service Point for collection,1462
+Consignee Instructions - Consignee rescheduled delivery,1463
+Consignee Instructions,1464
+Covid19 – Service Suspended,1465
+Prohibited item,1466
+EXPORT LICENCE REQUIRED,1467
+Cnee call - change of delivery address,1468
+DESTINATION CITY MISSING,1469
+Cnee call - change of delivery address,1470
+Cnee call - update/ETA request,1471
+Cnee call - claiming non delivery,1472
+Cnee email - change of delivery address,1473
+Cnee email - update/ETA request,1474
+Cnee email - claiming non delivery,1475
+Return Reasons,1476
+Return Received At Local Depot,1477
+Return Departed Local Depot,1478
+Return processed at Norsk Depot,1479
+OVER 2KG,1480
+Dimensions exceed 900mm ,1481
+PENDING ADDRESS VERIFICATION,1482
+Searches underway with Carrier,1483
+Searches underway with airline,1484
+Searches underway at Norsk,1485
+DG - Full ADR Road,1486
+HS Code Required,1487
+Import License Required,1488
+Address required in English,1489
+Duplicate Shipment,1490
+Unable to Deliver,1491
+NO ROAD SERVICE TO THIS DESTINATION,1492
+USPS,1494
+Arrived at USPS delivery unit,1495
+Arrived at USPS facility,1496
+Delivered to postal agent,1497
+Arrived at facility,1498
+Arrived at postal office,1499
+departed USPS facility,1500
+Departed post office,1501
+USPS in possesion of the item,1502
+Processed through USPS facility,1503
+Received by US postal service from US Customs,1504
+Accepted at USPS origin facility,1505
+Accepted at USPS facility,1506
+Label Cancelled,1507
+Lane Report,1508
+ITEM SCANNED TO RETURNS CONTAINER,1509
+Partial scanned in RETURNS container,1510
+COVID 19,1511
+DG – Lead Acid Batteries Road SP598,1512
+TOO DENSE FOR XRAY,1513
+RETURN REQUESTED BY CUSTOMER,1514
+DENIED PARTY,1515
+POST BREXIT RETURN – INFO REQUIRED FOR CUSTOMS,1516
+DG – ASBESTOS SP A61,1517
+"DG – NOT RESTRICTED (LAPTOPS, PHONES)",1518
+DG – EXEMPT HUMAN SPECIMEN,1519
+DG – EXEMPT ANIMAL SPECIMEN,1520
+incoterms required,1521
+Returned to shipper,1522
+INCOTERMS REQUIRED,1523
+Return Departed Norsk HUB,1524
+Return Partial Departed Norsk HUB,1525
+Data Exception resolved – Send Next Rotation,1526
+Data,1527
+Customer Data Error Resolved by Norsk,1528
+Seized by Customs,1529
+IOSS NUMBER REQUIRED,1530
+Data Issues – contact Norsk for further info,1531
+New contact info received – shipment being prepared for export,1532
+RTS,1533
+RTS - as per customer request,1534
+COUNTRY OF MANUFACTURE REQUIRED,1535
+SHIPPERS PHONE NUMBER REQUIRED,1537
+PERSONAL EFFECTS,1538
+COUNTRY TO BE CONFIRMED,1539
+REPACK CHARGE,1540
+Not Restricted as per SP388/SP666,1541
+Please Contact DHL,1542
+Clearance Payment not made by Receiver,1543
+Clearance Payment not made by Receiver,1544
+Customs charges paid by Receiver,1545
+Customs – Receiver to pay clearance charges ,1546
+DELETED STATUSES,1547
+DG - Not restricted as per SP A152,1548
+DG - Not Restricted as Per SP A46,1549
+On hold - see Portal notes,1550
+Receiver’s VAT required,1551
+DG – Not restricted as per SP A26 ,1552
+Undeliverable due to damage,1553
+Norsk London Driver,1554
+Company Closed,1555
+Unable to locate company,1556
+Road Closure,1557
+Company moved ,1558
+Company refused no contact,1559
+Contact name not known,1560
+Company not known,1561
+Incorrect address,1562
+Receiver not in ,1563
+Receiver not known ,1564
+Receiver moved,1565
+Unable to locate address,1566
+Vehicle Breakdown,1567
+Receivers telephone number required,1568
+Receivers telephone number incorrect,1569
+Door code required,1570
+Unable to leave calling card - Gated entrance,1571
+With courier for delivery,1572
+Driver collected,1573
+DG – Packing and labelling ,1582
+Unidentifiable substance/not packed by manufacturer,1585
+Incorrect Value,1586
+Incorrect Description,1587
+Shipment Value exceeds service limits,1588
+Parcelforce,0
+Released,1301
+Received at delivery depot,I101
+Parcel delivered,I102
+Received but not advised,I103
+Advised but not received,I104
+Parcel matched to advice,I105
+Tracked at foreign partner,I106
+Received at incorrect delivery depot,I107
+Attempted delivery - refused by addressee,I108
+Addressee to collect from depot,I109
+Addressee requested later delivery,I110
+Redelivery scheduled,I111
+Parcel cannot be located,I112
+Parcel redirected,I113
+Delivery to be scheduled - local holiday,I114
+Out for first delivery,I115
+Out for arranged delivery,I116
+Parcel held - Invalid / unavailable service,I117
+Delivery delayed and rescheduled,I118
+Address problem - insufficient address,I119
+Returned to depot,I120
+Damage observed and noted,I121
+Attempted delivery - refused by addressee,I122
+Awaiting addressee's instruction,I123
+Held - scheduled delivery,I124
+Addressee requested later delivery,I125
+Attempted delivery - charges unpaid,I126
+Addressee to collect from depot,I127
+Address problem - insufficient address,I128
+Parcel relabelled,I129
+Delivery delayed and rescheduled,I130
+Received at incorrect delivery depot,I131
+Forwarded to correct depot,I132
+Returned to sender - Customs charges disputed,I133
+Sent to recovery centre,I134
+Return item accepted for re-export,I135
+Collected by addressee,I136
+Handed to delivery agent,I137
+Export item accepted into network,I138
+Export item accepted into network,I139
+Arrived at sort centre,I140
+Handed to International,I141
+Received from collection agent,I142
+Awaiting Customs clearance,I143
+Customs charges raised,I144
+Do not display,I145
+Do not display,I146
+Formal Entry complete,I147
+Received at delivery depot,I148
+Handed back to Parcelforce Worldwide,I153
+Return from RM damaged,I154
+Left origin country,I155
+Tracked out for delivery,I156
+Collection attempted - parcel overweight,I159
+Refused - item oversize,I160
+Refused - unsuitable packaging,I161
+Refused - hazardous goods,I162
+Podium attempted delivery,I163
+Held for collection,I164
+Out for delivery,I165
+Collection attempted - parcel damaged,I166
+Collection attempted - no response,I167
+Refused - parcel not ready,I168
+Collection attempted - parcel not available,I169
+"Item Tracked At Hub, Item Missed Connection",I170
+"Item Tracked at Hub, Item Unsuitable for Carriage",I171
+Tracked in destination country,I172
+Do not display,I173
+Do not display,I174
+Do not display,I175
+Held in depot - restricted contents,I176
+Address problem - addressee contacted,I177
+Parcel destroyed at senders request,I178
+Delivery delayed and rescheduled,I179
+Do not display,I180
+Customer delay - package delivered,I181
+Delivered (exceptions),I182
+Attempted delivery - addressee on strike,I183
+Delivered - damaged,I184
+Leave with local Post Office - SMS request from recipient,I185
+Leave with neighbour - SMS request from recipient,I186
+Delivery in two working days - SMS request from recipient,I187
+Next working day delivery - SMS request from recipient,I188
+Leave with local Post Office - email request from recipient,I189
+Leave with neighbour - email request from recipient,I190
+Delivery in two working days - email request from recipient,I191
+Next working day delivery - email request from recipient,I192
+Your delivery today - interactive SMS sent to recipient,I193
+Your delivery today - SMS sent to recipient,I194
+Your delivery time window - SMS sent to recipient,I195
+Do not Display,I196
+Do not display,I197
+Collection successful - email sent to sender,I198
+Parcel despatched - SMS sent to recipient,I199
+Collection attempted - email sent to sender,I200
+"Email Shipper - attempted delivery, not at home",I201
+"Email Shipper - attempted delivery, other",I202
+"SMS Recipient-attempted delivery, not at home",I203
+Delivery attempted - SMS sent to recipient,I204
+"Email Recipient-attempt delivery, not at home",I205
+"Email Recipient - attempted delivery, other",I206
+Available for collection - email sent to sender,I207
+Available for collection - SMS sent to recipient,I208
+Available for collection - email sent to recipient,I209
+Delivered to neighbour - email sent to sender,I210
+Delivered to neighbour - SMS sent to recipient,I211
+Delivered to neighbour - email sent to recipient,I212
+Delivered to safe place - email sent to sender,I213
+Delivered to safe place - SMS sent to recipient,I214
+Delivered to safe place - email sent to recipient,I215
+Your delivery today - SMS sent to recipient,I216
+Your delivery today - email sent to recipient,I217
+Available for collection from depot - SMS sent to recipient,I218
+Available for collection from depot - email sent to recipien,I219
+SMS Recipient-Hand over to Post Office for Convenient Collect,I220
+Email Recipient-Hand over to Post Office for Convenient Collect,I221
+SMS Recipient - PF collected from Post Office,I222
+Parcel despatched - SMS sent to recipient,I223
+SMS Recipient - Refused at Post Office for Convenient Collect,I224
+Email Recipient - Refused Post Office for Convenient Collect,I225
+Delivered with ID - Passport,I226
+Delivered with ID - Driving Licence,I227
+Delivered with ID - Company ID,I228
+Delivered with ID - Armed Forces/Police ID,I229
+Delivered with ID - Citizen Card,I230
+Delivered with ID - Disability Blue Badge,I231
+Delivered to safe place - No signature required,I232
+Delivered to safe place - No signature required,I233
+Deliver to Neighbour Track,I234
+Delivered with secure PIN validated,I235
+No PIN - Failed PIN Validation,I236
+Secure PIN validation failure - Unable to deliver,I237
+No PreAdvice Failed PIN Validation Attempt,I238
+Assisted delivery parcel despatched - email sent to recipien,I239
+Assisted delivery parcel despatched - SMS sent to recipient,I240
+Your assisted delivery today - email sent to recipient,I241
+Your assisted delivery today - SMS sent to recipient,I242
+Your delivery today - email sent to recipient,I243
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I245
+Delivery delayed today - SMS sent to recipient,I246
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I247
+Delivery delayed today - SMS sent to recipient,I248
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I249
+Delivery delayed today - SMS sent to recipient,I250
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I251
+Delivery delayed today - SMS sent to recipient,I252
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I253
+Parcel despatched - SMS sent to recipient,I254
+Parcel despatched - Email sent to recipient,I255
+Recipient email address - notification not requested,I256
+Recipient mobile number - notification not requested,I257
+Recipient email address - domestic traffic,I258
+Recipient mobile number - domestic traffic,I259
+Sender email address - domestic traffic,I260
+Sender mobile number - domestic traffic,I261
+ADVISED AS DESPATCHED FROM GERMANY,I262
+Return completed,I263
+Export item despatched from Domestic OE,I264
+No Exchange item to return,I265
+No Valid ID presented,I266
+Delivery delayed (to be rescheduled) - Email to recipient,I267
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I268
+"RTS ""Other""",I273
+Delivery delayed (to be rescheduled) - SMS sent to recipient,I279
+Delivery delayed (to be rescheduled) - Email to recipient,I280
+Delivered with Age Verification ID - Driving Licence,I294
+Delivered with AV ID - Driving Licence,I295
+Delivered - Customer looks over 25,I296
+Sorted,I299
+Missing/ Wrong customs paperwork,I300
+In Transit,I302 
+Collection from Post Office,I500
+Addressee advised to pick up from Post Office,I510
+Convenient delivery customer collected,I520
+Local collect customer collect (with fee),I525
+Not collected by addressee - return to sender,I531
+Refused by addressee - return to sender,I532
+Not collected by addressee - return to sender,I533
+Not collected by addressee - return to sender,I534
+Not collected by addressee - return to sender,I540
+SMS Day of despatch notification,I633
+SMS start of delivery day to Post Office,I634
+EMAIL start of delivery day to Post Office,I635
+SMS start of delivery day to Depot,I636
+EMAIL start of delivery day to Depot,I637
+"SMS Collect from Post Office, notification",I638
+"EMAIL Collect from Post Office, notification",I639
+"SMS Day of Despatch, drop off at Post Office",I640
+SMS Day of Despatch drop off at Depot,I641
+Drop off at Post Office,I667
+Drop off at Depot,I668
+RTS - Cannot be exported,I686
+Awaiting Customs clearance,I687
+Do not display,I999
+COLLECT TO DEL,IAHR
+AMEND ITEMS COLL,IAIC
+SPLIT DELIVERY,IASP
+Awaiting sender's instructions,IAX
+Consignment billed,IBIL
+Collected by addressee,IBPD
+Attempted collection,ICAC
+Wrong delivery address,ICAX
+Delivered to customers collection point,ICCP
+Arrived at sort centre,ICN
+Addressee advised to collect from Post Office,ICON
+Invalid postcode,ICP
+Incorrect postcode,ICPN
+Cancellation record received,ICRC
+Receipt of consignment advice,ICRR
+Update of consignment advice,ICRU
+Damage observed and noted,IDD
+Email recipient attempted delivery notification,IEAD
+Email collection contact â€“ collection request received,IECR
+Enhanced Returns,IENH
+Email shipper â€“ Attempted delivery,IESA
+Email shipper â€“ collection confirmation,IESC
+Email shipper â€“ collection confirmation,IESF
+Email shipper â€“ collection request received,IESR
+Exchange outbound/inbound indicator,IEX0
+Exchange instructions 1,IEX1
+Exchange instructions 2,IEX2
+Exchange instructions 3,IEX3
+Inbound exchange reference for outbound consignment,IEXI
+Outbound exchange reference for inbound consignment,IEXO
+Firearms indicator,IFIR
+Do not display,IHDC
+Attempted delivery,IHPD
+Handed to delivery partner,IHRM
+Consignment lost,IKIL
+Parcel cannot be located,IL
+"Lost, damaged or returned",ILDR
+LQDG litre value,ILIT
+LQDG user description,ILQD
+Delivery address suspect,IPAX
+Consignment set for deletion,IPDA
+Delivered,IPDF
+Delivered,IPDP
+Delivery confirmed,IPMD
+Do not display,IPOD
+Do not display,IPON
+COLL ITEMS CHNG,IPWI
+SMS attempted delivery notification,ISAD
+Consignment activated,ISCN
+SMS request received notification,ISCR
+Length + Girth 3.M+,ISJ
+LQDG UN code,IUNC
+Miscellaneous,IX
+Wrong Delivery Depot based on postcode,IXPC
+Do not display,JPOD
+"Lost, damaged or returned",LQDG
+landmark,0
+SHIPMENT_INFORMATION_RECEIVED,50
+SHIPMENT_ALLOCATED,60
+SHIPMENT_PROCESSED,75
+SHIPMENT_FULFILLED,80
+SHIPMENT_HELD_FOR_PAYMENT,90
+SHIPMENT_PRECLEARANCE_INFO_RECEIVED,94
+SHIPMENT_RECEIVED_FOR_PRECLEARANCE,95
+SHIPMENT_INFORMATION_TRANSMITTED_TO_CARRIER,100
+CUSTOMS_CLEARED,125
+CUSTOMS_VERIFIED,130
+CUSTOMS_ISSUE,135
+CROSSING_BORDER,150
+CROSSING_RECEIVED,155
+ITEM_SCANNED_AT_POSTAL_FACILITY,200
+ITEM_SCANNED_AT_FACILITY,225
+ITEM_SCANNED_FOR_CROSSING,250
+ITEM_TOUCHED_BY_CARRIER,275
+ITEM_OUT_FOR_DELIVERY,300
+ATTEMPTED_DELIVERY,400
+ITEM_AT_PICKUP_LOCATION,410
+ITEM_REDIRECTED_TO_NEW_ADDRESS,450
+ITEM_SUCCESSFULLY_DELIVERED,500
+RETURN_RECEIVED,550
+RETURN_FINALIZED,570
+CLAIM_ISSUED,800
+DELIVERY_REFUSED,900
+Delivered,500

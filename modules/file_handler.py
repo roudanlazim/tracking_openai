@@ -80,6 +80,7 @@ def save_csv(df, filename="predictions.csv"):
         "gpt-3.5-turbo": {"input_cost": 0.001, "output_cost": 0.002},
         "gpt-4": {"input_cost": 0.03, "output_cost": 0.06},
         "gpt-4-turbo": {"input_cost": 0.01, "output_cost": 0.03},
+        "gpt-4o": {"input_cost": 0.03, "output_cost": 0.06},
     }
 
     from modules.system_settings import SystemSettings  # ✅ Lazy import to prevent circular import issues
@@ -140,3 +141,78 @@ def list_files(subdirectory, extension):
     except Exception as e:
         logger.error(f"❌ Error listing files in `{directory}`: {str(e)}")
         return []
+
+def apply_proposed_sg_to_csv(mapping_csv_path, scan_groups_path, output_csv_path, proposed_matches, run_label=None, column_name=None):
+    """
+    Adds a uniquely named column (e.g. 'proposed_sg_20240402_1030') to the mapping CSV using AI-provided suggestions.
+
+    Parameters:
+    - mapping_csv_path: Full path to the scan group mapping CSV (source).
+    - scan_groups_path: Full path to the known scan groups CSV (reference).
+    - output_csv_path: Full path to save the updated CSV with a new `proposed_sg_*` column.
+    - proposed_matches: List of dicts with {"original": scan_name, "proposed_sg": scan_group}
+    - run_label: Optional string label for this column (e.g. "run1" or "gpt4o")
+    """
+    import pandas as pd
+    import os
+    from datetime import datetime
+    from modules.logging_utils import logger
+
+    try:
+        # ✅ Load existing output file or fallback to original
+        if os.path.exists(output_csv_path):
+            df = pd.read_csv(output_csv_path)
+            print(f"📄 Loaded existing output CSV: {output_csv_path}")
+        else:
+            df = pd.read_csv(mapping_csv_path)
+            print(f"📄 Loaded original mapping CSV: {mapping_csv_path}")
+
+        scan_groups = pd.read_csv(scan_groups_path)["scan_group"].tolist()
+        proposed_dict = {match["original"]: match["proposed_sg"] for match in proposed_matches}
+
+        # ✅ Generate a unique column name
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        from modules.system_settings import SystemSettings  # Add near top if not already imported
+        model = SystemSettings.model_name if SystemSettings.model_name else "gpt"
+        col_name = f"proposed_sg_{model}_{run_label or timestamp}"
+        counter = 1
+        original_col_name = col_name
+        while col_name in df.columns:
+            col_name = f"{original_col_name}_{counter}"
+            counter += 1
+
+        # ✅ Generate values
+        def get_proposed(scan_name):
+            suggestion = proposed_dict.get(scan_name.strip(), None)
+            if not suggestion:
+                return ""
+            if suggestion not in scan_groups and not suggestion.startswith(("not_clear", "unclear__")):
+                return f"new__{suggestion}"
+            return suggestion
+
+        target_column = column_name if column_name and column_name in df.columns else "scan_name"
+        df[col_name] = df[target_column].apply(get_proposed)
+
+        # ✅ Save updated CSV
+        df.to_csv(output_csv_path, index=False)
+        logger.info(f"✅ Saved scan group alignment with column '{col_name}' to: {output_csv_path}")
+        print(f"✅ Column '{col_name}' written to:\n{output_csv_path}")
+
+        # ✅ Write alignment log
+        log_filename = f"alignment_log_{run_label or timestamp}.csv"
+        log_path = os.path.join(os.path.dirname(output_csv_path), log_filename)
+
+        log_entries = []
+        for scan_name in df[target_column]:
+            proposed = df.at[df[df[target_column] == scan_name].index[0], col_name]
+            log_entries.append({
+                "scan_name": scan_name,
+                "proposed_scan_group": proposed,
+                "note": "new" if proposed.startswith("new__") else ("unclear" if "unclear__" in proposed else "")
+            })
+
+        pd.DataFrame(log_entries).to_csv(log_path, index=False)
+        print(f"📝 Alignment log written to: {log_path}")
+
+    except Exception as e:
+        print(f"❌ Failed to apply proposed scan groups: {e}")
