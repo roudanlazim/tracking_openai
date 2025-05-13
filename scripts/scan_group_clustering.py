@@ -7,7 +7,7 @@ import hdbscan
 from openpyxl import load_workbook
 
 # Path to the Excel file
-excel_path = r"G:\Shared drives\Tech\PVR analysis\Tracking\PVR Scan Configuration\Scan group analysis\Scan group vs smart scan.xlsx"
+excel_path = r"G:\Shared drives\Tech\PVR analysis\Tracking\PVR Scan Configuration\Scan group analysis\scan_group_analysis.xlsx"
 
 # Load workbook
 xls = pd.ExcelFile(excel_path)

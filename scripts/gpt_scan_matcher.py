@@ -1,201 +1,150 @@
 import os
 import json
-import argparse
+import time
+import openai
 import pandas as pd
 from tqdm import tqdm
-from dotenv import load_dotenv
 from datetime import datetime
-import time
-from openai import OpenAI
+from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer, util
 
-from modules.file_handler import apply_proposed_sg_to_csv
-from modules.logging_utils import logger
-from modules.system_settings import SystemSettings
-from modules.prompt_generator import generate_scan_prompt
+# ===== CONFIG =====
+excel_path = r"G:\Shared drives\Tech\PVR analysis\Tracking\PVR Scan Configuration\Scan group analysis\scan_group_analysis.csv"
+column_name = "scan_group"
+output_dir = r"G:\Shared drives\Tech\PVR analysis\Tracking\PVR Scan Configuration\Scan group analysis"
+similarity_threshold = 0.75
+internal_similarity_threshold = 0.9
+model_name = "gpt-4o"
+embed_model_name = "all-MiniLM-L6-v2"
+batch_size = 25
+max_retries = 3
+retry_backoff = 3.0
 
-# === Default Paths ===
-DEFAULT_SCAN_GROUPS_PATH = r"C:\Users\Shaalan\tracking_openai\data\pvr_config_data\scan-groups.csv"
-DEFAULT_PROMPT_PATH = r"C:\Users\Shaalan\tracking_openai\data\prompts\pvr_matcher_prompt\scan_group_prompt.json"
-LOG_BASE_DIR = r"C:\Users\Shaalan\tracking_openai\scripts\logs"
-
-MODEL_NAME = "gpt-4o-mini"
-BATCH_SIZE = 25
-MAX_RETRIES = 3
-RETRY_BACKOFF = 3.0
-
-# === API Setup ===
+# ===== Load API Key =====
 def load_api_key():
     dotenv_path = os.path.join(os.path.dirname(__file__), "..", "config", ".env")
     load_dotenv(dotenv_path=dotenv_path)
-    api_key = os.getenv("OPENAI_API_KEY") or SystemSettings.api_key
-    if not api_key:
-        raise ValueError("❌ OPENAI_API_KEY not found.")
-    return api_key
+    return os.getenv("OPENAI_API_KEY")
 
-client = OpenAI(api_key=load_api_key())
+openai.api_key = load_api_key()
 
-# === File/Column Selectors ===
-def select_csv_file(data_dir: str) -> str:
-    files = [f for f in os.listdir(data_dir) if f.endswith(".csv")]
-    print("\nAvailable CSV files:")
-    for i, file in enumerate(files, 1):
-        print(f"{i}: {file}")
-    choice = int(input("\nSelect a file to process by number: ")) - 1
-    return os.path.join(data_dir, files[choice])
+# ===== Progress States =====
+progress_labels = [
+    "InTransit", "TransitHold", "CustomsHold", "Delivered", "Manifested", "DroppedOff", 
+    "ShipmentCancelled", "Collected", "OutForDelivery", "DeliveryHold", "Returned", 
+    "CollectionAttemptedButFailed", "DeliveryAttemptedButFailed", "BeingReturned", 
+    "PartiallyDelivered", "DiscardedAbandonedLost"
+]
 
-def select_column_from_csv(file_path: str) -> str:
-    df = pd.read_csv(file_path)
-    print("\nAvailable columns:")
-    for i, col in enumerate(df.columns, 1):
-        print(f"{i}: {col}")
-    choice = int(input("\nSelect the column to use by number: ")) - 1
-    return df.columns[choice]
+# ===== GPT Prompt Generator =====
+def build_gpt_prompt(scan_batch: list[str]) -> list[dict]:
+    user_prompt = (
+        "You are a system that reformats logistics scan group labels. "
+        "For each of the following scan labels, return a clean, structured version "
+        "in the format '<Action> <Object> - <Qualifier>' if applicable. "
+        "Do not repeat the original. Use natural phrasing.\n\n"
+        "Return a JSON list under the key 'structured_names'.\n\n"
+        f"Scan Labels: {json.dumps(scan_batch)}"
+    )
+    return [
+        {"role": "system", "content": "You are an expert logistics classification assistant."},
+        {"role": "user", "content": user_prompt}
+    ]
 
-# === Load CSVs ===
-def load_scan_groups(path: str) -> list[str]:
-    logger.info(f"📚 Loading scan groups from: {path}")
-    df = pd.read_csv(path)
-    return df["scan_group"].dropna().tolist()
-
-# === Fix Encoding Issues (mojibake) ===
-def fix_mojibake(text):
-    try:
-        return text.encode("latin1").decode("utf-8")
-    except:
+# ===== GPT Call =====
+def get_structured_names(messages):
+    for attempt in range(1, max_retries + 1):
         try:
-            return text.encode("windows-1252").decode("utf-8")
-        except:
-            return text
-
-# === GPT Interaction ===
-def get_proposed_matches(messages: list[dict]) -> dict:
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            logger.info("🔁 Sending batch to GPT...")
-            response = client.chat.completions.create(
-                model=MODEL_NAME,
+            response = openai.ChatCompletion.create(
+                model=model_name,
                 messages=messages,
-                temperature=0.0,
-                response_format={"type": "json_object"},
+                temperature=0.2,
+                response_format={"type": "json_object"}
             )
             content = response.choices[0].message.content.strip()
-            usage = response.usage
-            token_usage = {
-                "prompt_tokens": usage.prompt_tokens,
-                "completion_tokens": usage.completion_tokens,
-                "total_tokens": usage.total_tokens
-            }
-            logger.info("✅ GPT response received.")
-            return {
-                "proposed_matches": json.loads(content).get("proposed_matches", []),
-                "response_text": content,
-                "token_usage": token_usage
-            }
+            return json.loads(content).get("structured_names", [])
         except Exception as e:
-            logger.error(f"❌ GPT call failed (attempt {attempt}): {e}")
-            if attempt < MAX_RETRIES:
-                time.sleep(RETRY_BACKOFF * attempt)
-    return {"proposed_matches": [], "response_text": "", "token_usage": {}}
+            print(f"GPT failed on attempt {attempt}: {e}")
+            if attempt < max_retries:
+                time.sleep(retry_backoff * attempt)
+    return []
 
-# === Logging ===
-def log_gpt_batch(batch_num: int, messages: list[dict], response_data: dict, script_name: str = "run_scan_group_alignment"):
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    os.makedirs(LOG_BASE_DIR, exist_ok=True)
-    log_path = os.path.join(LOG_BASE_DIR, f"{script_name}_batch{batch_num}_{timestamp}.json")
+# ===== Main Execution =====
+def main():
+    print("🔹 Loading scan labels from CSV...")
+    df = pd.read_csv(excel_path)
+    scan_groups = df[column_name].dropna().astype(str).tolist()
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    output_file = os.path.join(output_dir, f"scan_group_structured_{timestamp}.csv")
+    print(f"🔸 Loaded {len(scan_groups)} entries.")
 
-    log_data = {
-        "timestamp": timestamp,
-        "batch_number": batch_num,
-        "prompt": messages,
-        "gpt_response": response_data.get("response_text", ""),
-        "token_usage": response_data.get("token_usage", {})
-    }
+    # GPT: Batch structured name generation
+    all_structured = []
+    for i in tqdm(range(0, len(scan_groups), batch_size), desc="🚀 Generating Structured Names"):
+        batch = scan_groups[i:i+batch_size]
+        messages = build_gpt_prompt(batch)
+        result = get_structured_names(messages)
+        all_structured.extend(result if result else ["REVIEW: " + label for label in batch])
 
-    try:
-        with open(log_path, "w", encoding="utf-8") as f:
-            json.dump(log_data, f, indent=2)
-        logger.info(f"📝 Saved GPT batch log: {log_path}")
-    except Exception as e:
-        logger.error(f"❌ Could not save GPT log: {e}")
+    df["Structured Name (AI Ready)"] = all_structured
 
-# === Main ===
-def main(scan_groups_path: str, prompt_path: str, max_batches: int = None):
-    DATA_DIR = r"C:\Users\Shaalan\tracking_openai\data\pvr_config_data"
-    logger.info("🚀 Starting GPT scan group alignment...")
+    # Embedding model setup
+    print("🔹 Loading embedding model...")
+    model = SentenceTransformer(embed_model_name)
+    sg_embeddings = model.encode(scan_groups, convert_to_tensor=True)
+    struct_embeddings = model.encode(all_structured, convert_to_tensor=True)
+    progress_embeddings = model.encode(progress_labels, convert_to_tensor=True)
 
-    # === Select file and column ===
-    mapping_csv_path = select_csv_file(DATA_DIR)
-    column_to_use = select_column_from_csv(mapping_csv_path)
-    file_root, file_ext = os.path.splitext(mapping_csv_path)
-    output_csv_path = f"{file_root}_aligned{file_ext}"
-    logger.info(f"📄 Output will be saved to: {output_csv_path}")
+    # Duplicate detection
+    seen = set()
+    duplicates = []
+    for name in scan_groups:
+        if name in seen:
+            duplicates.append("Yes")
+        else:
+            duplicates.append("No")
+            seen.add(name)
+    df["Exact Duplicate"] = duplicates
 
-    # === Try UTF-8 first, fallback to latin1 if decoding fails ===
-    try:
-        df = pd.read_csv(mapping_csv_path, encoding="utf-8")
-        logger.info("✅ Loaded CSV with UTF-8 encoding.")
-    except UnicodeDecodeError:
-        logger.warning("⚠️ UTF-8 failed. Retrying with latin1 fallback.")
-        df = pd.read_csv(mapping_csv_path, encoding="latin1")
-        df[column_to_use] = df[column_to_use].apply(lambda x: fix_mojibake(x) if isinstance(x, str) else x)
+    # Internal similarity
+    similarity_flags = []
+    for i, emb_i in enumerate(struct_embeddings):
+        similar_count = 0
+        for j, emb_j in enumerate(struct_embeddings):
+            if i != j and float(util.cos_sim(emb_i, emb_j)[0]) >= internal_similarity_threshold:
+                similar_count += 1
+        similarity_flags.append("Yes" if similar_count > 0 else "No")
+    df["Very Similar to Another Scan Group"] = similarity_flags
 
-    # === Log raw examples ===
-    logger.info(f"🔍 Sample cleaned values: {df[column_to_use].dropna().head(3).to_list()}")
+    # Progress classification
+    print("🔹 Classifying progress...")
+    assigned_progress = []
+    similarity_scores = []
+    vague_flags = []
+    for i, emb in enumerate(struct_embeddings):
+        scores = util.cos_sim(emb, progress_embeddings)[0]
+        best_idx = scores.argmax()
+        best_score = float(scores[best_idx])
+        label = progress_labels[best_idx] if best_score >= similarity_threshold else "Uncertain"
+        flag = "Yes" if best_score < similarity_threshold else ""
+        assigned_progress.append(label)
+        similarity_scores.append(round(best_score, 3))
+        vague_flags.append(flag)
 
-    scan_groups = load_scan_groups(scan_groups_path)
-    all_scans = df[column_to_use].dropna().tolist()
-    total_batches = len(all_scans) // BATCH_SIZE + int(len(all_scans) % BATCH_SIZE != 0)
-    if max_batches:
-        total_batches = min(total_batches, max_batches)
+    df["Assigned Progress (Semantic Match)"] = assigned_progress
+    df["Similarity Score (to Progress Definition)"] = similarity_scores
+    df["Vague or Overlapping (Score < 0.75)"] = vague_flags
 
-    logger.info(f"🔄 Processing {total_batches} batches of {BATCH_SIZE} scans each...\n")
-    all_matches = []
+    # Output results
+    print(f"✅ Writing output to: {output_file}")
+    df.to_csv(output_file, index=False)
 
-    for batch_num in tqdm(range(1, total_batches + 1), desc="Aligning", unit="batch"):
-        start = (batch_num - 1) * BATCH_SIZE
-        end = start + BATCH_SIZE
-        scan_batch = all_scans[start:end]
+    print(f"\nSummary:")
+    print(f"Total scan groups: {len(scan_groups)}")
+    print(f"Structured names generated: {len(all_structured)}")
+    print(f"Vague entries (score < {similarity_threshold}): {vague_flags.count('Yes')}")
+    print(f"Exact duplicates: {duplicates.count('Yes')}")
+    print(f"Internally similar scan groups: {similarity_flags.count('Yes')}")
 
-        print(f"\n📦 Batch {batch_num} — {len(scan_batch)} scans")
-
-        messages = generate_scan_prompt(
-            scan_batch,
-            prompt_path=prompt_path,
-            scan_group_csv=scan_groups_path
-        )
-
-        if not messages:
-            logger.error(f"❌ Prompt generation failed for batch {batch_num}. Skipping.")
-            continue
-        
-        gpt_result = get_proposed_matches(messages)
-        log_gpt_batch(batch_num, messages, gpt_result)
-
-        matches = gpt_result["proposed_matches"]
-        print(f"✅ Received {len(matches)} matches")
-        all_matches.extend(matches)
-
-    logger.info("💾 Writing final aligned CSV...")
-    apply_proposed_sg_to_csv(
-        mapping_csv_path=mapping_csv_path,
-        scan_groups_path=scan_groups_path,
-        output_csv_path=output_csv_path,
-        proposed_matches=all_matches,
-        run_label=MODEL_NAME,
-        column_name=column_to_use
-    )
-    logger.info(f"🎉 CSV written to: {output_csv_path}")
-
-# === CLI ===
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run GPT-based scan group alignment.")
-    parser.add_argument("--scan-groups-path", type=str, default=DEFAULT_SCAN_GROUPS_PATH)
-    parser.add_argument("--prompt-path", type=str, default=DEFAULT_PROMPT_PATH)
-    parser.add_argument("--max-batches", type=int, help="Limit how many batches to process.")
-    args = parser.parse_args()
-
-    main(
-        scan_groups_path=args.scan_groups_path,
-        prompt_path=args.prompt_path,
-        max_batches=args.max_batches
-    )
+    main()
